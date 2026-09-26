@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Burner
+GenericName=Disc Burning Application
+Comment=Burn CDs, DVDs, and Blu-ray discs
+Exec=burner %F
+Icon=burner
+Terminal=false
+Type=Application
+Categories=AudioVideo;DiscBurning;Qt;
+Keywords=burn;cd;dvd;bluray;iso;disc;
+MimeType=application/x-cd-image;application/x-iso9660-image;
+StartupNotify=true
+StartupWMClass=burner

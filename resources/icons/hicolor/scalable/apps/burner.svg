@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <!-- Disc gradient - subtle metallic effect -->
+    <linearGradient id="discGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a5568"/>
+      <stop offset="50%" style="stop-color:#2d3748"/>
+      <stop offset="100%" style="stop-color:#1a202c"/>
+    </linearGradient>
+
+    <!-- Shiny ring gradient -->
+    <linearGradient id="ringGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#63b3ed"/>
+      <stop offset="30%" style="stop-color:#4299e1"/>
+      <stop offset="70%" style="stop-color:#3182ce"/>
+      <stop offset="100%" style="stop-color:#2b6cb0"/>
+    </linearGradient>
+
+    <!-- Inner ring highlight -->
+    <linearGradient id="innerRingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#90cdf4"/>
+      <stop offset="100%" style="stop-color:#63b3ed"/>
+    </linearGradient>
+
+    <!-- Flame gradient -->
+    <linearGradient id="flameGradient" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" style="stop-color:#ed8936"/>
+      <stop offset="40%" style="stop-color:#f6ad55"/>
+      <stop offset="70%" style="stop-color:#fbd38d"/>
+      <stop offset="100%" style="stop-color:#fefcbf"/>
+    </linearGradient>
+
+    <!-- Inner flame gradient -->
+    <linearGradient id="innerFlameGradient" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" style="stop-color:#c05621"/>
+      <stop offset="50%" style="stop-color:#dd6b20"/>
+      <stop offset="100%" style="stop-color:#ed8936"/>
+    </linearGradient>
+
+    <!-- Glow filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Subtle shadow -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background circle (optional, for visibility on dark backgrounds) -->
+  <circle cx="256" cy="256" r="240" fill="#1a202c" filter="url(#shadow)"/>
+
+  <!-- Outer disc ring -->
+  <circle cx="256" cy="256" r="220" fill="url(#ringGradient)"/>
+
+  <!-- Main disc body -->
+  <circle cx="256" cy="256" r="200" fill="url(#discGradient)"/>
+
+  <!-- Data track rings - subtle -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#4a5568" stroke-width="1" opacity="0.5"/>
+  <circle cx="256" cy="256" r="160" fill="none" stroke="#4a5568" stroke-width="1" opacity="0.4"/>
+  <circle cx="256" cy="256" r="140" fill="none" stroke="#4a5568" stroke-width="1" opacity="0.3"/>
+  <circle cx="256" cy="256" r="120" fill="none" stroke="#4a5568" stroke-width="1" opacity="0.3"/>
+  <circle cx="256" cy="256" r="100" fill="none" stroke="#4a5568" stroke-width="1" opacity="0.2"/>
+
+  <!-- Inner highlight ring -->
+  <circle cx="256" cy="256" r="70" fill="none" stroke="url(#innerRingGradient)" stroke-width="3"/>
+
+  <!-- Center hole -->
+  <circle cx="256" cy="256" r="50" fill="#1a202c"/>
+  <circle cx="256" cy="256" r="45" fill="none" stroke="#2d3748" stroke-width="2"/>
+  <circle cx="256" cy="256" r="35" fill="#e2e8f0"/>
+  <circle cx="256" cy="256" r="30" fill="#f7fafc"/>
+
+  <!-- Stylized flame/burn icon -->
+  <g filter="url(#glow)" transform="translate(256, 180)">
+    <!-- Main flame -->
+    <path d="M0 60
+             C-8 40, -25 30, -25 0
+             C-25 -30, -15 -50, 0 -70
+             C15 -50, 25 -30, 25 0
+             C25 30, 8 40, 0 60 Z"
+          fill="url(#flameGradient)"/>
+    <!-- Inner flame -->
+    <path d="M0 50
+             C-5 35, -12 25, -12 5
+             C-12 -15, -8 -30, 0 -45
+             C8 -30, 12 -15, 12 5
+             C12 25, 5 35, 0 50 Z"
+          fill="url(#innerFlameGradient)"/>
+    <!-- Flame highlight -->
+    <path d="M0 35
+             C-3 25, -6 18, -6 5
+             C-6 -8, -4 -18, 0 -28
+             C4 -18, 6 -8, 6 5
+             C6 18, 3 25, 0 35 Z"
+          fill="#fefcbf" opacity="0.8"/>
+  </g>
+
+  <!-- Subtle shine/reflection -->
+  <ellipse cx="180" cy="180" rx="80" ry="40" fill="#fff" opacity="0.05" transform="rotate(-45, 180, 180)"/>
+</svg>

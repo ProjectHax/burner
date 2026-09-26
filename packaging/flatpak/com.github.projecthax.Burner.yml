@@ -1,0 +1,169 @@
+app-id: com.github.projecthax.Burner
+runtime: org.kde.Platform
+runtime-version: '6.11'
+sdk: org.kde.Sdk
+command: burner
+
+finish-args:
+  # X11 + Wayland
+  - --share=ipc
+  - --socket=x11
+  - --socket=wayland
+  # OpenGL
+  - --device=dri
+  # CD/DVD/Blu-ray drive access
+  - --device=all
+  # Network for MusicBrainz lookups
+  - --share=network
+  # File access for saving ripped files and ISOs
+  - --filesystem=home
+  # Access to optical media mount points
+  - --filesystem=/media
+  - --filesystem=/run/media
+  - --filesystem=/mnt
+
+cleanup:
+  - /include
+  - /lib/pkgconfig
+  - /lib/*.a
+  - /lib/*.la
+  - /share/man
+
+modules:
+  # libburn - CD/DVD/Blu-ray burning library
+  - name: libburn
+    buildsystem: autotools
+    config-opts:
+      - --disable-static
+    sources:
+      - type: archive
+        url: https://files.libburnia-project.org/releases/libburn-1.5.8.tar.gz
+        sha256: 8e24dd99f5b7cafbecf0116d61b619ee89098e20263e6f47c793aaf4a98d6473
+
+  # libisofs - ISO 9660 filesystem library
+  - name: libisofs
+    buildsystem: autotools
+    config-opts:
+      - --disable-static
+    sources:
+      - type: archive
+        url: https://files.libburnia-project.org/releases/libisofs-1.5.8.pl02.tar.gz
+        sha256: 10bd584d8f00d8091e814902b9f0a3e209f16e938f510fc23ba05f3fa469db5a
+
+  # libisoburn - High-level burning library
+  - name: libisoburn
+    buildsystem: autotools
+    config-opts:
+      - --disable-static
+    sources:
+      - type: archive
+        url: https://files.libburnia-project.org/releases/libisoburn-1.5.8.pl02.tar.gz
+        sha256: a977b03dc3686d9fdca600458b1578f9cac2b875609bd5ec21f5ada55f20ec50
+
+  # lame for MP3 encoding (build before FFmpeg)
+  - name: lame
+    buildsystem: autotools
+    config-opts:
+      - --disable-static
+      - --disable-frontend
+      - --enable-nasm
+    sources:
+      - type: archive
+        url: https://sourceforge.net/projects/lame/files/lame/3.100/lame-3.100.tar.gz
+        sha256: ddfe36cab873794038ae2c1210557ad34857a4b6bdc515785d1da9e175b1da1e
+
+  # libogg (dependency of libvorbis, build before libvorbis)
+  - name: libogg
+    buildsystem: autotools
+    config-opts:
+      - --disable-static
+    sources:
+      - type: archive
+        url: https://ftp.osuosl.org/pub/xiph/releases/ogg/libogg-1.3.5.tar.xz
+        sha256: c4d91be36fc8e54deae7575241e03f4211eb102afb3fc0775fbbc1b740016705
+
+  # libvorbis for OGG encoding (build before FFmpeg)
+  - name: libvorbis
+    buildsystem: autotools
+    config-opts:
+      - --disable-static
+    sources:
+      - type: archive
+        url: https://ftp.osuosl.org/pub/xiph/releases/vorbis/libvorbis-1.3.7.tar.xz
+        sha256: b33cc4934322bcbf6efcbacf49e3ca01aadbea4114ec9589d1b1e9d20f72954b
+
+  # FFmpeg for audio encoding/decoding
+  - name: ffmpeg
+    buildsystem: autotools
+    config-opts:
+      - --disable-static
+      - --enable-shared
+      - --disable-doc
+      - --disable-programs
+      - --disable-encoders
+      - --disable-muxers
+      - --disable-devices
+      - --disable-hwaccels
+      - --disable-filters
+      - --enable-encoder=flac
+      - --enable-encoder=libmp3lame
+      - --enable-encoder=aac
+      - --enable-encoder=libvorbis
+      - --enable-encoder=pcm_s16le
+      - --enable-encoder=mjpeg
+      - --enable-encoder=png
+      - --enable-muxer=flac
+      - --enable-muxer=mp3
+      - --enable-muxer=ipod
+      - --enable-muxer=ogg
+      - --enable-muxer=wav
+      - --enable-libmp3lame
+      - --enable-libvorbis
+    sources:
+      - type: archive
+        url: https://ffmpeg.org/releases/ffmpeg-7.0.2.tar.xz
+        sha256: 8646515b638a3ad303e23af6a3587734447cb8fc0a0c064ecdb8e95c4fd8b389
+
+  # Burner application
+  - name: burner
+    buildsystem: cmake-ninja
+    config-opts:
+      - -DCMAKE_BUILD_TYPE=Release
+    sources:
+      - type: dir
+        path: ../..
+        # Don't copy VCS data or build output (including flatpak-builder's own) into the build
+        skip:
+          - .git
+          - .cache
+          - .flatpak-builder
+          - build
+          - packaging/flatpak/.flatpak-builder
+          - packaging/flatpak/build-dir
+          - packaging/flatpak/repo
+    post-install:
+      # Install desktop file with correct app ID
+      - install -Dm644 ${FLATPAK_DEST}/share/applications/burner.desktop
+          ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
+      - desktop-file-edit --set-icon=${FLATPAK_ID}
+          ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
+      # Install icon with correct app ID
+      - |
+        for size in 16 24 32 48 64 128 256 512; do
+          if [ -f ${FLATPAK_DEST}/share/icons/hicolor/${size}x${size}/apps/burner.png ]; then
+            mv ${FLATPAK_DEST}/share/icons/hicolor/${size}x${size}/apps/burner.png \
+               ${FLATPAK_DEST}/share/icons/hicolor/${size}x${size}/apps/${FLATPAK_ID}.png
+          fi
+        done
+      - |
+        if [ -f ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/burner.svg ]; then
+          mv ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/burner.svg \
+             ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg
+        fi
+      # Install appdata/metainfo
+      - install -Dm644 packaging/flatpak/${FLATPAK_ID}.metainfo.xml
+          ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml
+      # Fill in the release version and date from the VERSION file
+      - |
+        sed -i -e "s/@VERSION@/$(cat VERSION)/g" -e "s/@DATE@/$(date -u +%Y-%m-%d)/" \
+          ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml

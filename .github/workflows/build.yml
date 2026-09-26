@@ -1,0 +1,290 @@
+name: Build
+
+on:
+  push:
+    branches: [master]
+    tags: ['v*']
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+# Cancel superseded branch/PR builds, but never interrupt a release
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ !startsWith(github.ref, 'refs/tags/') }}
+
+permissions:
+  contents: read
+
+env:
+  BUILD_TYPE: Release
+
+jobs:
+  version:
+    name: Determine version
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Compute version
+        id: version
+        run: |
+          BASE=$(cat VERSION)
+          if [[ "$GITHUB_REF" == refs/tags/v* ]]; then
+            # Release: v0.2.0 -> 0.2.0 (v0.2.0-rc1 -> 0.2.0-rc1); must match the VERSION file
+            VERSION="${GITHUB_REF_NAME#v}"
+            if [[ "${VERSION%%-*}" != "$BASE" ]]; then
+              echo "::error::Tag $GITHUB_REF_NAME does not match the VERSION file ($BASE). Update VERSION before tagging."
+              exit 1
+            fi
+          else
+            # Snapshot: 0.2.0+5.gabc1234 (5 commits since the last release tag)
+            if TAG=$(git describe --tags --match 'v[0-9]*' --abbrev=0 2>/dev/null); then
+              COUNT=$(git rev-list --count "$TAG..HEAD")
+            else
+              COUNT=$(git rev-list --count HEAD)
+            fi
+            VERSION="$BASE+$COUNT.g$(git rev-parse --short=7 HEAD)"
+          fi
+          # RPM and Debian reject '-' in versions; '~' marks a pre-release (1.2.0~rc1 < 1.2.0)
+          VERSION="${VERSION//-/\~}"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "Building version: $VERSION"
+
+  build-rpm:
+    name: Build RPM (EL${{ matrix.el }})
+    needs: version
+    runs-on: ubuntu-latest
+    container: almalinux:${{ matrix.el }}
+    strategy:
+      fail-fast: false
+      matrix:
+        el: ['9', '10']
+    env:
+      VERSION: ${{ needs.version.outputs.version }}
+
+    steps:
+      - name: Install git
+        run: dnf install -y git
+
+      - uses: actions/checkout@v7
+
+      - name: Enable CRB and EPEL
+        run: |
+          dnf install -y dnf-plugins-core epel-release
+          dnf config-manager --set-enabled crb
+
+      - name: Install build dependencies
+        run: |
+          dnf install -y \
+            rpm-build rpmdevtools \
+            cmake gcc-c++ \
+            qt6-qtbase-devel qt6-qttools-devel qt6-qtwayland-devel \
+            libburn-devel libisofs-devel libisoburn-devel \
+            libcurl-devel openssl-devel \
+            ffmpeg-free-devel \
+            desktop-file-utils
+
+      - name: Build RPM
+        run: ./scripts/package.sh rpm
+
+      - name: Upload RPM
+        uses: actions/upload-artifact@v7
+        with:
+          name: rpm-el${{ matrix.el }}
+          if-no-files-found: error
+          path: |
+            build/rpmbuild/RPMS/*/*.rpm
+            build/rpmbuild/SRPMS/*.rpm
+            !build/rpmbuild/RPMS/*/*-debug*.rpm
+
+  # Built on the oldest supported base so it runs on newer distributions too
+  build-appimage:
+    name: Build AppImage (EL9)
+    needs: version
+    runs-on: ubuntu-latest
+    container: almalinux:9
+    env:
+      VERSION: ${{ needs.version.outputs.version }}
+      # Containers have no FUSE, so linuxdeploy must extract itself to run
+      APPIMAGE_EXTRACT_AND_RUN: 1
+
+    steps:
+      - name: Install git
+        run: dnf install -y git
+
+      - uses: actions/checkout@v7
+
+      - name: Enable CRB and EPEL
+        run: |
+          dnf install -y dnf-plugins-core epel-release
+          dnf config-manager --set-enabled crb
+
+      - name: Install build dependencies
+        run: |
+          dnf install -y \
+            cmake gcc-c++ \
+            qt6-qtbase-devel qt6-qttools-devel qt6-qtwayland-devel \
+            libburn-devel libisofs-devel libisoburn-devel \
+            libcurl-devel openssl-devel \
+            ffmpeg-free-devel \
+            file
+
+      - name: Build
+        run: |
+          cmake -S . -B build -DCMAKE_BUILD_TYPE=$BUILD_TYPE -DCMAKE_INSTALL_PREFIX=/usr
+          cmake --build build -j$(nproc)
+
+      - name: Create AppImage
+        run: ./scripts/package.sh appimage
+
+      - name: Upload AppImage
+        uses: actions/upload-artifact@v7
+        with:
+          name: appimage
+          if-no-files-found: error
+          # build/ also holds the downloaded linuxdeploy AppImages
+          path: build/Burner-*.AppImage
+
+  build-deb:
+    name: Build DEB (${{ matrix.name }})
+    needs: version
+    runs-on: ubuntu-latest
+    container: ${{ matrix.image }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { name: Ubuntu 22.04, image: 'ubuntu:22.04', artifact: deb-ubuntu22.04 }
+          - { name: Ubuntu 24.04, image: 'ubuntu:24.04', artifact: deb-ubuntu24.04 }
+          - { name: Debian 12, image: 'debian:12', artifact: deb-debian12 }
+    env:
+      VERSION: ${{ needs.version.outputs.version }}
+      DEBIAN_FRONTEND: noninteractive
+
+    steps:
+      - name: Install git
+        run: |
+          apt-get update
+          apt-get install -y git
+
+      - uses: actions/checkout@v7
+
+      - name: Install dependencies
+        run: |
+          apt-get install -y \
+            cmake g++ pkg-config \
+            qt6-base-dev qt6-tools-dev qt6-tools-dev-tools qt6-wayland-dev qt6-wayland qt6-l10n-tools libgl-dev \
+            libburn-dev libisofs-dev libisoburn-dev \
+            libcurl4-openssl-dev libssl-dev \
+            libavcodec-dev libavformat-dev libavutil-dev \
+            libswresample-dev libswscale-dev \
+            ruby ruby-dev xz-utils dpkg-dev
+          gem install --no-document fpm
+
+      - name: Build
+        run: |
+          cmake -S . -B build -DCMAKE_BUILD_TYPE=$BUILD_TYPE -DCMAKE_INSTALL_PREFIX=/usr
+          cmake --build build -j$(nproc)
+
+      - name: Create DEB
+        run: ./scripts/package.sh deb
+
+      - name: Upload DEB
+        uses: actions/upload-artifact@v7
+        with:
+          name: ${{ matrix.artifact }}
+          if-no-files-found: error
+          path: build/*.deb
+
+  build-flatpak:
+    name: Build Flatpak
+    needs: version
+    runs-on: ubuntu-24.04
+    env:
+      VERSION: ${{ needs.version.outputs.version }}
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Install Flatpak and flatpak-builder
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y flatpak flatpak-builder elfutils
+
+      - name: Add Flathub
+        run: flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+      # Reuse the dependency modules (FFmpeg, libburnia, ...) between runs
+      - name: Cache flatpak-builder state
+        uses: actions/cache@v6
+        with:
+          path: packaging/flatpak/.flatpak-builder
+          key: flatpak-builder-${{ hashFiles('packaging/flatpak/*.yml') }}
+          restore-keys: flatpak-builder-
+
+      - name: Build Flatpak
+        working-directory: packaging/flatpak
+        run: |
+          # --install-deps-from installs the runtime and SDK named in the manifest
+          flatpak-builder --user --install-deps-from=flathub --force-clean --disable-rofiles-fuse \
+            --repo=repo build-dir com.github.projecthax.Burner.yml
+          mkdir -p ../../build
+          flatpak build-bundle repo "../../build/Burner-$VERSION.flatpak" com.github.projecthax.Burner
+
+      - name: Upload Flatpak
+        uses: actions/upload-artifact@v7
+        with:
+          name: flatpak
+          if-no-files-found: error
+          path: build/*.flatpak
+
+  release:
+    name: Create Release
+    needs: [build-rpm, build-appimage, build-deb, build-flatpak]
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/v')
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Generate changelog
+        run: |
+          ./scripts/changelog.sh "$GITHUB_REF_NAME" > release-notes.md
+          cat release-notes.md
+
+      - name: Download all artifacts
+        uses: actions/download-artifact@v8
+        with:
+          path: artifacts
+          merge-multiple: true
+
+      - name: Generate checksums
+        working-directory: artifacts
+        run: |
+          # RPMs arrive as RPMS/<arch>/ and SRPMS/; flatten for the release page
+          find . -mindepth 2 -type f -exec mv -t . {} +
+          find . -mindepth 1 -type d -empty -delete
+          # GitHub rewrites '~' in asset names; rename first so SHA256SUMS matches
+          for f in *~*; do
+            [ -e "$f" ] && mv "$f" "${f//\~/-}"
+          done
+          sha256sum * > SHA256SUMS.txt
+          cat SHA256SUMS.txt
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v3
+        with:
+          name: Burner ${{ github.ref_name }}
+          body_path: release-notes.md
+          prerelease: ${{ contains(github.ref_name, '-') }}
+          files: artifacts/*

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.github.projecthax.Burner</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+
+  <name>Burner</name>
+  <summary>Burn CDs, DVDs, and Blu-ray discs</summary>
+  <description>
+    <p>
+      Burner is a modern disc burning application for Linux built with Qt6.
+      It provides a simple and intuitive interface for all your disc burning needs.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Burn data CDs and DVDs with ISO 9660 filesystem</li>
+      <li>Create audio CDs from MP3, FLAC, WAV, OGG, and other formats</li>
+      <li>Write ISO images directly to disc</li>
+      <li>Create Video CDs (VCD) and Super Video CDs (SVCD)</li>
+      <li>Clone discs to ISO files or directly to another disc</li>
+      <li>Rip audio CDs to FLAC, MP3, AAC, OGG, or WAV</li>
+      <li>Automatic MusicBrainz metadata and cover art lookup</li>
+      <li>Verify burned discs for data integrity</li>
+      <li>Multi-language support with 15 translations</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">com.github.projecthax.Burner.desktop</launchable>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main window showing data disc burning</caption>
+      <image>https://raw.githubusercontent.com/projecthax/burner/master/screenshots/data-disc.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Audio CD ripping with MusicBrainz metadata</caption>
+      <image>https://raw.githubusercontent.com/projecthax/burner/master/screenshots/cd-ripper.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://github.com/projecthax/burner</url>
+  <url type="bugtracker">https://github.com/projecthax/burner/issues</url>
+  <url type="vcs-browser">https://github.com/projecthax/burner</url>
+
+  <developer id="com.github.projecthax">
+    <name>ProjectHax LLC</name>
+  </developer>
+
+  <provides>
+    <binary>burner</binary>
+    <mediatype>application/x-cd-image</mediatype>
+    <mediatype>application/x-iso9660-image</mediatype>
+  </provides>
+
+  <requires>
+    <display_length compare="ge">768</display_length>
+  </requires>
+
+  <recommends>
+    <control>pointing</control>
+    <control>keyboard</control>
+  </recommends>
+
+  <categories>
+    <category>AudioVideo</category>
+    <category>DiscBurning</category>
+  </categories>
+
+  <keywords>
+    <keyword>burn</keyword>
+    <keyword>cd</keyword>
+    <keyword>dvd</keyword>
+    <keyword>bluray</keyword>
+    <keyword>iso</keyword>
+    <keyword>disc</keyword>
+    <keyword>rip</keyword>
+    <keyword>audio</keyword>
+  </keywords>
+
+  <content_rating type="oars-1.1" />
+
+  <releases>
+    <!-- Filled in from the VERSION file when the Flatpak is built -->
+    <release version="@VERSION@" date="@DATE@">
+      <url type="details">https://github.com/ProjectHax/burner/releases/tag/v@VERSION@</url>
+    </release>
+  </releases>
+</component>

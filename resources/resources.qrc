@@ -1,0 +1,36 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="burner_en.qm">../translations/burner_en.qm</file>
+        <file alias="burner_es.qm">../translations/burner_es.qm</file>
+        <file alias="burner_fr.qm">../translations/burner_fr.qm</file>
+        <file alias="burner_de.qm">../translations/burner_de.qm</file>
+        <file alias="burner_it.qm">../translations/burner_it.qm</file>
+        <file alias="burner_pt.qm">../translations/burner_pt.qm</file>
+        <file alias="burner_ru.qm">../translations/burner_ru.qm</file>
+        <file alias="burner_zh_CN.qm">../translations/burner_zh_CN.qm</file>
+        <file alias="burner_zh_TW.qm">../translations/burner_zh_TW.qm</file>
+        <file alias="burner_ja.qm">../translations/burner_ja.qm</file>
+        <file alias="burner_ko.qm">../translations/burner_ko.qm</file>
+        <file alias="burner_ar.qm">../translations/burner_ar.qm</file>
+        <file alias="burner_nl.qm">../translations/burner_nl.qm</file>
+        <file alias="burner_pl.qm">../translations/burner_pl.qm</file>
+        <file alias="burner_tr.qm">../translations/burner_tr.qm</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file alias="burner.svg">icons/hicolor/scalable/apps/burner.svg</file>
+        <file alias="burner-16.png">icons/hicolor/16x16/apps/burner.png</file>
+        <file alias="burner-22.png">icons/hicolor/22x22/apps/burner.png</file>
+        <file alias="burner-24.png">icons/hicolor/24x24/apps/burner.png</file>
+        <file alias="burner-32.png">icons/hicolor/32x32/apps/burner.png</file>
+        <file alias="burner-48.png">icons/hicolor/48x48/apps/burner.png</file>
+        <file alias="burner-64.png">icons/hicolor/64x64/apps/burner.png</file>
+        <file alias="burner-128.png">icons/hicolor/128x128/apps/burner.png</file>
+        <file alias="burner-256.png">icons/hicolor/256x256/apps/burner.png</file>
+        <file alias="burner-512.png">icons/hicolor/512x512/apps/burner.png</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file alias="success.wav">sounds/success.wav</file>
+        <file alias="error.wav">sounds/error.wav</file>
+    </qresource>
+</RCC>
