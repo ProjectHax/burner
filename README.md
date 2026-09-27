@@ -52,6 +52,7 @@ Download the latest release from the [Releases](../../releases) page:
 | `burner-x.x.x-1.el9.x86_64.rpm` | RHEL 9 / Rocky 9 / AlmaLinux 9 |
 | `burner_x.x.x-1-ubuntu24.04_amd64.deb` | Ubuntu 24.04 |
 | `burner_x.x.x-1-ubuntu22.04_amd64.deb` | Ubuntu 22.04 |
+| `burner_x.x.x-1-debian13_amd64.deb` | Debian 13 |
 | `burner_x.x.x-1-debian12_amd64.deb` | Debian 12 |
 
 ### Flatpak
@@ -82,7 +83,7 @@ sudo dnf install ./burner-*.el10.x86_64.rpm   # or .el9 on version 9
 Use the package matching your release:
 
 ```bash
-sudo apt install ./burner_*-ubuntu24.04_amd64.deb   # or -ubuntu22.04, -debian12
+sudo apt install ./burner_*-ubuntu24.04_amd64.deb   # or -ubuntu22.04, -debian13, -debian12
 ```
 
 ## Building from Source

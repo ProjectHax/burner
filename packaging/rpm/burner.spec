@@ -22,6 +22,7 @@ BuildRequires:  pkgconfig(libavformat)
 BuildRequires:  pkgconfig(libavutil)
 BuildRequires:  pkgconfig(libswresample)
 BuildRequires:  pkgconfig(libswscale)
+BuildRequires:  pkgconfig(wayland-client)
 BuildRequires:  desktop-file-utils
 
 Requires:       qt6-qtbase

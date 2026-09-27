@@ -57,14 +57,6 @@ else()
     message(STATUS "Qt6 Multimedia not found - sound notifications disabled")
 endif()
 
-# Find Qt6 Wayland support (optional but preferred)
-find_package(Qt6 6.2 QUIET COMPONENTS WaylandClient)
-if(Qt6WaylandClient_FOUND)
-    message(STATUS "Qt6 Wayland support enabled")
-else()
-    message(STATUS "Qt6 Wayland support not found - Wayland will not be available")
-endif()
-
 # Find Libburnia libraries
 find_package(Libburn REQUIRED)
 find_package(Libisofs REQUIRED)

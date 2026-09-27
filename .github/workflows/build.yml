@@ -88,6 +88,7 @@ jobs:
             libburn-devel libisofs-devel libisoburn-devel \
             libcurl-devel openssl-devel \
             ffmpeg-free-devel \
+            wayland-devel \
             desktop-file-utils
 
       - name: Build RPM
@@ -133,6 +134,7 @@ jobs:
             libburn-devel libisofs-devel libisoburn-devel \
             libcurl-devel openssl-devel \
             ffmpeg-free-devel \
+            wayland-devel \
             file
 
       - name: Build
@@ -163,6 +165,7 @@ jobs:
           - { name: Ubuntu 22.04, image: 'ubuntu:22.04', artifact: deb-ubuntu22.04 }
           - { name: Ubuntu 24.04, image: 'ubuntu:24.04', artifact: deb-ubuntu24.04 }
           - { name: Debian 12, image: 'debian:12', artifact: deb-debian12 }
+          - { name: Debian 13, image: 'debian:13', artifact: deb-debian13 }
     env:
       VERSION: ${{ needs.version.outputs.version }}
       DEBIAN_FRONTEND: noninteractive
@@ -184,6 +187,7 @@ jobs:
             libcurl4-openssl-dev libssl-dev \
             libavcodec-dev libavformat-dev libavutil-dev \
             libswresample-dev libswscale-dev \
+            libwayland-dev \
             ruby ruby-dev xz-utils dpkg-dev
           gem install --no-document fpm
 
