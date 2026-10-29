@@ -59,10 +59,10 @@ public:
     MetadataProvider(MetadataProvider&&) noexcept;
     MetadataProvider& operator=(MetadataProvider&&) noexcept;
 
-    /// Set user agent for HTTP requests
+    /// Set user agent for HTTP requests (defaults to Burner's own)
     /// @param appName Application name
     /// @param version Version string
-    /// @param contact Contact email
+    /// @param contact Contact URL or email
     void setUserAgent(const std::string& appName,
                       const std::string& version,
                       const std::string& contact);

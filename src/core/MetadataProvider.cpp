@@ -69,7 +69,7 @@ public:
 MetadataProvider::MetadataProvider()
     : m_impl(std::make_unique<Impl>())
     , m_lastError()
-    , m_userAgent("Burner/" BURNER_VERSION " (contact@example.com)") {
+    , m_userAgent("Burner/" BURNER_VERSION " (https://github.com/ProjectHax/burner)") {
 }
 
 MetadataProvider::~MetadataProvider() = default;

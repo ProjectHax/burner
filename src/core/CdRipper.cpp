@@ -9,8 +9,6 @@ CdRipper::CdRipper(const std::string& devicePath)
     , m_reader(std::make_unique<CdReader>(devicePath))
     , m_metadataProvider(std::make_unique<MetadataProvider>())
     , m_encoder(std::make_unique<AudioOutputEncoder>()) {
-
-    m_metadataProvider->setUserAgent("Burner", BURNER_VERSION, "burner-app@example.com");
 }
 
 CdRipper::~CdRipper() = default;

@@ -72,8 +72,6 @@ void RipWorker::lookupMetadata(const QString& devicePath, const QString& discId)
     m_cancelled = false;
 
     Burner::Core::MetadataProvider provider;
-    provider.setUserAgent("Burner", BURNER_VERSION, "burner-app@example.com");
-
     auto result = provider.lookupByDiscId(discId.toStdString());
 
     if (!result.errorMessage.empty()) {
@@ -127,8 +125,6 @@ void RipWorker::fetchCoverArt(const QString& releaseId) {
     m_cancelled = false;
 
     Burner::Core::MetadataProvider provider;
-    provider.setUserAgent("Burner", BURNER_VERSION, "burner-app@example.com");
-
     auto coverOpt = provider.fetchCoverArt(releaseId.toStdString());
 
     if (!coverOpt) {
