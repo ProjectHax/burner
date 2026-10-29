@@ -139,7 +139,7 @@ Reason: %2</source>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="222"/>
         <source>Appendable disc detected - importing previous session...</source>
-        <translation type="unfinished"></translation>
+        <translation>偵測到可追加光碟 - 正在匯入前一個區段...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="275"/>
@@ -159,52 +159,52 @@ Reason: %2</source>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="319"/>
         <source>Validating CUE file...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在驗證 CUE 檔案...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="323"/>
         <source>CUE file validation failed</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE 檔案驗證失敗</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="328"/>
         <source>Parsing CUE sheet...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在解析 CUE 索引檔...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="331"/>
         <source>Failed to parse CUE file: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>解析 CUE 檔案失敗：%1</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="333"/>
         <source>CUE parsing failed</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE 解析失敗</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="338"/>
         <source>CUE validation failed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE 驗證失敗：%1</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="340"/>
         <source>CUE validation failed</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE 驗證失敗</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="348"/>
         <source>BIN file validation failed</source>
-        <translation type="unfinished"></translation>
+        <translation>BIN 檔案驗證失敗</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="365"/>
         <source>Burning CUE image with %1 track(s)...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在燒錄包含 %1 個軌道的 CUE 映像...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="374"/>
         <source>CUE image burn completed successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE 映像燒錄成功完成</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="389"/>
@@ -264,27 +264,27 @@ Reason: %2</source>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="477"/>
         <source>Initializing integrity check...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在初始化完整性檢查...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="487"/>
         <source>Checking disc integrity...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在檢查光碟完整性...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="496"/>
         <source>Integrity check cancelled</source>
-        <translation type="unfinished"></translation>
+        <translation>完整性檢查已取消</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="498"/>
         <source>Integrity check passed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>完整性檢查通過：%1</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="500"/>
         <source>Integrity check found %1 bad sector(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>完整性檢查發現 %1 個損壞磁區</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="558"/>
@@ -360,12 +360,12 @@ Reason: %2</source>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="684"/>
         <source>Reading disc to BIN/CUE image...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在將光碟讀取為 BIN/CUE 映像...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="694"/>
         <source>BIN/CUE image created successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>BIN/CUE 映像建立成功</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="709"/>
@@ -555,17 +555,17 @@ Reason: %2</source>
     <message>
         <location filename="../src/engine/ChecksumWorker.cpp" line="19"/>
         <source>File not found or not readable: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>找不到檔案或無法讀取：%1</translation>
     </message>
     <message>
         <location filename="../src/engine/ChecksumWorker.cpp" line="38"/>
         <source>Cancelled</source>
-        <translation type="unfinished">已取消</translation>
+        <translation>已取消</translation>
     </message>
     <message>
         <location filename="../src/engine/ChecksumWorker.cpp" line="54"/>
         <source>Checksums calculated successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>檢查碼計算成功</translation>
     </message>
 </context>
 <context>
@@ -782,17 +782,17 @@ Reason: %2</source>
     <message>
         <location filename="../src/models/IsoTreeModel.cpp" line="145"/>
         <source>Name</source>
-        <translation type="unfinished">名稱</translation>
+        <translation>名稱</translation>
     </message>
     <message>
         <location filename="../src/models/IsoTreeModel.cpp" line="146"/>
         <source>Size</source>
-        <translation type="unfinished">大小</translation>
+        <translation>大小</translation>
     </message>
     <message>
         <location filename="../src/models/IsoTreeModel.cpp" line="147"/>
         <source>Date Modified</source>
-        <translation type="unfinished"></translation>
+        <translation>修改日期</translation>
     </message>
 </context>
 <context>
@@ -806,74 +806,74 @@ Reason: %2</source>
 <context>
     <name>Burner::UI::AudioCdPage</name>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="49"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="50"/>
         <source>Audio CD</source>
         <translation>音樂 CD</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="58"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="59"/>
         <source>Red Book CD-DA (44.1kHz 16-bit Stereo)</source>
         <translation>紅皮書 CD-DA（44.1kHz 16 位元立體聲）</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="60"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="61"/>
         <source>Total: 0:00 / 80:00</source>
         <translation>總計：0:00 / 80:00</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="95"/>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="131"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="97"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="133"/>
         <source>Remove</source>
         <translation>移除</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="110"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="112"/>
         <source>Drop audio files here
 (MP3, FLAC, WAV, OGG)</source>
         <translation>拖放音訊檔案至此
 （MP3、FLAC、WAV、OGG）</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="87"/>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="120"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="89"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="122"/>
         <source>Add Tracks...</source>
         <translation>新增曲目...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="90"/>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="123"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="92"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="125"/>
         <source>Move Up</source>
         <translation>上移</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="92"/>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="126"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="94"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="128"/>
         <source>Move Down</source>
         <translation>下移</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="97"/>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="134"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="99"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="136"/>
         <source>Clear All</source>
         <translation>全部清除</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="158"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="160"/>
         <source>Warning: Total duration exceeds 80 minutes!</source>
         <translation>警告：總時長超過 80 分鐘！</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="171"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="173"/>
         <source>Total: %1:%2 / 80:00</source>
         <translation>總計：%1:%2 / 80:00</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="179"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="181"/>
         <source>Select Audio Files</source>
         <translation>選擇音訊檔案</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="181"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="183"/>
         <source>Audio Files (*.mp3 *.flac *.wav *.ogg *.aac *.m4a *.wma);;All Files (*)</source>
         <translation>音訊檔案 (*.mp3 *.flac *.wav *.ogg *.aac *.m4a *.wma);;所有檔案 (*)</translation>
     </message>
@@ -881,12 +881,12 @@ Reason: %2</source>
 <context>
     <name>Burner::UI::BurnLog</name>
     <message>
-        <location filename="../src/ui/widgets/BurnLog.cpp" line="133"/>
+        <location filename="../src/ui/widgets/BurnLog.cpp" line="134"/>
         <source>Hide Log</source>
         <translation>隱藏日誌</translation>
     </message>
     <message>
-        <location filename="../src/ui/widgets/BurnLog.cpp" line="133"/>
+        <location filename="../src/ui/widgets/BurnLog.cpp" line="134"/>
         <source>Show Log</source>
         <translation>顯示日誌</translation>
     </message>
@@ -894,91 +894,92 @@ Reason: %2</source>
 <context>
     <name>Burner::UI::BurnOptionsDialog</name>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="17"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="18"/>
         <source>Burn Options</source>
         <translation>燒錄選項</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="55"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="56"/>
         <source>Appending to existing disc (Session %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>將追加至現有光碟（區段 %1）</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="60"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="61"/>
         <source>Recommended: Keep disc open for future sessions.
 Uncheck to finalize the disc (no more data can be added).</source>
-        <translation type="unfinished"></translation>
+        <translation>建議：保持光碟開啟，以供日後追加燒錄。
+取消勾選將完成並關閉光碟（之後無法再追加資料）。</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="69"/>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="119"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="70"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="120"/>
         <source>Maximum</source>
         <translation>最大</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="89"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="90"/>
         <source>Burn Summary</source>
         <translation>燒錄摘要</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="109"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="110"/>
         <source>Volume Label:</source>
         <translation>磁碟區標籤：</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="111"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="112"/>
         <source>DISC</source>
         <translation>DISC</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="120"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="121"/>
         <source>Write Speed:</source>
         <translation>寫入速度：</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="124"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="125"/>
         <source>Options</source>
         <translation>選項</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="127"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="128"/>
         <source>Simulate (dry run - don&apos;t actually burn)</source>
         <translation>模擬（測試執行 - 不實際燒錄）</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="130"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="131"/>
         <source>Verify disc after burning</source>
         <translation>燒錄後驗證光碟</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="134"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="135"/>
         <source>Eject disc when finished</source>
         <translation>完成後退出光碟</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="138"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="139"/>
         <source>Enable buffer underrun protection</source>
         <translation>啟用緩衝區保護</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="147"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="149"/>
         <source>Leave disc open for additional sessions</source>
         <translation>保持光碟開啟以供追加燒錄</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="149"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="151"/>
         <source>If checked, the disc can have more data added later.
 If unchecked (default), the disc will be finalized and closed.</source>
         <translation>如勾選，日後可追加資料至光碟。
 如未勾選（預設），光碟將被完成並關閉。</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="153"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="155"/>
         <source>Blank rewritable disc before burning</source>
         <translation>燒錄前抹除可複寫光碟</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="155"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="157"/>
         <source>For CD-RW, DVD-RW, DVD+RW, or BD-RE discs:
 Erase existing data before writing new content.</source>
         <translation>適用於 CD-RW、DVD-RW、DVD+RW 或 BD-RE 光碟：
@@ -988,197 +989,198 @@ Erase existing data before writing new content.</source>
 <context>
     <name>Burner::UI::BurnProgressDialog</name>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="21"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="22"/>
         <source>Burning Disc</source>
         <translation>正在燒錄光碟</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="42"/>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="50"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="43"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="51"/>
         <source>Read: --</source>
         <translation>讀取：--</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="38"/>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="276"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="39"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="279"/>
         <source>Speed: --</source>
         <translation>速度：--</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="76"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="77"/>
         <source>Elapsed: %1 | Remaining: %2</source>
         <translation>已用時間：%1 | 剩餘時間：%2</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="86"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="87"/>
         <source>Read: </source>
         <translation>讀取：</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="86"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="87"/>
         <source>Speed: </source>
         <translation>速度：</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="133"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="134"/>
         <source>Clone Complete</source>
         <translation>複製完成</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="152"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="153"/>
         <source>Burn Complete</source>
         <translation>燒錄完成</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="134"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="135"/>
         <source>Clone Failed</source>
         <translation>複製失敗</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="153"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="154"/>
         <source>Burn Failed</source>
         <translation>燒錄失敗</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="135"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="136"/>
         <source>Clone completed successfully!</source>
         <translation>複製成功完成！</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="154"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="155"/>
         <source>Burn completed successfully!</source>
         <translation>燒錄成功完成！</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="136"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="137"/>
         <source>Clone failed: %1</source>
         <translation>複製失敗：%1</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="155"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="156"/>
         <source>Burn failed: %1</source>
         <translation>燒錄失敗：%1</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="193"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="196"/>
         <source>Cancel Clone?</source>
         <translation>取消複製？</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="207"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="210"/>
         <source>Cancel Burn?</source>
         <translation>取消燒錄？</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="194"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="197"/>
         <source>Are you sure you want to cancel the clone operation?</source>
         <translation>確定要取消複製操作嗎？</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="112"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="113"/>
         <source>%1%2x %3 (%4 KB/s)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="139"/>
-        <source>Blank Complete</source>
-        <translation type="unfinished"></translation>
+        <translation>%1%2x %3（%4 KB/s）</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="140"/>
-        <source>Blank Failed</source>
-        <translation type="unfinished"></translation>
+        <source>Blank Complete</source>
+        <translation>抹除完成</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="141"/>
-        <source>Disc blanked successfully!</source>
-        <translation type="unfinished"></translation>
+        <source>Blank Failed</source>
+        <translation>抹除失敗</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="142"/>
-        <source>Blank failed: %1</source>
-        <translation type="unfinished"></translation>
+        <source>Disc blanked successfully!</source>
+        <translation>光碟抹除成功！</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="145"/>
-        <source>Integrity Check Complete</source>
-        <translation type="unfinished"></translation>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="143"/>
+        <source>Blank failed: %1</source>
+        <translation>抹除失敗：%1</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="146"/>
-        <source>Integrity Check Failed</source>
-        <translation type="unfinished"></translation>
+        <source>Integrity Check Complete</source>
+        <translation>完整性檢查完成</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="147"/>
-        <source>Integrity check passed!</source>
-        <translation type="unfinished"></translation>
+        <source>Integrity Check Failed</source>
+        <translation>完整性檢查失敗</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="148"/>
+        <source>Integrity check passed!</source>
+        <translation>完整性檢查通過！</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="149"/>
         <source>Integrity check failed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>完整性檢查失敗：%1</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="197"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="200"/>
         <source>Cancel Blank?</source>
-        <translation type="unfinished"></translation>
+        <translation>取消抹除？</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="198"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="201"/>
         <source>Are you sure you want to cancel the blank operation?
 The disc may be left in an inconsistent state.</source>
-        <translation type="unfinished"></translation>
+        <translation>確定要取消抹除操作嗎？
+光碟可能會處於不一致的狀態。</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="202"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="205"/>
         <source>Cancel Integrity Check?</source>
-        <translation type="unfinished"></translation>
+        <translation>取消完整性檢查？</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="203"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="206"/>
         <source>Are you sure you want to cancel the integrity check?</source>
-        <translation type="unfinished"></translation>
+        <translation>確定要取消完整性檢查嗎？</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="208"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="211"/>
         <source>Are you sure you want to cancel the burn operation?
 The disc may be unusable.</source>
         <translation>確定要取消燒錄操作嗎？
 光碟可能無法使用。</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="221"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="224"/>
         <source>Cancelling...</source>
         <translation>正在取消...</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="234"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="237"/>
         <source>Preparing to burn...</source>
         <translation>正在準備燒錄...</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="260"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="263"/>
         <source>Buffer:</source>
         <translation>緩衝區：</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="283"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="286"/>
         <source>Burn operation initialized</source>
         <translation>燒錄操作已初始化</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="291"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="294"/>
         <source>Play sound on completion</source>
         <translation>完成時播放音效</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="300"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="303"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="304"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="307"/>
         <source>Close</source>
         <translation>關閉</translation>
     </message>
@@ -1235,7 +1237,7 @@ The disc may be unusable.</source>
         <location filename="../src/ui/pages/CdRipperPage.cpp" line="134"/>
         <location filename="../src/ui/pages/CdRipperPage.cpp" line="135"/>
         <source>Cancelling...</source>
-        <translation type="unfinished">正在取消...</translation>
+        <translation>正在取消...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/CdRipperPage.cpp" line="144"/>
@@ -1366,7 +1368,7 @@ The disc may be unusable.</source>
         <location filename="../src/ui/pages/CdRipperPage.cpp" line="281"/>
         <location filename="../src/ui/pages/CdRipperPage.cpp" line="603"/>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/CdRipperPage.cpp" line="284"/>
@@ -1505,116 +1507,116 @@ The disc may be unusable.</source>
 <context>
     <name>Burner::UI::ChecksumDialog</name>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="21"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="22"/>
         <source>Checksum Calculator</source>
-        <translation type="unfinished"></translation>
+        <translation>檢查碼計算工具</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="35"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="36"/>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>檔案</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="39"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="40"/>
         <source>Select a file...</source>
-        <translation type="unfinished"></translation>
+        <translation>選擇檔案...</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="42"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="43"/>
         <source>Browse...</source>
-        <translation type="unfinished">瀏覽...</translation>
+        <translation>瀏覽...</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="48"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="49"/>
         <source>Calculate Checksums</source>
-        <translation type="unfinished"></translation>
+        <translation>計算檢查碼</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="60"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="61"/>
         <source>Results</source>
-        <translation type="unfinished"></translation>
+        <translation>結果</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="66"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="67"/>
         <source>MD5:</source>
-        <translation type="unfinished"></translation>
+        <translation>MD5：</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="72"/>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="81"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="73"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="82"/>
         <source>Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>複製</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="75"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="76"/>
         <source>SHA-256:</source>
-        <translation type="unfinished"></translation>
+        <translation>SHA-256：</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="88"/>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="96"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="89"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="97"/>
         <source>Verify</source>
-        <translation type="unfinished"></translation>
+        <translation>驗證</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="92"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="93"/>
         <source>Paste expected checksum...</source>
-        <translation type="unfinished"></translation>
+        <translation>貼上預期的檢查碼...</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="107"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="108"/>
         <source>Close</source>
-        <translation type="unfinished">關閉</translation>
+        <translation>關閉</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="121"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="122"/>
         <source>Select File</source>
-        <translation type="unfinished"></translation>
+        <translation>選擇檔案</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="130"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="131"/>
         <source>Please select a file first.</source>
-        <translation type="unfinished"></translation>
+        <translation>請先選擇檔案。</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="141"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="142"/>
         <source>Calculating...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在計算...</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="171"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="172"/>
         <source>Enter a checksum to verify</source>
-        <translation type="unfinished"></translation>
+        <translation>請輸入要驗證的檢查碼</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="186"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="188"/>
         <source>Unrecognized checksum length</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="192"/>
-        <source>%1 MATCH</source>
-        <translation type="unfinished"></translation>
+        <translation>無法辨識的檢查碼長度</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="195"/>
+        <source>%1 MATCH</source>
+        <translation>%1 相符</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="199"/>
         <source>%1 MISMATCH</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 不相符</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="213"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="218"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>完成</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="219"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="224"/>
         <source>MD5 copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>MD5 已複製到剪貼簿</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="226"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="231"/>
         <source>SHA-256 copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>SHA-256 已複製到剪貼簿</translation>
     </message>
 </context>
 <context>
@@ -1625,88 +1627,88 @@ The disc may be unusable.</source>
         <translation>資料 CD/DVD</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="101"/>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="136"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="98"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="133"/>
         <source>Remove</source>
         <translation>移除</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="116"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="113"/>
         <source>Drop files or folders here
 to add to disc</source>
         <translation>拖放檔案或資料夾至此
 以新增至光碟</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="96"/>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="125"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="93"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="122"/>
         <source>Add Files...</source>
         <translation>新增檔案...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="97"/>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="128"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="94"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="125"/>
         <source>Add Folder...</source>
         <translation>新增資料夾...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="98"/>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="131"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="95"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="128"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="195"/>
         <location filename="../src/ui/pages/DataDiscPage.cpp" line="198"/>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="201"/>
         <source>New Folder</source>
         <translation>新增資料夾</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="103"/>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="139"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="100"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="136"/>
         <source>Clear All</source>
         <translation>全部清除</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="144"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="141"/>
         <source>Save as ISO...</source>
         <translation>另存為 ISO...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="145"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="142"/>
         <source>Save disc contents to an ISO file</source>
         <translation>將光碟內容儲存為 ISO 檔案</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="171"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="168"/>
         <source>Select Files</source>
         <translation>選擇檔案</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="173"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="170"/>
         <source>All Files (*)</source>
         <translation>所有檔案 (*)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="184"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="181"/>
         <source>Select Folder</source>
         <translation>選擇資料夾</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="199"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="196"/>
         <source>Folder name:</source>
         <translation>資料夾名稱：</translation>
     </message>
     <message numerus="yes">
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="233"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="230"/>
         <source>Disc contains %n existing session(s) — new data will be appended</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>光碟已有 %n 個區段，新資料將追加寫入</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="249"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="246"/>
         <source>Save ISO Image</source>
         <translation>儲存 ISO 映像</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="251"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="248"/>
         <source>ISO Images (*.iso);;All Files (*)</source>
         <translation>ISO 映像 (*.iso);;所有檔案 (*)</translation>
     </message>
@@ -1723,7 +1725,9 @@ to add to disc</source>
         <source>Create an exact copy of a disc as an image file.
 ISO format stores data sectors. BIN/CUE preserves raw sectors and audio tracks.
 The disc must be unmounted before cloning.</source>
-        <translation type="unfinished"></translation>
+        <translation>將光碟完整複製為映像檔案。
+ISO 格式儲存資料磁區。BIN/CUE 保留原始磁區與音軌。
+複製前必須先卸載光碟。</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="84"/>
@@ -1733,17 +1737,17 @@ The disc must be unmounted before cloning.</source>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="88"/>
         <source>ISO Image (.iso)</source>
-        <translation type="unfinished"></translation>
+        <translation>ISO 映像（.iso）</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="89"/>
         <source>BIN/CUE Image (.bin/.cue)</source>
-        <translation type="unfinished"></translation>
+        <translation>BIN/CUE 映像（.bin/.cue）</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="91"/>
         <source>Format:</source>
-        <translation type="unfinished">格式：</translation>
+        <translation>格式：</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="96"/>
@@ -1768,53 +1772,54 @@ The disc must be unmounted before cloning.</source>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="117"/>
         <source>Blank Rewritable Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>抹除可複寫光碟</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="121"/>
         <source>Erase a CD-RW, DVD-RW, DVD+RW, or BD-RE disc to prepare it for new data.</source>
-        <translation type="unfinished"></translation>
+        <translation>抹除 CD-RW、DVD-RW、DVD+RW 或 BD-RE 光碟，以便寫入新資料。</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="127"/>
         <source>Quick blank (fast, erases table of contents only)</source>
-        <translation type="unfinished"></translation>
+        <translation>快速抹除（較快，僅抹除目錄表）</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="128"/>
         <source>Full blank (slow, erases entire disc)</source>
-        <translation type="unfinished"></translation>
+        <translation>完整抹除（較慢，抹除整片光碟）</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="136"/>
         <source>Blank Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>抹除光碟</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="146"/>
         <source>Check Disc Integrity</source>
-        <translation type="unfinished"></translation>
+        <translation>檢查光碟完整性</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="150"/>
         <source>Verify that all sectors on the disc are readable.
 This can help detect scratches or degraded media before data loss occurs.</source>
-        <translation type="unfinished"></translation>
+        <translation>驗證光碟上的所有磁區是否皆可讀取。
+這有助於在資料遺失前偵測刮傷或媒體劣化。</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="157"/>
         <source>Stop on first error</source>
-        <translation type="unfinished"></translation>
+        <translation>遇到第一個錯誤時停止</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="163"/>
         <source>Check Integrity</source>
-        <translation type="unfinished"></translation>
+        <translation>檢查完整性</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="193"/>
         <source>BIN Images (*.bin);;All Files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>BIN 映像 (*.bin);;所有檔案 (*)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="202"/>
@@ -1895,142 +1900,143 @@ or use Add button</source>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="43"/>
         <source>Browse ISO Image</source>
-        <translation type="unfinished"></translation>
+        <translation>瀏覽 ISO 映像</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="50"/>
         <source>Open an ISO image to browse its contents. You can extract individual files or the entire image.</source>
-        <translation type="unfinished"></translation>
+        <translation>開啟 ISO 映像以瀏覽其內容。您可以擷取個別檔案或整個映像。</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="58"/>
         <source>Drag and drop an ISO file here, or use the Browse button below</source>
-        <translation type="unfinished">將 ISO 檔案拖放至此，或使用下方的瀏覽按鈕</translation>
+        <translation>拖放 ISO 檔案至此，或使用下方的「瀏覽」按鈕</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="74"/>
         <source>ISO File:</source>
-        <translation type="unfinished">ISO 檔案：</translation>
+        <translation>ISO 檔案：</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="77"/>
         <source>Select an ISO image file...</source>
-        <translation type="unfinished"></translation>
+        <translation>選擇 ISO 映像檔案...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="81"/>
         <source>Browse...</source>
-        <translation type="unfinished">瀏覽...</translation>
+        <translation>瀏覽...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="84"/>
         <source>Clear</source>
-        <translation type="unfinished">清除</translation>
+        <translation>清除</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="91"/>
         <source>Image Information</source>
-        <translation type="unfinished"></translation>
+        <translation>映像資訊</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="97"/>
         <source>Volume Label:</source>
-        <translation type="unfinished">磁碟區標籤：</translation>
+        <translation>磁碟區標籤：</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="102"/>
         <source>Total Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>總大小：</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="106"/>
         <source>Files:</source>
-        <translation type="unfinished"></translation>
+        <translation>檔案數：</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="134"/>
         <source>Extract Selected...</source>
-        <translation type="unfinished"></translation>
+        <translation>擷取選取項目...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="138"/>
         <source>Extract All...</source>
-        <translation type="unfinished"></translation>
+        <translation>全部擷取...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="162"/>
         <source>Extract...</source>
-        <translation type="unfinished"></translation>
+        <translation>擷取...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="170"/>
         <source>Open ISO Image</source>
-        <translation type="unfinished"></translation>
+        <translation>開啟 ISO 映像</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="172"/>
         <source>ISO Images (*.iso *.img);;All Files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>ISO 映像 (*.iso *.img);;所有檔案 (*)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="182"/>
         <source>Error</source>
-        <translation type="unfinished">錯誤</translation>
+        <translation>錯誤</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="183"/>
         <source>Failed to open ISO image:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>無法開啟 ISO 映像：
+%1</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="222"/>
         <source>(none)</source>
-        <translation type="unfinished">（無）</translation>
+        <translation>（無）</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="243"/>
         <source>No Selection</source>
-        <translation type="unfinished"></translation>
+        <translation>未選擇項目</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="244"/>
         <source>Please select files or folders to extract.</source>
-        <translation type="unfinished"></translation>
+        <translation>請選擇要擷取的檔案或資料夾。</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="249"/>
         <source>Extract to Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>擷取至目錄</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="257"/>
         <source>Extracting files...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在擷取檔案...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="257"/>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="297"/>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="275"/>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="312"/>
         <source>Extraction Complete</source>
-        <translation type="unfinished"></translation>
+        <translation>擷取完成</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="276"/>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="313"/>
         <source>Successfully extracted %1 file(s).</source>
-        <translation type="unfinished"></translation>
+        <translation>成功擷取 %1 個檔案。</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="278"/>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="315"/>
         <source>Extraction</source>
-        <translation type="unfinished"></translation>
+        <translation>擷取</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="279"/>
@@ -2038,289 +2044,291 @@ or use Add button</source>
         <source>Extracted %1 file(s) with %2 error(s).
 
 %3</source>
-        <translation type="unfinished"></translation>
+        <translation>已擷取 %1 個檔案，發生 %2 個錯誤。
+
+%3</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="288"/>
         <source>Extract All to Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>全部擷取至目錄</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="297"/>
         <source>Extracting all files...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在擷取所有檔案...</translation>
     </message>
 </context>
 <context>
     <name>Burner::UI::IsoWriterPage</name>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="88"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="89"/>
         <source>Browse...</source>
         <translation>瀏覽...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="91"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="92"/>
         <source>Clear</source>
         <translation>清除</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="106"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="107"/>
         <source>Volume Label:</source>
         <translation>磁碟區標籤：</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="111"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="112"/>
         <source>Size:</source>
         <translation>大小：</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="115"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="116"/>
         <source>Type:</source>
         <translation>類型：</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="126"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="127"/>
         <source>Recommended Disc:</source>
         <translation>建議光碟：</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="50"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="51"/>
         <source>Burn Disc Image</source>
-        <translation type="unfinished"></translation>
+        <translation>燒錄光碟映像</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="58"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="59"/>
         <source>Select an ISO, BIN/CUE, or other disc image file to burn to disc. The disc will be an exact copy of the image.</source>
-        <translation type="unfinished"></translation>
+        <translation>選擇要燒錄至光碟的 ISO、BIN/CUE 或其他光碟映像檔案。燒錄出的光碟將與映像完全相同。</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="66"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="67"/>
         <source>Drag and drop an image file here, or use the Browse button below</source>
-        <translation type="unfinished"></translation>
+        <translation>拖放映像檔案至此，或使用下方的「瀏覽」按鈕</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="82"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="83"/>
         <source>Image File:</source>
-        <translation type="unfinished"></translation>
+        <translation>映像檔案：</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="85"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="86"/>
         <source>Select or drop a disc image file...</source>
-        <translation type="unfinished"></translation>
+        <translation>選擇或拖放光碟映像檔案...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="98"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="99"/>
         <source>Image Information</source>
-        <translation type="unfinished"></translation>
+        <translation>映像資訊</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="119"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="120"/>
         <source>Tracks:</source>
-        <translation type="unfinished"></translation>
+        <translation>軌道：</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="135"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="136"/>
         <source>MD5:</source>
-        <translation type="unfinished"></translation>
+        <translation>MD5：</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="141"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="142"/>
         <source>SHA-256:</source>
-        <translation type="unfinished"></translation>
+        <translation>SHA-256：</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="155"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="156"/>
         <source>Paste expected checksum to verify...</source>
-        <translation type="unfinished"></translation>
+        <translation>貼上預期的檢查碼以進行驗證...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="159"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="160"/>
         <source>Verify</source>
-        <translation type="unfinished"></translation>
+        <translation>驗證</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="182"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="183"/>
         <source>Select Disc Image</source>
-        <translation type="unfinished"></translation>
+        <translation>選擇光碟映像</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="184"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="185"/>
         <source>Disc Images (*.iso *.img *.bin *.cue *.nrg);;CUE Sheets (*.cue);;ISO Images (*.iso *.img);;All Files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>光碟映像 (*.iso *.img *.bin *.cue *.nrg);;CUE 索引檔 (*.cue);;ISO 映像 (*.iso *.img);;所有檔案 (*)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="285"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="287"/>
         <source>File not found: %1</source>
         <translation>找不到檔案：%1</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="311"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="386"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="313"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="388"/>
         <source>(none)</source>
         <translation>（無）</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="319"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="321"/>
         <source>Nero Image</source>
         <translation>Nero 映像</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="321"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="323"/>
         <source>BIN/CUE Image</source>
         <translation>BIN/CUE 映像</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="323"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="325"/>
         <source>ISO 9660 Image</source>
         <translation>ISO 9660 映像</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="330"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="432"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="332"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="434"/>
         <source>CD (700 MB)</source>
         <translation>CD（700 MB）</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="332"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="434"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="334"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="436"/>
         <source>DVD (4.7 GB)</source>
         <translation>DVD（4.7 GB）</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="334"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="436"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="336"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="438"/>
         <source>DVD DL (8.5 GB)</source>
         <translation>DVD DL（8.5 GB）</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="336"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="438"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="338"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="440"/>
         <source>BD (25 GB)</source>
         <translation>BD（25 GB）</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="338"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="440"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="340"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="442"/>
         <source>BD DL (50 GB)</source>
         <translation>BD DL（50 GB）</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="340"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="442"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="342"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="444"/>
         <source>BD XL (100+ GB)</source>
         <translation>BD XL（100+ GB）</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="349"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="351"/>
         <source>Invalid or unsupported image format</source>
         <translation>無效或不支援的映像格式</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="358"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="360"/>
         <source>Failed to parse CUE file: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>解析 CUE 檔案失敗：%1</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="369"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="371"/>
         <source>CUE validation failed: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="394"/>
-        <source>Audio CD (%1 tracks)</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE 驗證失敗：%1</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="396"/>
-        <source>Mixed Mode CD (%1 tracks)</source>
-        <translation type="unfinished"></translation>
+        <source>Audio CD (%1 tracks)</source>
+        <translation>音樂 CD（%1 首曲目）</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="398"/>
-        <source>Data Disc (BIN/CUE)</source>
-        <translation type="unfinished"></translation>
+        <source>Mixed Mode CD (%1 tracks)</source>
+        <translation>混合模式 CD（%1 個軌道）</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="400"/>
+        <source>Data Disc (BIN/CUE)</source>
+        <translation>資料光碟（BIN/CUE）</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="402"/>
         <source>BIN/CUE Image (%1 tracks)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="410"/>
-        <source>Audio</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="411"/>
-        <source>Data (MODE1/2048)</source>
-        <translation type="unfinished"></translation>
+        <translation>BIN/CUE 映像（%1 個軌道）</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="412"/>
-        <source>Data (MODE1/2352)</source>
-        <translation type="unfinished"></translation>
+        <source>Audio</source>
+        <translation>音訊</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="413"/>
-        <source>Data (MODE2/2336)</source>
-        <translation type="unfinished"></translation>
+        <source>Data (MODE1/2048)</source>
+        <translation>資料（MODE1/2048）</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="414"/>
-        <source>Data (MODE2/2352)</source>
-        <translation type="unfinished"></translation>
+        <source>Data (MODE1/2352)</source>
+        <translation>資料（MODE1/2352）</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="415"/>
-        <source>Unknown</source>
-        <translation type="unfinished">未知</translation>
+        <source>Data (MODE2/2336)</source>
+        <translation>資料（MODE2/2336）</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="416"/>
+        <source>Data (MODE2/2352)</source>
+        <translation>資料（MODE2/2352）</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="417"/>
+        <source>Unknown</source>
+        <translation>未知</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="419"/>
         <source>Track %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>軌道 %1：%2</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="564"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="565"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="566"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="567"/>
         <source>Calculating...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在計算...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="630"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="632"/>
         <source>Enter a checksum to verify</source>
-        <translation type="unfinished"></translation>
+        <translation>請輸入要驗證的檢查碼</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="645"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="648"/>
         <source>Unrecognized checksum length</source>
-        <translation type="unfinished"></translation>
+        <translation>無法辨識的檢查碼長度</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="651"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="655"/>
         <source>%1 MATCH</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 相符</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="654"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="659"/>
         <source>%1 MISMATCH</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 不相符</translation>
     </message>
 </context>
 <context>
     <name>Burner::UI::MainWindow</name>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="78"/>
+        <location filename="../src/ui/MainWindow.cpp" line="109"/>
         <source>Burner - CD/DVD Burning Application</source>
         <translation>Burner - CD/DVD 燒錄應用程式</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="93"/>
+        <location filename="../src/ui/MainWindow.cpp" line="124"/>
         <source>Initialization Error</source>
         <translation>初始化錯誤</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="94"/>
+        <location filename="../src/ui/MainWindow.cpp" line="125"/>
         <source>Failed to initialize burning engine:
 %1
 
@@ -2331,265 +2339,255 @@ Please ensure libburn and libisofs are properly installed.</source>
 請確認 libburn 和 libisofs 已正確安裝。</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="398"/>
+        <location filename="../src/ui/MainWindow.cpp" line="431"/>
         <source>🔥 Burn Disc</source>
         <translation>🔥 燒錄光碟</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="562"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1444"/>
+        <location filename="../src/ui/MainWindow.cpp" line="595"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1477"/>
         <source>Data CD/DVD</source>
         <translation>資料 CD/DVD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="571"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1445"/>
+        <location filename="../src/ui/MainWindow.cpp" line="604"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1478"/>
         <source>Audio CD</source>
         <translation>音樂 CD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1446"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1479"/>
         <source>Video CD</source>
         <translation>VCD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="764"/>
+        <location filename="../src/ui/MainWindow.cpp" line="797"/>
         <source>Clone Disc</source>
         <translation>複製光碟</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="259"/>
-        <location filename="../src/ui/MainWindow.cpp" line="422"/>
+        <location filename="../src/ui/MainWindow.cpp" line="290"/>
+        <location filename="../src/ui/MainWindow.cpp" line="455"/>
         <source>Ready</source>
         <translation>就緒</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="229"/>
+        <location filename="../src/ui/MainWindow.cpp" line="260"/>
         <source>💿 Data CD/DVD</source>
         <translation>💿 資料 CD/DVD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="232"/>
+        <location filename="../src/ui/MainWindow.cpp" line="263"/>
         <source>🎵 Audio CD</source>
         <translation>🎵 音樂 CD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="235"/>
+        <location filename="../src/ui/MainWindow.cpp" line="266"/>
         <source>🎬 Video CD</source>
         <translation>🎬 VCD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="238"/>
+        <location filename="../src/ui/MainWindow.cpp" line="269"/>
         <source>🔥 Burn ISO</source>
         <translation>🔥 燒錄 ISO</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="242"/>
+        <location filename="../src/ui/MainWindow.cpp" line="273"/>
         <source>📋 Clone Disc</source>
         <translation>📋 複製光碟</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="245"/>
+        <location filename="../src/ui/MainWindow.cpp" line="276"/>
         <source>📥 Rip CD</source>
         <translation>📥 擷取 CD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="248"/>
+        <location filename="../src/ui/MainWindow.cpp" line="279"/>
         <source>📂 Browse ISO</source>
-        <translation type="unfinished"></translation>
+        <translation>📂 瀏覽 ISO</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="272"/>
+        <location filename="../src/ui/MainWindow.cpp" line="303"/>
         <source>&amp;File</source>
         <translation>檔案(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="276"/>
+        <location filename="../src/ui/MainWindow.cpp" line="307"/>
         <source>&amp;New Project</source>
         <translation>新增專案(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="278"/>
+        <location filename="../src/ui/MainWindow.cpp" line="309"/>
         <source>&amp;Open Project...</source>
         <translation>開啟專案(&amp;O)...</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="283"/>
+        <location filename="../src/ui/MainWindow.cpp" line="314"/>
         <source>&amp;Save Project</source>
         <translation>儲存專案(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="285"/>
+        <location filename="../src/ui/MainWindow.cpp" line="316"/>
         <source>Save Project &amp;As...</source>
         <translation>另存專案為(&amp;A)...</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="290"/>
+        <location filename="../src/ui/MainWindow.cpp" line="321"/>
         <source>&amp;Recent Projects</source>
-        <translation type="unfinished"></translation>
+        <translation>最近的專案(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="295"/>
+        <location filename="../src/ui/MainWindow.cpp" line="326"/>
         <source>E&amp;xit</source>
         <translation>結束(&amp;X)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="299"/>
+        <location filename="../src/ui/MainWindow.cpp" line="330"/>
         <source>&amp;View</source>
-        <translation type="unfinished"></translation>
+        <translation>檢視(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="300"/>
+        <location filename="../src/ui/MainWindow.cpp" line="331"/>
         <source>&amp;Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>主題(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="305"/>
-        <location filename="../src/ui/MainWindow.cpp" line="350"/>
+        <location filename="../src/ui/MainWindow.cpp" line="336"/>
+        <location filename="../src/ui/MainWindow.cpp" line="383"/>
         <source>&amp;System</source>
         <translation>系統(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="309"/>
-        <source>&amp;Light</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/MainWindow.cpp" line="313"/>
-        <source>&amp;Dark</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/MainWindow.cpp" line="338"/>
+        <location filename="../src/ui/MainWindow.cpp" line="371"/>
         <source>Title &amp;Bar</source>
         <translation>標題列(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="345"/>
+        <location filename="../src/ui/MainWindow.cpp" line="378"/>
         <source>&amp;Automatic (Burner&apos;s Own)</source>
         <translation>自動（Burner 內建）(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="345"/>
+        <location filename="../src/ui/MainWindow.cpp" line="378"/>
         <source>&amp;Automatic (System)</source>
         <translation>自動（系統）(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="346"/>
+        <location filename="../src/ui/MainWindow.cpp" line="379"/>
         <source>Automatic uses %1.</source>
         <translation>自動模式使用%1。</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="348"/>
+        <location filename="../src/ui/MainWindow.cpp" line="381"/>
         <source>&amp;Burner&apos;s Own</source>
         <translation>Burner 內建(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="366"/>
+        <location filename="../src/ui/MainWindow.cpp" line="399"/>
         <source>&amp;Tools</source>
         <translation>工具(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="368"/>
+        <location filename="../src/ui/MainWindow.cpp" line="401"/>
         <source>&amp;Refresh Drives</source>
         <translation>重新整理光碟機(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="371"/>
+        <location filename="../src/ui/MainWindow.cpp" line="404"/>
         <source>&amp;Eject</source>
         <translation>退出(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="377"/>
+        <location filename="../src/ui/MainWindow.cpp" line="410"/>
         <source>&amp;Checksum Calculator...</source>
-        <translation type="unfinished"></translation>
+        <translation>檢查碼計算工具(&amp;C)...</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="383"/>
+        <location filename="../src/ui/MainWindow.cpp" line="416"/>
         <source>&amp;Help</source>
         <translation>說明(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="385"/>
+        <location filename="../src/ui/MainWindow.cpp" line="418"/>
         <source>&amp;About</source>
         <translation>關於(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="387"/>
+        <location filename="../src/ui/MainWindow.cpp" line="420"/>
         <source>About &amp;Qt</source>
         <translation>關於 Qt(&amp;Q)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="391"/>
+        <location filename="../src/ui/MainWindow.cpp" line="424"/>
         <source>Main</source>
         <translation>主要</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="400"/>
+        <location filename="../src/ui/MainWindow.cpp" line="433"/>
         <source>Start burning disc</source>
         <translation>開始燒錄光碟</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="544"/>
-        <location filename="../src/ui/MainWindow.cpp" line="915"/>
-        <location filename="../src/ui/MainWindow.cpp" line="969"/>
+        <location filename="../src/ui/MainWindow.cpp" line="577"/>
+        <location filename="../src/ui/MainWindow.cpp" line="948"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1002"/>
         <source>No Drive Selected</source>
         <translation>未選擇光碟機</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="545"/>
+        <location filename="../src/ui/MainWindow.cpp" line="578"/>
         <source>Please select a drive to burn to.</source>
         <translation>請選擇要燒錄的光碟機。</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="565"/>
+        <location filename="../src/ui/MainWindow.cpp" line="598"/>
         <source>%1 files, %2 MB total</source>
         <translation>%1 個檔案，共 %2 MB</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="576"/>
+        <location filename="../src/ui/MainWindow.cpp" line="609"/>
         <source>%1 tracks, %2:%3 total duration</source>
         <translation>%1 首曲目，總時長 %2:%3</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="583"/>
+        <location filename="../src/ui/MainWindow.cpp" line="616"/>
         <source>Video CD (%1)</source>
         <translation>VCD（%1）</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="585"/>
+        <location filename="../src/ui/MainWindow.cpp" line="618"/>
         <source>%1 videos</source>
         <translation>%1 部影片</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="589"/>
+        <location filename="../src/ui/MainWindow.cpp" line="622"/>
         <source>ISO Image</source>
         <translation>ISO 映像</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="589"/>
+        <location filename="../src/ui/MainWindow.cpp" line="622"/>
         <source>BIN/CUE Image</source>
-        <translation type="unfinished">BIN/CUE 映像</translation>
+        <translation>BIN/CUE 映像</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="591"/>
+        <location filename="../src/ui/MainWindow.cpp" line="624"/>
         <source>Image: %1
 Size: %2 MB</source>
         <translation>映像：%1
 大小：%2 MB</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="597"/>
+        <location filename="../src/ui/MainWindow.cpp" line="630"/>
         <source>Unknown</source>
         <translation>未知</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="615"/>
+        <location filename="../src/ui/MainWindow.cpp" line="648"/>
         <source>Drive is Mounted</source>
         <translation>光碟機已掛載</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="616"/>
+        <location filename="../src/ui/MainWindow.cpp" line="649"/>
         <source>The disc in %1 is currently mounted by the system.
 
 Please unmount the disc before burning:
@@ -2604,12 +2602,12 @@ Or use your file manager to safely eject/unmount the disc.</source>
 或使用檔案管理員安全地退出/卸載光碟。</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="651"/>
+        <location filename="../src/ui/MainWindow.cpp" line="684"/>
         <source>Simulation Mode Warning</source>
         <translation>模擬模式警告</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="652"/>
+        <location filename="../src/ui/MainWindow.cpp" line="685"/>
         <source>Simulated burns may not work correctly on all disc types, especially write-once media like DVD-R and BD-R.
 
 After a simulated burn, you may need to eject and re-insert the disc to restore correct capacity reporting.
@@ -2622,12 +2620,12 @@ Do you want to continue with simulation?</source>
 是否要繼續模擬？</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="694"/>
+        <location filename="../src/ui/MainWindow.cpp" line="727"/>
         <source>Data Too Large</source>
         <translation>資料過大</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="695"/>
+        <location filename="../src/ui/MainWindow.cpp" line="728"/>
         <source>The data (%1 MB) is too large for the disc (%2 MB available).
 
 Please remove some files or use a larger capacity disc.</source>
@@ -2636,256 +2634,260 @@ Please remove some files or use a larger capacity disc.</source>
 請移除部分檔案或使用較大容量的光碟。</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="743"/>
+        <location filename="../src/ui/MainWindow.cpp" line="776"/>
         <source>No Videos</source>
         <translation>無影片</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="744"/>
+        <location filename="../src/ui/MainWindow.cpp" line="777"/>
         <source>Please add video files to burn.</source>
         <translation>請新增要燒錄的影片檔案。</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="765"/>
+        <location filename="../src/ui/MainWindow.cpp" line="798"/>
         <source>Use the &apos;Clone Disc&apos; button on the Clone tab to start cloning.</source>
         <translation>使用「複製」分頁上的「複製光碟」按鈕開始複製。</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="769"/>
+        <location filename="../src/ui/MainWindow.cpp" line="802"/>
         <source>Not Implemented</source>
         <translation>尚未實作</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="770"/>
+        <location filename="../src/ui/MainWindow.cpp" line="803"/>
         <source>This burn mode is not yet implemented.</source>
         <translation>此燒錄模式尚未實作。</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="783"/>
+        <location filename="../src/ui/MainWindow.cpp" line="816"/>
         <source>No Files</source>
         <translation>無檔案</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="784"/>
+        <location filename="../src/ui/MainWindow.cpp" line="817"/>
         <source>Please add files to create an ISO image.</source>
         <translation>請新增檔案以建立 ISO 映像。</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="796"/>
+        <location filename="../src/ui/MainWindow.cpp" line="829"/>
         <source>Volume Label</source>
         <translation>磁碟區標籤</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="797"/>
+        <location filename="../src/ui/MainWindow.cpp" line="830"/>
         <source>Enter volume label for the ISO:</source>
         <translation>輸入 ISO 的磁碟區標籤：</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="810"/>
+        <location filename="../src/ui/MainWindow.cpp" line="843"/>
         <source>Creating ISO Image</source>
         <translation>正在建立 ISO 映像</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="833"/>
+        <location filename="../src/ui/MainWindow.cpp" line="866"/>
         <source>No Source Drive</source>
         <translation>無來源光碟機</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="834"/>
+        <location filename="../src/ui/MainWindow.cpp" line="867"/>
         <source>Please select a source drive to clone.</source>
         <translation>請選擇要複製的來源光碟機。</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="839"/>
+        <location filename="../src/ui/MainWindow.cpp" line="872"/>
         <source>No Output File</source>
         <translation>無輸出檔案</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="840"/>
+        <location filename="../src/ui/MainWindow.cpp" line="873"/>
         <source>Please specify an output file path for the disc image.</source>
         <translation>請指定光碟映像的輸出檔案路徑。</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="851"/>
+        <location filename="../src/ui/MainWindow.cpp" line="884"/>
         <source>Cloning Disc</source>
         <translation>正在複製光碟</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="916"/>
+        <location filename="../src/ui/MainWindow.cpp" line="949"/>
         <source>Please select a drive to blank.</source>
-        <translation type="unfinished"></translation>
+        <translation>請選擇要抹除的光碟機。</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="921"/>
+        <location filename="../src/ui/MainWindow.cpp" line="954"/>
         <source>full</source>
-        <translation type="unfinished"></translation>
+        <translation>完整</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="921"/>
+        <location filename="../src/ui/MainWindow.cpp" line="954"/>
         <source>quick</source>
-        <translation type="unfinished"></translation>
+        <translation>快速</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="923"/>
+        <location filename="../src/ui/MainWindow.cpp" line="956"/>
         <source>Confirm Blank Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>確認抹除光碟</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="924"/>
+        <location filename="../src/ui/MainWindow.cpp" line="957"/>
         <source>This will erase all data on the disc in %1.
 
 Blank type: %2
 
 This operation cannot be undone. Continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>這將抹除 %1 中光碟上的所有資料。
+
+抹除類型：%2
+
+此操作無法復原。是否繼續？</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="943"/>
+        <location filename="../src/ui/MainWindow.cpp" line="976"/>
         <source>Blanking Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>正在抹除光碟</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="970"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1003"/>
         <source>Please select a drive to check.</source>
-        <translation type="unfinished"></translation>
+        <translation>請選擇要檢查的光碟機。</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="981"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1014"/>
         <source>Checking Disc Integrity</source>
-        <translation type="unfinished"></translation>
+        <translation>正在檢查光碟完整性</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1020"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1053"/>
         <source>Data CD/DVD - Add files and folders to burn</source>
         <translation>資料 CD/DVD - 新增要燒錄的檔案和資料夾</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1023"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1056"/>
         <source>Audio CD - Add audio tracks (MP3, FLAC, WAV)</source>
         <translation>音樂 CD - 新增音軌（MP3、FLAC、WAV）</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1026"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1059"/>
         <source>Video CD - Add videos for VCD/SVCD</source>
         <translation>VCD - 新增 VCD/SVCD 影片</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1029"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1062"/>
         <source>Burn ISO - Burn an ISO image file</source>
         <translation>燒錄 ISO - 燒錄 ISO 映像檔案</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1032"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1065"/>
         <source>Clone Disc - Copy disc to image or image to disc</source>
         <translation>複製光碟 - 複製光碟為映像或映像至光碟</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1035"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1068"/>
         <source>Rip CD - Extract audio tracks from CD to files</source>
         <translation>擷取 CD - 從 CD 擷取音軌為檔案</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1038"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1071"/>
         <source>Browse ISO - Open and extract files from ISO images</source>
-        <translation type="unfinished"></translation>
+        <translation>瀏覽 ISO - 開啟 ISO 映像並擷取其中的檔案</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1045"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1078"/>
         <source>Scanning for drives...</source>
         <translation>正在掃描光碟機...</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1056"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1089"/>
         <source>Ejecting disc...</source>
         <translation>正在退出光碟...</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1069"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1102"/>
         <source>About Burner</source>
         <translation>關於 Burner</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1070"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1103"/>
         <source>&lt;h2&gt;Burner&lt;/h2&gt;&lt;p&gt;CD/DVD/Blu-ray Burning Application&lt;/p&gt;&lt;p&gt;Version %3&lt;/p&gt;&lt;p&gt;Built with Qt6 and libburnia (libburn, libisofs)&lt;/p&gt;&lt;p&gt;libburn version: %1&lt;/p&gt;&lt;p&gt;libisofs version: %2&lt;/p&gt;</source>
         <translation>&lt;h2&gt;Burner&lt;/h2&gt;&lt;p&gt;CD/DVD/藍光燒錄應用程式&lt;/p&gt;&lt;p&gt;版本 %3&lt;/p&gt;&lt;p&gt;使用 Qt6 和 libburnia（libburn、libisofs）建置&lt;/p&gt;&lt;p&gt;libburn 版本：%1&lt;/p&gt;&lt;p&gt;libisofs 版本：%2&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1186"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1219"/>
         <source>Open Project</source>
         <translation>開啟專案</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1188"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1250"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1221"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1283"/>
         <source>Burner Project (*.burn);;All Files (*)</source>
         <translation>Burner 專案 (*.burn);;所有檔案 (*)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1197"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1207"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1213"/>
         <location filename="../src/ui/MainWindow.cpp" line="1230"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1556"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1566"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1572"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1240"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1246"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1263"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1589"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1599"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1605"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1198"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1557"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1231"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1590"/>
         <source>Could not open file: %1</source>
         <translation>無法開啟檔案：%1</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1208"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1567"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1241"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1600"/>
         <source>Invalid project file: %1</source>
         <translation>無效的專案檔案：%1</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1214"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1573"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1247"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1606"/>
         <source>Failed to load project data.</source>
         <translation>載入專案資料失敗。</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1231"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1264"/>
         <source>Could not save file: %1</source>
         <translation>無法儲存檔案：%1</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1241"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1274"/>
         <source>Project saved</source>
         <translation>專案已儲存</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1248"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1281"/>
         <source>Save Project As</source>
         <translation>另存專案為</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1272"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1305"/>
         <source>Unsaved Changes</source>
         <translation>未儲存的變更</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1273"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1306"/>
         <source>The project has unsaved changes. Do you want to save them?</source>
         <translation>專案有未儲存的變更。是否要儲存？</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1405"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1438"/>
         <source>Burner</source>
         <translation>Burner</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1452"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1485"/>
         <source>Change Project Type</source>
         <translation>變更專案類型</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1453"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1486"/>
         <source>You are adding files to create a %1.
 
 Files on other tabs will be cleared.
@@ -2898,25 +2900,26 @@ Do you want to continue?</source>
 是否要繼續？</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1524"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1557"/>
         <source>&amp;%1. %2</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;%1. %2</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1537"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1570"/>
         <source>&amp;Clear Recent Projects</source>
-        <translation type="unfinished"></translation>
+        <translation>清除最近的專案(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1544"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1577"/>
         <source>File Not Found</source>
-        <translation type="unfinished"></translation>
+        <translation>找不到檔案</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1545"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1578"/>
         <source>The project file no longer exists:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>專案檔案已不存在：
+%1</translation>
     </message>
 </context>
 <context>
@@ -2970,6 +2973,59 @@ Do you want to continue?</source>
         <location filename="../src/ui/dialogs/RipProgressDialog.cpp" line="88"/>
         <source>Failed: %1</source>
         <translation>失敗：%1</translation>
+    </message>
+</context>
+<context>
+    <name>Burner::UI::ThemeManager</name>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="21"/>
+        <source>Light</source>
+        <translation>淺色</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="27"/>
+        <source>Paper</source>
+        <translation>紙張</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="33"/>
+        <source>Frost</source>
+        <translation>冰霜</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="39"/>
+        <source>Sage</source>
+        <translation>鼠尾草</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="45"/>
+        <source>Blossom</source>
+        <translation>櫻花</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="51"/>
+        <source>Dark</source>
+        <translation>深色</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="57"/>
+        <source>Ember</source>
+        <translation>餘燼</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="63"/>
+        <source>Graphite</source>
+        <translation>石墨</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="69"/>
+        <source>Ocean</source>
+        <translation>海洋</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="75"/>
+        <source>Amethyst</source>
+        <translation>紫晶</translation>
     </message>
 </context>
 <context>

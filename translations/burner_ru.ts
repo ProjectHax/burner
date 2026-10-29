@@ -139,7 +139,7 @@ Reason: %2</source>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="222"/>
         <source>Appendable disc detected - importing previous session...</source>
-        <translation type="unfinished"></translation>
+        <translation>Обнаружен дозаписываемый диск — импорт предыдущей сессии...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="275"/>
@@ -159,52 +159,52 @@ Reason: %2</source>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="319"/>
         <source>Validating CUE file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Проверка CUE-файла...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="323"/>
         <source>CUE file validation failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка проверки CUE-файла</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="328"/>
         <source>Parsing CUE sheet...</source>
-        <translation type="unfinished"></translation>
+        <translation>Разбор CUE-файла...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="331"/>
         <source>Failed to parse CUE file: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось разобрать CUE-файл: %1</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="333"/>
         <source>CUE parsing failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка разбора CUE</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="338"/>
         <source>CUE validation failed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка проверки CUE: %1</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="340"/>
         <source>CUE validation failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка проверки CUE</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="348"/>
         <source>BIN file validation failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка проверки BIN-файла</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="365"/>
         <source>Burning CUE image with %1 track(s)...</source>
-        <translation type="unfinished"></translation>
+        <translation>Запись образа CUE (дорожек: %1)...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="374"/>
         <source>CUE image burn completed successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>Запись образа CUE успешно завершена</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="389"/>
@@ -264,27 +264,27 @@ Reason: %2</source>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="477"/>
         <source>Initializing integrity check...</source>
-        <translation type="unfinished"></translation>
+        <translation>Инициализация проверки целостности...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="487"/>
         <source>Checking disc integrity...</source>
-        <translation type="unfinished"></translation>
+        <translation>Проверка целостности диска...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="496"/>
         <source>Integrity check cancelled</source>
-        <translation type="unfinished"></translation>
+        <translation>Проверка целостности отменена</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="498"/>
         <source>Integrity check passed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Проверка целостности пройдена: %1</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="500"/>
         <source>Integrity check found %1 bad sector(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Проверка целостности выявила повреждённые секторы: %1</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="558"/>
@@ -360,12 +360,12 @@ Reason: %2</source>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="684"/>
         <source>Reading disc to BIN/CUE image...</source>
-        <translation type="unfinished"></translation>
+        <translation>Чтение диска в образ BIN/CUE...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="694"/>
         <source>BIN/CUE image created successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>Образ BIN/CUE успешно создан</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="709"/>
@@ -555,17 +555,17 @@ Reason: %2</source>
     <message>
         <location filename="../src/engine/ChecksumWorker.cpp" line="19"/>
         <source>File not found or not readable: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Файл не найден или недоступен для чтения: %1</translation>
     </message>
     <message>
         <location filename="../src/engine/ChecksumWorker.cpp" line="38"/>
         <source>Cancelled</source>
-        <translation type="unfinished">Отменено</translation>
+        <translation>Отменено</translation>
     </message>
     <message>
         <location filename="../src/engine/ChecksumWorker.cpp" line="54"/>
         <source>Checksums calculated successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>Контрольные суммы успешно вычислены</translation>
     </message>
 </context>
 <context>
@@ -782,17 +782,17 @@ Reason: %2</source>
     <message>
         <location filename="../src/models/IsoTreeModel.cpp" line="145"/>
         <source>Name</source>
-        <translation type="unfinished">Имя</translation>
+        <translation>Имя</translation>
     </message>
     <message>
         <location filename="../src/models/IsoTreeModel.cpp" line="146"/>
         <source>Size</source>
-        <translation type="unfinished">Размер</translation>
+        <translation>Размер</translation>
     </message>
     <message>
         <location filename="../src/models/IsoTreeModel.cpp" line="147"/>
         <source>Date Modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Дата изменения</translation>
     </message>
 </context>
 <context>
@@ -806,74 +806,74 @@ Reason: %2</source>
 <context>
     <name>Burner::UI::AudioCdPage</name>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="49"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="50"/>
         <source>Audio CD</source>
         <translation>Audio CD</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="58"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="59"/>
         <source>Red Book CD-DA (44.1kHz 16-bit Stereo)</source>
         <translation>Red Book CD-DA (44,1 кГц 16-бит стерео)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="60"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="61"/>
         <source>Total: 0:00 / 80:00</source>
         <translation>Всего: 0:00 / 80:00</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="95"/>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="131"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="97"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="133"/>
         <source>Remove</source>
         <translation>Удалить</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="110"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="112"/>
         <source>Drop audio files here
 (MP3, FLAC, WAV, OGG)</source>
         <translation>Перетащите аудиофайлы сюда
 (MP3, FLAC, WAV, OGG)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="87"/>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="120"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="89"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="122"/>
         <source>Add Tracks...</source>
         <translation>Добавить дорожки...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="90"/>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="123"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="92"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="125"/>
         <source>Move Up</source>
         <translation>Вверх</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="92"/>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="126"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="94"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="128"/>
         <source>Move Down</source>
         <translation>Вниз</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="97"/>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="134"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="99"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="136"/>
         <source>Clear All</source>
         <translation>Очистить всё</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="158"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="160"/>
         <source>Warning: Total duration exceeds 80 minutes!</source>
         <translation>Внимание: общая длительность превышает 80 минут!</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="171"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="173"/>
         <source>Total: %1:%2 / 80:00</source>
         <translation>Всего: %1:%2 / 80:00</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="179"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="181"/>
         <source>Select Audio Files</source>
         <translation>Выбрать аудиофайлы</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="181"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="183"/>
         <source>Audio Files (*.mp3 *.flac *.wav *.ogg *.aac *.m4a *.wma);;All Files (*)</source>
         <translation>Аудиофайлы (*.mp3 *.flac *.wav *.ogg *.aac *.m4a *.wma);;Все файлы (*)</translation>
     </message>
@@ -881,12 +881,12 @@ Reason: %2</source>
 <context>
     <name>Burner::UI::BurnLog</name>
     <message>
-        <location filename="../src/ui/widgets/BurnLog.cpp" line="133"/>
+        <location filename="../src/ui/widgets/BurnLog.cpp" line="134"/>
         <source>Hide Log</source>
         <translation>Скрыть журнал</translation>
     </message>
     <message>
-        <location filename="../src/ui/widgets/BurnLog.cpp" line="133"/>
+        <location filename="../src/ui/widgets/BurnLog.cpp" line="134"/>
         <source>Show Log</source>
         <translation>Показать журнал</translation>
     </message>
@@ -894,91 +894,92 @@ Reason: %2</source>
 <context>
     <name>Burner::UI::BurnOptionsDialog</name>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="17"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="18"/>
         <source>Burn Options</source>
         <translation>Параметры записи</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="55"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="56"/>
         <source>Appending to existing disc (Session %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Дозапись на существующий диск (сессия %1)</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="60"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="61"/>
         <source>Recommended: Keep disc open for future sessions.
 Uncheck to finalize the disc (no more data can be added).</source>
-        <translation type="unfinished"></translation>
+        <translation>Рекомендуется: оставить диск открытым для следующих сессий.
+Снимите флажок, чтобы финализировать диск (добавить данные будет нельзя).</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="69"/>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="119"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="70"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="120"/>
         <source>Maximum</source>
         <translation>Максимум</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="89"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="90"/>
         <source>Burn Summary</source>
         <translation>Сводка записи</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="109"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="110"/>
         <source>Volume Label:</source>
         <translation>Метка тома:</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="111"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="112"/>
         <source>DISC</source>
         <translation>ДИСК</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="120"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="121"/>
         <source>Write Speed:</source>
         <translation>Скорость записи:</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="124"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="125"/>
         <source>Options</source>
         <translation>Параметры</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="127"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="128"/>
         <source>Simulate (dry run - don&apos;t actually burn)</source>
         <translation>Имитация (пробный запуск без реальной записи)</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="130"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="131"/>
         <source>Verify disc after burning</source>
         <translation>Проверить диск после записи</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="134"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="135"/>
         <source>Eject disc when finished</source>
         <translation>Извлечь диск по завершении</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="138"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="139"/>
         <source>Enable buffer underrun protection</source>
         <translation>Включить защиту от опустошения буфера</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="147"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="149"/>
         <source>Leave disc open for additional sessions</source>
         <translation>Оставить диск открытым для дополнительных сессий</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="149"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="151"/>
         <source>If checked, the disc can have more data added later.
 If unchecked (default), the disc will be finalized and closed.</source>
         <translation>Если отмечено, на диск можно будет добавить данные позже.
 Если не отмечено (по умолчанию), диск будет финализирован и закрыт.</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="153"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="155"/>
         <source>Blank rewritable disc before burning</source>
         <translation>Очистить перезаписываемый диск перед записью</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="155"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="157"/>
         <source>For CD-RW, DVD-RW, DVD+RW, or BD-RE discs:
 Erase existing data before writing new content.</source>
         <translation>Для дисков CD-RW, DVD-RW, DVD+RW или BD-RE:
@@ -988,197 +989,198 @@ Erase existing data before writing new content.</source>
 <context>
     <name>Burner::UI::BurnProgressDialog</name>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="21"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="22"/>
         <source>Burning Disc</source>
         <translation>Запись диска</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="42"/>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="50"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="43"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="51"/>
         <source>Read: --</source>
         <translation>Чтение: --</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="38"/>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="276"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="39"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="279"/>
         <source>Speed: --</source>
         <translation>Скорость: --</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="76"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="77"/>
         <source>Elapsed: %1 | Remaining: %2</source>
         <translation>Прошло: %1 | Осталось: %2</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="86"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="87"/>
         <source>Read: </source>
         <translation>Чтение: </translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="86"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="87"/>
         <source>Speed: </source>
         <translation>Скорость: </translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="133"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="134"/>
         <source>Clone Complete</source>
         <translation>Клонирование завершено</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="152"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="153"/>
         <source>Burn Complete</source>
         <translation>Запись завершена</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="134"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="135"/>
         <source>Clone Failed</source>
         <translation>Ошибка клонирования</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="153"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="154"/>
         <source>Burn Failed</source>
         <translation>Ошибка записи</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="135"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="136"/>
         <source>Clone completed successfully!</source>
         <translation>Клонирование успешно завершено!</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="154"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="155"/>
         <source>Burn completed successfully!</source>
         <translation>Запись успешно завершена!</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="136"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="137"/>
         <source>Clone failed: %1</source>
         <translation>Ошибка клонирования: %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="155"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="156"/>
         <source>Burn failed: %1</source>
         <translation>Ошибка записи: %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="193"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="196"/>
         <source>Cancel Clone?</source>
         <translation>Отменить клонирование?</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="207"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="210"/>
         <source>Cancel Burn?</source>
         <translation>Отменить запись?</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="194"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="197"/>
         <source>Are you sure you want to cancel the clone operation?</source>
         <translation>Вы уверены, что хотите отменить операцию клонирования?</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="112"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="113"/>
         <source>%1%2x %3 (%4 KB/s)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="139"/>
-        <source>Blank Complete</source>
-        <translation type="unfinished"></translation>
+        <translation>%1%2x %3 (%4 КБ/с)</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="140"/>
-        <source>Blank Failed</source>
-        <translation type="unfinished"></translation>
+        <source>Blank Complete</source>
+        <translation>Очистка завершена</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="141"/>
-        <source>Disc blanked successfully!</source>
-        <translation type="unfinished"></translation>
+        <source>Blank Failed</source>
+        <translation>Ошибка очистки</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="142"/>
-        <source>Blank failed: %1</source>
-        <translation type="unfinished"></translation>
+        <source>Disc blanked successfully!</source>
+        <translation>Диск успешно очищен!</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="145"/>
-        <source>Integrity Check Complete</source>
-        <translation type="unfinished"></translation>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="143"/>
+        <source>Blank failed: %1</source>
+        <translation>Ошибка очистки: %1</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="146"/>
-        <source>Integrity Check Failed</source>
-        <translation type="unfinished"></translation>
+        <source>Integrity Check Complete</source>
+        <translation>Проверка целостности завершена</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="147"/>
-        <source>Integrity check passed!</source>
-        <translation type="unfinished"></translation>
+        <source>Integrity Check Failed</source>
+        <translation>Ошибка проверки целостности</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="148"/>
+        <source>Integrity check passed!</source>
+        <translation>Проверка целостности пройдена!</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="149"/>
         <source>Integrity check failed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка проверки целостности: %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="197"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="200"/>
         <source>Cancel Blank?</source>
-        <translation type="unfinished"></translation>
+        <translation>Отменить очистку?</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="198"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="201"/>
         <source>Are you sure you want to cancel the blank operation?
 The disc may be left in an inconsistent state.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вы уверены, что хотите отменить операцию очистки?
+Диск может остаться в несогласованном состоянии.</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="202"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="205"/>
         <source>Cancel Integrity Check?</source>
-        <translation type="unfinished"></translation>
+        <translation>Отменить проверку целостности?</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="203"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="206"/>
         <source>Are you sure you want to cancel the integrity check?</source>
-        <translation type="unfinished"></translation>
+        <translation>Вы уверены, что хотите отменить проверку целостности?</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="208"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="211"/>
         <source>Are you sure you want to cancel the burn operation?
 The disc may be unusable.</source>
         <translation>Вы уверены, что хотите отменить операцию записи?
 Диск может стать непригодным для использования.</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="221"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="224"/>
         <source>Cancelling...</source>
         <translation>Отмена...</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="234"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="237"/>
         <source>Preparing to burn...</source>
         <translation>Подготовка к записи...</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="260"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="263"/>
         <source>Buffer:</source>
         <translation>Буфер:</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="283"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="286"/>
         <source>Burn operation initialized</source>
         <translation>Операция записи инициализирована</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="291"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="294"/>
         <source>Play sound on completion</source>
         <translation>Воспроизвести звук по завершении</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="300"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="303"/>
         <source>Cancel</source>
         <translation>Отмена</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="304"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="307"/>
         <source>Close</source>
         <translation>Закрыть</translation>
     </message>
@@ -1235,7 +1237,7 @@ The disc may be unusable.</source>
         <location filename="../src/ui/pages/CdRipperPage.cpp" line="134"/>
         <location filename="../src/ui/pages/CdRipperPage.cpp" line="135"/>
         <source>Cancelling...</source>
-        <translation type="unfinished">Отмена...</translation>
+        <translation>Отмена...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/CdRipperPage.cpp" line="144"/>
@@ -1366,7 +1368,7 @@ The disc may be unusable.</source>
         <location filename="../src/ui/pages/CdRipperPage.cpp" line="281"/>
         <location filename="../src/ui/pages/CdRipperPage.cpp" line="603"/>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/CdRipperPage.cpp" line="284"/>
@@ -1505,116 +1507,116 @@ The disc may be unusable.</source>
 <context>
     <name>Burner::UI::ChecksumDialog</name>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="21"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="22"/>
         <source>Checksum Calculator</source>
-        <translation type="unfinished"></translation>
+        <translation>Калькулятор контрольных сумм</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="35"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="36"/>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>Файл</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="39"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="40"/>
         <source>Select a file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите файл...</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="42"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="43"/>
         <source>Browse...</source>
-        <translation type="unfinished">Обзор...</translation>
+        <translation>Обзор...</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="48"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="49"/>
         <source>Calculate Checksums</source>
-        <translation type="unfinished"></translation>
+        <translation>Вычислить контрольные суммы</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="60"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="61"/>
         <source>Results</source>
-        <translation type="unfinished"></translation>
+        <translation>Результаты</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="66"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="67"/>
         <source>MD5:</source>
-        <translation type="unfinished"></translation>
+        <translation>MD5:</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="72"/>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="81"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="73"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="82"/>
         <source>Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>Копировать</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="75"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="76"/>
         <source>SHA-256:</source>
-        <translation type="unfinished"></translation>
+        <translation>SHA-256:</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="88"/>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="96"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="89"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="97"/>
         <source>Verify</source>
-        <translation type="unfinished"></translation>
+        <translation>Проверить</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="92"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="93"/>
         <source>Paste expected checksum...</source>
-        <translation type="unfinished"></translation>
+        <translation>Вставьте ожидаемую контрольную сумму...</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="107"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="108"/>
         <source>Close</source>
-        <translation type="unfinished">Закрыть</translation>
+        <translation>Закрыть</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="121"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="122"/>
         <source>Select File</source>
-        <translation type="unfinished"></translation>
+        <translation>Выбрать файл</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="130"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="131"/>
         <source>Please select a file first.</source>
-        <translation type="unfinished"></translation>
+        <translation>Сначала выберите файл.</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="141"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="142"/>
         <source>Calculating...</source>
-        <translation type="unfinished"></translation>
+        <translation>Вычисление...</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="171"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="172"/>
         <source>Enter a checksum to verify</source>
-        <translation type="unfinished"></translation>
+        <translation>Введите контрольную сумму для проверки</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="186"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="188"/>
         <source>Unrecognized checksum length</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="192"/>
-        <source>%1 MATCH</source>
-        <translation type="unfinished"></translation>
+        <translation>Нераспознанная длина контрольной суммы</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="195"/>
+        <source>%1 MATCH</source>
+        <translation>%1 СОВПАДАЕТ</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="199"/>
         <source>%1 MISMATCH</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 НЕ СОВПАДАЕТ</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="213"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="218"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>Готово</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="219"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="224"/>
         <source>MD5 copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Сумма MD5 скопирована в буфер обмена</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="226"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="231"/>
         <source>SHA-256 copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Сумма SHA-256 скопирована в буфер обмена</translation>
     </message>
 </context>
 <context>
@@ -1625,90 +1627,90 @@ The disc may be unusable.</source>
         <translation>CD/DVD с данными</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="101"/>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="136"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="98"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="133"/>
         <source>Remove</source>
         <translation>Удалить</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="116"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="113"/>
         <source>Drop files or folders here
 to add to disc</source>
         <translation>Перетащите файлы или папки сюда
 для добавления на диск</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="96"/>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="125"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="93"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="122"/>
         <source>Add Files...</source>
         <translation>Добавить файлы...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="97"/>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="128"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="94"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="125"/>
         <source>Add Folder...</source>
         <translation>Добавить папку...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="98"/>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="131"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="95"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="128"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="195"/>
         <location filename="../src/ui/pages/DataDiscPage.cpp" line="198"/>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="201"/>
         <source>New Folder</source>
         <translation>Новая папка</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="103"/>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="139"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="100"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="136"/>
         <source>Clear All</source>
         <translation>Очистить всё</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="144"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="141"/>
         <source>Save as ISO...</source>
         <translation>Сохранить как ISO...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="145"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="142"/>
         <source>Save disc contents to an ISO file</source>
         <translation>Сохранить содержимое диска в файл ISO</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="171"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="168"/>
         <source>Select Files</source>
         <translation>Выбрать файлы</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="173"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="170"/>
         <source>All Files (*)</source>
         <translation>Все файлы (*)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="184"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="181"/>
         <source>Select Folder</source>
         <translation>Выбрать папку</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="199"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="196"/>
         <source>Folder name:</source>
         <translation>Имя папки:</translation>
     </message>
     <message numerus="yes">
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="233"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="230"/>
         <source>Disc contains %n existing session(s) — new data will be appended</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Диск уже содержит %n сессию — новые данные будут дописаны</numerusform>
+            <numerusform>Диск уже содержит %n сессии — новые данные будут дописаны</numerusform>
+            <numerusform>Диск уже содержит %n сессий — новые данные будут дописаны</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="249"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="246"/>
         <source>Save ISO Image</source>
         <translation>Сохранить ISO-образ</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="251"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="248"/>
         <source>ISO Images (*.iso);;All Files (*)</source>
         <translation>ISO-образы (*.iso);;Все файлы (*)</translation>
     </message>
@@ -1725,7 +1727,9 @@ to add to disc</source>
         <source>Create an exact copy of a disc as an image file.
 ISO format stores data sectors. BIN/CUE preserves raw sectors and audio tracks.
 The disc must be unmounted before cloning.</source>
-        <translation type="unfinished"></translation>
+        <translation>Создание точной копии диска в виде файла образа.
+Формат ISO хранит секторы данных. BIN/CUE сохраняет необработанные секторы и аудиодорожки.
+Перед клонированием диск необходимо размонтировать.</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="84"/>
@@ -1735,17 +1739,17 @@ The disc must be unmounted before cloning.</source>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="88"/>
         <source>ISO Image (.iso)</source>
-        <translation type="unfinished"></translation>
+        <translation>Образ ISO (.iso)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="89"/>
         <source>BIN/CUE Image (.bin/.cue)</source>
-        <translation type="unfinished"></translation>
+        <translation>Образ BIN/CUE (.bin/.cue)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="91"/>
         <source>Format:</source>
-        <translation type="unfinished">Формат:</translation>
+        <translation>Формат:</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="96"/>
@@ -1770,53 +1774,54 @@ The disc must be unmounted before cloning.</source>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="117"/>
         <source>Blank Rewritable Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>Очистить перезаписываемый диск</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="121"/>
         <source>Erase a CD-RW, DVD-RW, DVD+RW, or BD-RE disc to prepare it for new data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Стереть диск CD-RW, DVD-RW, DVD+RW или BD-RE, чтобы подготовить его к записи новых данных.</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="127"/>
         <source>Quick blank (fast, erases table of contents only)</source>
-        <translation type="unfinished"></translation>
+        <translation>Быстрая очистка (стирает только оглавление диска)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="128"/>
         <source>Full blank (slow, erases entire disc)</source>
-        <translation type="unfinished"></translation>
+        <translation>Полная очистка (медленно, стирает весь диск)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="136"/>
         <source>Blank Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>Очистить диск</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="146"/>
         <source>Check Disc Integrity</source>
-        <translation type="unfinished"></translation>
+        <translation>Проверить целостность диска</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="150"/>
         <source>Verify that all sectors on the disc are readable.
 This can help detect scratches or degraded media before data loss occurs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Проверить, что все секторы диска читаются.
+Это помогает выявить царапины или износ носителя до потери данных.</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="157"/>
         <source>Stop on first error</source>
-        <translation type="unfinished"></translation>
+        <translation>Остановиться при первой ошибке</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="163"/>
         <source>Check Integrity</source>
-        <translation type="unfinished"></translation>
+        <translation>Проверить целостность</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="193"/>
         <source>BIN Images (*.bin);;All Files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>BIN-образы (*.bin);;Все файлы (*)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="202"/>
@@ -1897,142 +1902,143 @@ or use Add button</source>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="43"/>
         <source>Browse ISO Image</source>
-        <translation type="unfinished"></translation>
+        <translation>Просмотр ISO-образа</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="50"/>
         <source>Open an ISO image to browse its contents. You can extract individual files or the entire image.</source>
-        <translation type="unfinished"></translation>
+        <translation>Откройте ISO-образ, чтобы просмотреть его содержимое. Можно извлечь отдельные файлы или весь образ.</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="58"/>
         <source>Drag and drop an ISO file here, or use the Browse button below</source>
-        <translation type="unfinished">Перетащите файл ISO сюда или используйте кнопку «Обзор» ниже</translation>
+        <translation>Перетащите ISO-файл сюда или используйте кнопку «Обзор» ниже</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="74"/>
         <source>ISO File:</source>
-        <translation type="unfinished">Файл ISO:</translation>
+        <translation>ISO-файл:</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="77"/>
         <source>Select an ISO image file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите файл ISO-образа...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="81"/>
         <source>Browse...</source>
-        <translation type="unfinished">Обзор...</translation>
+        <translation>Обзор...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="84"/>
         <source>Clear</source>
-        <translation type="unfinished">Очистить</translation>
+        <translation>Очистить</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="91"/>
         <source>Image Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация об образе</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="97"/>
         <source>Volume Label:</source>
-        <translation type="unfinished">Метка тома:</translation>
+        <translation>Метка тома:</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="102"/>
         <source>Total Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Общий размер:</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="106"/>
         <source>Files:</source>
-        <translation type="unfinished"></translation>
+        <translation>Файлов:</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="134"/>
         <source>Extract Selected...</source>
-        <translation type="unfinished"></translation>
+        <translation>Извлечь выбранное...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="138"/>
         <source>Extract All...</source>
-        <translation type="unfinished"></translation>
+        <translation>Извлечь всё...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="162"/>
         <source>Extract...</source>
-        <translation type="unfinished"></translation>
+        <translation>Извлечь...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="170"/>
         <source>Open ISO Image</source>
-        <translation type="unfinished"></translation>
+        <translation>Открыть ISO-образ</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="172"/>
         <source>ISO Images (*.iso *.img);;All Files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>ISO-образы (*.iso *.img);;Все файлы (*)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="182"/>
         <source>Error</source>
-        <translation type="unfinished">Ошибка</translation>
+        <translation>Ошибка</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="183"/>
         <source>Failed to open ISO image:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось открыть ISO-образ:
+%1</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="222"/>
         <source>(none)</source>
-        <translation type="unfinished">(нет)</translation>
+        <translation>(нет)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="243"/>
         <source>No Selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Ничего не выбрано</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="244"/>
         <source>Please select files or folders to extract.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите файлы или папки для извлечения.</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="249"/>
         <source>Extract to Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Извлечь в каталог</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="257"/>
         <source>Extracting files...</source>
-        <translation type="unfinished"></translation>
+        <translation>Извлечение файлов...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="257"/>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="297"/>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="275"/>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="312"/>
         <source>Extraction Complete</source>
-        <translation type="unfinished"></translation>
+        <translation>Извлечение завершено</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="276"/>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="313"/>
         <source>Successfully extracted %1 file(s).</source>
-        <translation type="unfinished"></translation>
+        <translation>Успешно извлечено файлов: %1.</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="278"/>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="315"/>
         <source>Extraction</source>
-        <translation type="unfinished"></translation>
+        <translation>Извлечение</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="279"/>
@@ -2040,289 +2046,291 @@ or use Add button</source>
         <source>Extracted %1 file(s) with %2 error(s).
 
 %3</source>
-        <translation type="unfinished"></translation>
+        <translation>Извлечено файлов: %1, ошибок: %2.
+
+%3</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="288"/>
         <source>Extract All to Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Извлечь всё в каталог</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="297"/>
         <source>Extracting all files...</source>
-        <translation type="unfinished"></translation>
+        <translation>Извлечение всех файлов...</translation>
     </message>
 </context>
 <context>
     <name>Burner::UI::IsoWriterPage</name>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="88"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="89"/>
         <source>Browse...</source>
         <translation>Обзор...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="91"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="92"/>
         <source>Clear</source>
         <translation>Очистить</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="106"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="107"/>
         <source>Volume Label:</source>
         <translation>Метка тома:</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="111"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="112"/>
         <source>Size:</source>
         <translation>Размер:</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="115"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="116"/>
         <source>Type:</source>
         <translation>Тип:</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="126"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="127"/>
         <source>Recommended Disc:</source>
         <translation>Рекомендуемый диск:</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="50"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="51"/>
         <source>Burn Disc Image</source>
-        <translation type="unfinished"></translation>
+        <translation>Запись образа диска</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="58"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="59"/>
         <source>Select an ISO, BIN/CUE, or other disc image file to burn to disc. The disc will be an exact copy of the image.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите файл образа диска (ISO, BIN/CUE или другой) для записи на диск. Диск будет точной копией образа.</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="66"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="67"/>
         <source>Drag and drop an image file here, or use the Browse button below</source>
-        <translation type="unfinished"></translation>
+        <translation>Перетащите файл образа сюда или используйте кнопку «Обзор» ниже</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="82"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="83"/>
         <source>Image File:</source>
-        <translation type="unfinished"></translation>
+        <translation>Файл образа:</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="85"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="86"/>
         <source>Select or drop a disc image file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите или перетащите файл образа диска...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="98"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="99"/>
         <source>Image Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация об образе</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="119"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="120"/>
         <source>Tracks:</source>
-        <translation type="unfinished"></translation>
+        <translation>Дорожки:</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="135"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="136"/>
         <source>MD5:</source>
-        <translation type="unfinished"></translation>
+        <translation>MD5:</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="141"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="142"/>
         <source>SHA-256:</source>
-        <translation type="unfinished"></translation>
+        <translation>SHA-256:</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="155"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="156"/>
         <source>Paste expected checksum to verify...</source>
-        <translation type="unfinished"></translation>
+        <translation>Вставьте ожидаемую контрольную сумму для проверки...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="159"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="160"/>
         <source>Verify</source>
-        <translation type="unfinished"></translation>
+        <translation>Проверить</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="182"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="183"/>
         <source>Select Disc Image</source>
-        <translation type="unfinished"></translation>
+        <translation>Выбрать образ диска</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="184"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="185"/>
         <source>Disc Images (*.iso *.img *.bin *.cue *.nrg);;CUE Sheets (*.cue);;ISO Images (*.iso *.img);;All Files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Образы дисков (*.iso *.img *.bin *.cue *.nrg);;Файлы CUE (*.cue);;ISO-образы (*.iso *.img);;Все файлы (*)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="285"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="287"/>
         <source>File not found: %1</source>
         <translation>Файл не найден: %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="311"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="386"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="313"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="388"/>
         <source>(none)</source>
         <translation>(нет)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="319"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="321"/>
         <source>Nero Image</source>
         <translation>Образ Nero</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="321"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="323"/>
         <source>BIN/CUE Image</source>
         <translation>Образ BIN/CUE</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="323"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="325"/>
         <source>ISO 9660 Image</source>
         <translation>Образ ISO 9660</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="330"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="432"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="332"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="434"/>
         <source>CD (700 MB)</source>
         <translation>CD (700 МБ)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="332"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="434"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="334"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="436"/>
         <source>DVD (4.7 GB)</source>
         <translation>DVD (4,7 ГБ)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="334"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="436"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="336"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="438"/>
         <source>DVD DL (8.5 GB)</source>
         <translation>DVD DL (8,5 ГБ)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="336"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="438"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="338"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="440"/>
         <source>BD (25 GB)</source>
         <translation>BD (25 ГБ)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="338"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="440"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="340"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="442"/>
         <source>BD DL (50 GB)</source>
         <translation>BD DL (50 ГБ)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="340"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="442"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="342"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="444"/>
         <source>BD XL (100+ GB)</source>
         <translation>BD XL (100+ ГБ)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="349"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="351"/>
         <source>Invalid or unsupported image format</source>
         <translation>Недопустимый или неподдерживаемый формат образа</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="358"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="360"/>
         <source>Failed to parse CUE file: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось разобрать CUE-файл: %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="369"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="371"/>
         <source>CUE validation failed: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="394"/>
-        <source>Audio CD (%1 tracks)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка проверки CUE: %1</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="396"/>
-        <source>Mixed Mode CD (%1 tracks)</source>
-        <translation type="unfinished"></translation>
+        <source>Audio CD (%1 tracks)</source>
+        <translation>Audio CD (дорожек: %1)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="398"/>
-        <source>Data Disc (BIN/CUE)</source>
-        <translation type="unfinished"></translation>
+        <source>Mixed Mode CD (%1 tracks)</source>
+        <translation>CD смешанного режима (дорожек: %1)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="400"/>
+        <source>Data Disc (BIN/CUE)</source>
+        <translation>Диск с данными (BIN/CUE)</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="402"/>
         <source>BIN/CUE Image (%1 tracks)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="410"/>
-        <source>Audio</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="411"/>
-        <source>Data (MODE1/2048)</source>
-        <translation type="unfinished"></translation>
+        <translation>Образ BIN/CUE (дорожек: %1)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="412"/>
-        <source>Data (MODE1/2352)</source>
-        <translation type="unfinished"></translation>
+        <source>Audio</source>
+        <translation>Аудио</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="413"/>
-        <source>Data (MODE2/2336)</source>
-        <translation type="unfinished"></translation>
+        <source>Data (MODE1/2048)</source>
+        <translation>Данные (MODE1/2048)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="414"/>
-        <source>Data (MODE2/2352)</source>
-        <translation type="unfinished"></translation>
+        <source>Data (MODE1/2352)</source>
+        <translation>Данные (MODE1/2352)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="415"/>
-        <source>Unknown</source>
-        <translation type="unfinished">Неизвестно</translation>
+        <source>Data (MODE2/2336)</source>
+        <translation>Данные (MODE2/2336)</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="416"/>
+        <source>Data (MODE2/2352)</source>
+        <translation>Данные (MODE2/2352)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="417"/>
+        <source>Unknown</source>
+        <translation>Неизвестно</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="419"/>
         <source>Track %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Дорожка %1: %2</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="564"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="565"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="566"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="567"/>
         <source>Calculating...</source>
-        <translation type="unfinished"></translation>
+        <translation>Вычисление...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="630"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="632"/>
         <source>Enter a checksum to verify</source>
-        <translation type="unfinished"></translation>
+        <translation>Введите контрольную сумму для проверки</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="645"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="648"/>
         <source>Unrecognized checksum length</source>
-        <translation type="unfinished"></translation>
+        <translation>Нераспознанная длина контрольной суммы</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="651"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="655"/>
         <source>%1 MATCH</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 СОВПАДАЕТ</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="654"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="659"/>
         <source>%1 MISMATCH</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 НЕ СОВПАДАЕТ</translation>
     </message>
 </context>
 <context>
     <name>Burner::UI::MainWindow</name>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="78"/>
+        <location filename="../src/ui/MainWindow.cpp" line="109"/>
         <source>Burner - CD/DVD Burning Application</source>
         <translation>Burner — приложение для записи CD/DVD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="93"/>
+        <location filename="../src/ui/MainWindow.cpp" line="124"/>
         <source>Initialization Error</source>
         <translation>Ошибка инициализации</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="94"/>
+        <location filename="../src/ui/MainWindow.cpp" line="125"/>
         <source>Failed to initialize burning engine:
 %1
 
@@ -2333,265 +2341,255 @@ Please ensure libburn and libisofs are properly installed.</source>
 Убедитесь, что libburn и libisofs правильно установлены.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="398"/>
+        <location filename="../src/ui/MainWindow.cpp" line="431"/>
         <source>🔥 Burn Disc</source>
         <translation>🔥 Записать диск</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="562"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1444"/>
+        <location filename="../src/ui/MainWindow.cpp" line="595"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1477"/>
         <source>Data CD/DVD</source>
         <translation>CD/DVD с данными</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="571"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1445"/>
+        <location filename="../src/ui/MainWindow.cpp" line="604"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1478"/>
         <source>Audio CD</source>
         <translation>Audio CD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1446"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1479"/>
         <source>Video CD</source>
         <translation>Video CD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="764"/>
+        <location filename="../src/ui/MainWindow.cpp" line="797"/>
         <source>Clone Disc</source>
         <translation>Клонировать диск</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="259"/>
-        <location filename="../src/ui/MainWindow.cpp" line="422"/>
+        <location filename="../src/ui/MainWindow.cpp" line="290"/>
+        <location filename="../src/ui/MainWindow.cpp" line="455"/>
         <source>Ready</source>
         <translation>Готов</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="229"/>
+        <location filename="../src/ui/MainWindow.cpp" line="260"/>
         <source>💿 Data CD/DVD</source>
         <translation>💿 CD/DVD с данными</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="232"/>
+        <location filename="../src/ui/MainWindow.cpp" line="263"/>
         <source>🎵 Audio CD</source>
         <translation>🎵 Audio CD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="235"/>
+        <location filename="../src/ui/MainWindow.cpp" line="266"/>
         <source>🎬 Video CD</source>
         <translation>🎬 Video CD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="238"/>
+        <location filename="../src/ui/MainWindow.cpp" line="269"/>
         <source>🔥 Burn ISO</source>
         <translation>🔥 Записать ISO</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="242"/>
+        <location filename="../src/ui/MainWindow.cpp" line="273"/>
         <source>📋 Clone Disc</source>
         <translation>📋 Клонировать диск</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="245"/>
+        <location filename="../src/ui/MainWindow.cpp" line="276"/>
         <source>📥 Rip CD</source>
         <translation>📥 Копировать CD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="248"/>
+        <location filename="../src/ui/MainWindow.cpp" line="279"/>
         <source>📂 Browse ISO</source>
-        <translation type="unfinished"></translation>
+        <translation>📂 Просмотр ISO</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="272"/>
+        <location filename="../src/ui/MainWindow.cpp" line="303"/>
         <source>&amp;File</source>
         <translation>&amp;Файл</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="276"/>
+        <location filename="../src/ui/MainWindow.cpp" line="307"/>
         <source>&amp;New Project</source>
         <translation>&amp;Новый проект</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="278"/>
+        <location filename="../src/ui/MainWindow.cpp" line="309"/>
         <source>&amp;Open Project...</source>
         <translation>&amp;Открыть проект...</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="283"/>
+        <location filename="../src/ui/MainWindow.cpp" line="314"/>
         <source>&amp;Save Project</source>
         <translation>&amp;Сохранить проект</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="285"/>
+        <location filename="../src/ui/MainWindow.cpp" line="316"/>
         <source>Save Project &amp;As...</source>
         <translation>Сохранить проект &amp;как...</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="290"/>
+        <location filename="../src/ui/MainWindow.cpp" line="321"/>
         <source>&amp;Recent Projects</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Последние проекты</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="295"/>
+        <location filename="../src/ui/MainWindow.cpp" line="326"/>
         <source>E&amp;xit</source>
         <translation>В&amp;ыход</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="299"/>
+        <location filename="../src/ui/MainWindow.cpp" line="330"/>
         <source>&amp;View</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Вид</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="300"/>
+        <location filename="../src/ui/MainWindow.cpp" line="331"/>
         <source>&amp;Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Тема</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="305"/>
-        <location filename="../src/ui/MainWindow.cpp" line="350"/>
+        <location filename="../src/ui/MainWindow.cpp" line="336"/>
+        <location filename="../src/ui/MainWindow.cpp" line="383"/>
         <source>&amp;System</source>
         <translation>&amp;Системная</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="309"/>
-        <source>&amp;Light</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/MainWindow.cpp" line="313"/>
-        <source>&amp;Dark</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/MainWindow.cpp" line="338"/>
+        <location filename="../src/ui/MainWindow.cpp" line="371"/>
         <source>Title &amp;Bar</source>
         <translation>&amp;Строка заголовка</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="345"/>
+        <location filename="../src/ui/MainWindow.cpp" line="378"/>
         <source>&amp;Automatic (Burner&apos;s Own)</source>
         <translation>&amp;Автоматически (встроенная в Burner)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="345"/>
+        <location filename="../src/ui/MainWindow.cpp" line="378"/>
         <source>&amp;Automatic (System)</source>
         <translation>&amp;Автоматически (системная)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="346"/>
+        <location filename="../src/ui/MainWindow.cpp" line="379"/>
         <source>Automatic uses %1.</source>
         <translation>Автоматический режим использует %1.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="348"/>
+        <location filename="../src/ui/MainWindow.cpp" line="381"/>
         <source>&amp;Burner&apos;s Own</source>
         <translation>&amp;Встроенная в Burner</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="366"/>
+        <location filename="../src/ui/MainWindow.cpp" line="399"/>
         <source>&amp;Tools</source>
         <translation>&amp;Инструменты</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="368"/>
+        <location filename="../src/ui/MainWindow.cpp" line="401"/>
         <source>&amp;Refresh Drives</source>
         <translation>&amp;Обновить приводы</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="371"/>
+        <location filename="../src/ui/MainWindow.cpp" line="404"/>
         <source>&amp;Eject</source>
         <translation>&amp;Извлечь</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="377"/>
+        <location filename="../src/ui/MainWindow.cpp" line="410"/>
         <source>&amp;Checksum Calculator...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Калькулятор контрольных сумм...</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="383"/>
+        <location filename="../src/ui/MainWindow.cpp" line="416"/>
         <source>&amp;Help</source>
         <translation>&amp;Справка</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="385"/>
+        <location filename="../src/ui/MainWindow.cpp" line="418"/>
         <source>&amp;About</source>
         <translation>&amp;О программе</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="387"/>
+        <location filename="../src/ui/MainWindow.cpp" line="420"/>
         <source>About &amp;Qt</source>
         <translation>О &amp;Qt</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="391"/>
+        <location filename="../src/ui/MainWindow.cpp" line="424"/>
         <source>Main</source>
         <translation>Главная</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="400"/>
+        <location filename="../src/ui/MainWindow.cpp" line="433"/>
         <source>Start burning disc</source>
         <translation>Начать запись диска</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="544"/>
-        <location filename="../src/ui/MainWindow.cpp" line="915"/>
-        <location filename="../src/ui/MainWindow.cpp" line="969"/>
+        <location filename="../src/ui/MainWindow.cpp" line="577"/>
+        <location filename="../src/ui/MainWindow.cpp" line="948"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1002"/>
         <source>No Drive Selected</source>
         <translation>Привод не выбран</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="545"/>
+        <location filename="../src/ui/MainWindow.cpp" line="578"/>
         <source>Please select a drive to burn to.</source>
         <translation>Выберите привод для записи.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="565"/>
+        <location filename="../src/ui/MainWindow.cpp" line="598"/>
         <source>%1 files, %2 MB total</source>
         <translation>%1 файлов, всего %2 МБ</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="576"/>
+        <location filename="../src/ui/MainWindow.cpp" line="609"/>
         <source>%1 tracks, %2:%3 total duration</source>
         <translation>%1 дорожек, общая длительность %2:%3</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="583"/>
+        <location filename="../src/ui/MainWindow.cpp" line="616"/>
         <source>Video CD (%1)</source>
         <translation>Video CD (%1)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="585"/>
+        <location filename="../src/ui/MainWindow.cpp" line="618"/>
         <source>%1 videos</source>
         <translation>%1 видео</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="589"/>
+        <location filename="../src/ui/MainWindow.cpp" line="622"/>
         <source>ISO Image</source>
         <translation>ISO-образ</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="589"/>
+        <location filename="../src/ui/MainWindow.cpp" line="622"/>
         <source>BIN/CUE Image</source>
-        <translation type="unfinished">Образ BIN/CUE</translation>
+        <translation>Образ BIN/CUE</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="591"/>
+        <location filename="../src/ui/MainWindow.cpp" line="624"/>
         <source>Image: %1
 Size: %2 MB</source>
         <translation>Образ: %1
 Размер: %2 МБ</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="597"/>
+        <location filename="../src/ui/MainWindow.cpp" line="630"/>
         <source>Unknown</source>
         <translation>Неизвестно</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="615"/>
+        <location filename="../src/ui/MainWindow.cpp" line="648"/>
         <source>Drive is Mounted</source>
         <translation>Привод смонтирован</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="616"/>
+        <location filename="../src/ui/MainWindow.cpp" line="649"/>
         <source>The disc in %1 is currently mounted by the system.
 
 Please unmount the disc before burning:
@@ -2606,12 +2604,12 @@ Or use your file manager to safely eject/unmount the disc.</source>
 Или используйте файловый менеджер для безопасного извлечения/размонтирования диска.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="651"/>
+        <location filename="../src/ui/MainWindow.cpp" line="684"/>
         <source>Simulation Mode Warning</source>
         <translation>Предупреждение о режиме имитации</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="652"/>
+        <location filename="../src/ui/MainWindow.cpp" line="685"/>
         <source>Simulated burns may not work correctly on all disc types, especially write-once media like DVD-R and BD-R.
 
 After a simulated burn, you may need to eject and re-insert the disc to restore correct capacity reporting.
@@ -2624,12 +2622,12 @@ Do you want to continue with simulation?</source>
 Хотите продолжить имитацию?</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="694"/>
+        <location filename="../src/ui/MainWindow.cpp" line="727"/>
         <source>Data Too Large</source>
         <translation>Данные слишком большие</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="695"/>
+        <location filename="../src/ui/MainWindow.cpp" line="728"/>
         <source>The data (%1 MB) is too large for the disc (%2 MB available).
 
 Please remove some files or use a larger capacity disc.</source>
@@ -2638,256 +2636,260 @@ Please remove some files or use a larger capacity disc.</source>
 Удалите некоторые файлы или используйте диск большей ёмкости.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="743"/>
+        <location filename="../src/ui/MainWindow.cpp" line="776"/>
         <source>No Videos</source>
         <translation>Нет видео</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="744"/>
+        <location filename="../src/ui/MainWindow.cpp" line="777"/>
         <source>Please add video files to burn.</source>
         <translation>Добавьте видеофайлы для записи.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="765"/>
+        <location filename="../src/ui/MainWindow.cpp" line="798"/>
         <source>Use the &apos;Clone Disc&apos; button on the Clone tab to start cloning.</source>
         <translation>Используйте кнопку «Клонировать диск» на вкладке «Клонирование» для начала клонирования.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="769"/>
+        <location filename="../src/ui/MainWindow.cpp" line="802"/>
         <source>Not Implemented</source>
         <translation>Не реализовано</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="770"/>
+        <location filename="../src/ui/MainWindow.cpp" line="803"/>
         <source>This burn mode is not yet implemented.</source>
         <translation>Этот режим записи ещё не реализован.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="783"/>
+        <location filename="../src/ui/MainWindow.cpp" line="816"/>
         <source>No Files</source>
         <translation>Нет файлов</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="784"/>
+        <location filename="../src/ui/MainWindow.cpp" line="817"/>
         <source>Please add files to create an ISO image.</source>
         <translation>Добавьте файлы для создания ISO-образа.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="796"/>
+        <location filename="../src/ui/MainWindow.cpp" line="829"/>
         <source>Volume Label</source>
         <translation>Метка тома</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="797"/>
+        <location filename="../src/ui/MainWindow.cpp" line="830"/>
         <source>Enter volume label for the ISO:</source>
         <translation>Введите метку тома для ISO:</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="810"/>
+        <location filename="../src/ui/MainWindow.cpp" line="843"/>
         <source>Creating ISO Image</source>
         <translation>Создание ISO-образа</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="833"/>
+        <location filename="../src/ui/MainWindow.cpp" line="866"/>
         <source>No Source Drive</source>
         <translation>Исходный привод не выбран</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="834"/>
+        <location filename="../src/ui/MainWindow.cpp" line="867"/>
         <source>Please select a source drive to clone.</source>
         <translation>Выберите исходный привод для клонирования.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="839"/>
+        <location filename="../src/ui/MainWindow.cpp" line="872"/>
         <source>No Output File</source>
         <translation>Выходной файл не указан</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="840"/>
+        <location filename="../src/ui/MainWindow.cpp" line="873"/>
         <source>Please specify an output file path for the disc image.</source>
         <translation>Укажите путь к выходному файлу для образа диска.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="851"/>
+        <location filename="../src/ui/MainWindow.cpp" line="884"/>
         <source>Cloning Disc</source>
         <translation>Клонирование диска</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="916"/>
+        <location filename="../src/ui/MainWindow.cpp" line="949"/>
         <source>Please select a drive to blank.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите привод для очистки.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="921"/>
+        <location filename="../src/ui/MainWindow.cpp" line="954"/>
         <source>full</source>
-        <translation type="unfinished"></translation>
+        <translation>полная</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="921"/>
+        <location filename="../src/ui/MainWindow.cpp" line="954"/>
         <source>quick</source>
-        <translation type="unfinished"></translation>
+        <translation>быстрая</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="923"/>
+        <location filename="../src/ui/MainWindow.cpp" line="956"/>
         <source>Confirm Blank Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>Подтверждение очистки диска</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="924"/>
+        <location filename="../src/ui/MainWindow.cpp" line="957"/>
         <source>This will erase all data on the disc in %1.
 
 Blank type: %2
 
 This operation cannot be undone. Continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>Все данные на диске в %1 будут стёрты.
+
+Тип очистки: %2
+
+Эту операцию нельзя отменить. Продолжить?</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="943"/>
+        <location filename="../src/ui/MainWindow.cpp" line="976"/>
         <source>Blanking Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>Очистка диска</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="970"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1003"/>
         <source>Please select a drive to check.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите привод для проверки.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="981"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1014"/>
         <source>Checking Disc Integrity</source>
-        <translation type="unfinished"></translation>
+        <translation>Проверка целостности диска</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1020"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1053"/>
         <source>Data CD/DVD - Add files and folders to burn</source>
         <translation>CD/DVD с данными — добавьте файлы и папки для записи</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1023"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1056"/>
         <source>Audio CD - Add audio tracks (MP3, FLAC, WAV)</source>
         <translation>Audio CD — добавьте аудиодорожки (MP3, FLAC, WAV)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1026"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1059"/>
         <source>Video CD - Add videos for VCD/SVCD</source>
         <translation>Video CD — добавьте видео для VCD/SVCD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1029"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1062"/>
         <source>Burn ISO - Burn an ISO image file</source>
         <translation>Записать ISO — записать файл ISO-образа</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1032"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1065"/>
         <source>Clone Disc - Copy disc to image or image to disc</source>
         <translation>Клонировать диск — копировать диск в образ или образ на диск</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1035"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1068"/>
         <source>Rip CD - Extract audio tracks from CD to files</source>
         <translation>Копировать CD — извлечь аудиодорожки с CD в файлы</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1038"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1071"/>
         <source>Browse ISO - Open and extract files from ISO images</source>
-        <translation type="unfinished"></translation>
+        <translation>Просмотр ISO — открыть ISO-образ и извлечь из него файлы</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1045"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1078"/>
         <source>Scanning for drives...</source>
         <translation>Поиск приводов...</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1056"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1089"/>
         <source>Ejecting disc...</source>
         <translation>Извлечение диска...</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1069"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1102"/>
         <source>About Burner</source>
         <translation>О программе Burner</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1070"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1103"/>
         <source>&lt;h2&gt;Burner&lt;/h2&gt;&lt;p&gt;CD/DVD/Blu-ray Burning Application&lt;/p&gt;&lt;p&gt;Version %3&lt;/p&gt;&lt;p&gt;Built with Qt6 and libburnia (libburn, libisofs)&lt;/p&gt;&lt;p&gt;libburn version: %1&lt;/p&gt;&lt;p&gt;libisofs version: %2&lt;/p&gt;</source>
         <translation>&lt;h2&gt;Burner&lt;/h2&gt;&lt;p&gt;Приложение для записи CD/DVD/Blu-ray&lt;/p&gt;&lt;p&gt;Версия %3&lt;/p&gt;&lt;p&gt;Создано с использованием Qt6 и libburnia (libburn, libisofs)&lt;/p&gt;&lt;p&gt;Версия libburn: %1&lt;/p&gt;&lt;p&gt;Версия libisofs: %2&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1186"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1219"/>
         <source>Open Project</source>
         <translation>Открыть проект</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1188"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1250"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1221"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1283"/>
         <source>Burner Project (*.burn);;All Files (*)</source>
         <translation>Проект Burner (*.burn);;Все файлы (*)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1197"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1207"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1213"/>
         <location filename="../src/ui/MainWindow.cpp" line="1230"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1556"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1566"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1572"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1240"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1246"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1263"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1589"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1599"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1605"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1198"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1557"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1231"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1590"/>
         <source>Could not open file: %1</source>
         <translation>Не удалось открыть файл: %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1208"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1567"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1241"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1600"/>
         <source>Invalid project file: %1</source>
         <translation>Недопустимый файл проекта: %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1214"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1573"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1247"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1606"/>
         <source>Failed to load project data.</source>
         <translation>Не удалось загрузить данные проекта.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1231"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1264"/>
         <source>Could not save file: %1</source>
         <translation>Не удалось сохранить файл: %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1241"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1274"/>
         <source>Project saved</source>
         <translation>Проект сохранён</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1248"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1281"/>
         <source>Save Project As</source>
         <translation>Сохранить проект как</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1272"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1305"/>
         <source>Unsaved Changes</source>
         <translation>Несохранённые изменения</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1273"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1306"/>
         <source>The project has unsaved changes. Do you want to save them?</source>
         <translation>В проекте есть несохранённые изменения. Хотите сохранить их?</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1405"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1438"/>
         <source>Burner</source>
         <translation>Burner</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1452"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1485"/>
         <source>Change Project Type</source>
         <translation>Изменить тип проекта</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1453"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1486"/>
         <source>You are adding files to create a %1.
 
 Files on other tabs will be cleared.
@@ -2900,25 +2902,26 @@ Do you want to continue?</source>
 Хотите продолжить?</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1524"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1557"/>
         <source>&amp;%1. %2</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;%1. %2</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1537"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1570"/>
         <source>&amp;Clear Recent Projects</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Очистить список</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1544"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1577"/>
         <source>File Not Found</source>
-        <translation type="unfinished"></translation>
+        <translation>Файл не найден</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1545"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1578"/>
         <source>The project file no longer exists:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Файл проекта больше не существует:
+%1</translation>
     </message>
 </context>
 <context>
@@ -2972,6 +2975,59 @@ Do you want to continue?</source>
         <location filename="../src/ui/dialogs/RipProgressDialog.cpp" line="88"/>
         <source>Failed: %1</source>
         <translation>Ошибка: %1</translation>
+    </message>
+</context>
+<context>
+    <name>Burner::UI::ThemeManager</name>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="21"/>
+        <source>Light</source>
+        <translation>Светлая</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="27"/>
+        <source>Paper</source>
+        <translation>Бумага</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="33"/>
+        <source>Frost</source>
+        <translation>Иней</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="39"/>
+        <source>Sage</source>
+        <translation>Шалфей</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="45"/>
+        <source>Blossom</source>
+        <translation>Цветение</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="51"/>
+        <source>Dark</source>
+        <translation>Тёмная</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="57"/>
+        <source>Ember</source>
+        <translation>Угли</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="63"/>
+        <source>Graphite</source>
+        <translation>Графит</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="69"/>
+        <source>Ocean</source>
+        <translation>Океан</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="75"/>
+        <source>Amethyst</source>
+        <translation>Аметист</translation>
     </message>
 </context>
 <context>

@@ -139,7 +139,7 @@ Grund: %2</translation>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="222"/>
         <source>Appendable disc detected - importing previous session...</source>
-        <translation type="unfinished"></translation>
+        <translation>Erweiterbare Disc erkannt - vorherige Sitzung wird importiert...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="275"/>
@@ -159,52 +159,52 @@ Grund: %2</translation>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="319"/>
         <source>Validating CUE file...</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE-Datei wird überprüft...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="323"/>
         <source>CUE file validation failed</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE-Dateivalidierung fehlgeschlagen</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="328"/>
         <source>Parsing CUE sheet...</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE-Sheet wird analysiert...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="331"/>
         <source>Failed to parse CUE file: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE-Datei konnte nicht analysiert werden: %1</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="333"/>
         <source>CUE parsing failed</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE-Analyse fehlgeschlagen</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="338"/>
         <source>CUE validation failed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE-Validierung fehlgeschlagen: %1</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="340"/>
         <source>CUE validation failed</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE-Validierung fehlgeschlagen</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="348"/>
         <source>BIN file validation failed</source>
-        <translation type="unfinished"></translation>
+        <translation>BIN-Dateivalidierung fehlgeschlagen</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="365"/>
         <source>Burning CUE image with %1 track(s)...</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE-Image mit %1 Spur(en) wird gebrannt...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="374"/>
         <source>CUE image burn completed successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE-Image erfolgreich gebrannt</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="389"/>
@@ -264,27 +264,27 @@ Grund: %2</translation>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="477"/>
         <source>Initializing integrity check...</source>
-        <translation type="unfinished"></translation>
+        <translation>Integritätsprüfung wird initialisiert...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="487"/>
         <source>Checking disc integrity...</source>
-        <translation type="unfinished"></translation>
+        <translation>Disc-Integrität wird geprüft...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="496"/>
         <source>Integrity check cancelled</source>
-        <translation type="unfinished"></translation>
+        <translation>Integritätsprüfung abgebrochen</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="498"/>
         <source>Integrity check passed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Integritätsprüfung bestanden: %1</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="500"/>
         <source>Integrity check found %1 bad sector(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Integritätsprüfung hat %1 fehlerhafte(n) Sektor(en) gefunden</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="558"/>
@@ -360,12 +360,12 @@ Grund: %2</translation>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="684"/>
         <source>Reading disc to BIN/CUE image...</source>
-        <translation type="unfinished"></translation>
+        <translation>Disc wird in BIN/CUE-Image gelesen...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="694"/>
         <source>BIN/CUE image created successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>BIN/CUE-Image erfolgreich erstellt</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="709"/>
@@ -555,17 +555,17 @@ Grund: %2</translation>
     <message>
         <location filename="../src/engine/ChecksumWorker.cpp" line="19"/>
         <source>File not found or not readable: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Datei nicht gefunden oder nicht lesbar: %1</translation>
     </message>
     <message>
         <location filename="../src/engine/ChecksumWorker.cpp" line="38"/>
         <source>Cancelled</source>
-        <translation type="unfinished">Abgebrochen</translation>
+        <translation>Abgebrochen</translation>
     </message>
     <message>
         <location filename="../src/engine/ChecksumWorker.cpp" line="54"/>
         <source>Checksums calculated successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>Prüfsummen erfolgreich berechnet</translation>
     </message>
 </context>
 <context>
@@ -782,17 +782,17 @@ Grund: %2</translation>
     <message>
         <location filename="../src/models/IsoTreeModel.cpp" line="145"/>
         <source>Name</source>
-        <translation type="unfinished">Name</translation>
+        <translation>Name</translation>
     </message>
     <message>
         <location filename="../src/models/IsoTreeModel.cpp" line="146"/>
         <source>Size</source>
-        <translation type="unfinished">Größe</translation>
+        <translation>Größe</translation>
     </message>
     <message>
         <location filename="../src/models/IsoTreeModel.cpp" line="147"/>
         <source>Date Modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Änderungsdatum</translation>
     </message>
 </context>
 <context>
@@ -806,74 +806,74 @@ Grund: %2</translation>
 <context>
     <name>Burner::UI::AudioCdPage</name>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="49"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="50"/>
         <source>Audio CD</source>
         <translation>Audio-CD</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="58"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="59"/>
         <source>Red Book CD-DA (44.1kHz 16-bit Stereo)</source>
         <translation>Red Book CD-DA (44,1kHz 16-Bit Stereo)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="60"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="61"/>
         <source>Total: 0:00 / 80:00</source>
         <translation>Gesamt: 0:00 / 80:00</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="95"/>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="131"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="97"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="133"/>
         <source>Remove</source>
         <translation>Entfernen</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="110"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="112"/>
         <source>Drop audio files here
 (MP3, FLAC, WAV, OGG)</source>
         <translation>Audiodateien hier ablegen
 (MP3, FLAC, WAV, OGG)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="87"/>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="120"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="89"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="122"/>
         <source>Add Tracks...</source>
         <translation>Titel hinzufügen...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="90"/>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="123"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="92"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="125"/>
         <source>Move Up</source>
         <translation>Nach oben</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="92"/>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="126"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="94"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="128"/>
         <source>Move Down</source>
         <translation>Nach unten</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="97"/>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="134"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="99"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="136"/>
         <source>Clear All</source>
         <translation>Alle löschen</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="158"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="160"/>
         <source>Warning: Total duration exceeds 80 minutes!</source>
         <translation>Warnung: Gesamtdauer überschreitet 80 Minuten!</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="171"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="173"/>
         <source>Total: %1:%2 / 80:00</source>
         <translation>Gesamt: %1:%2 / 80:00</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="179"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="181"/>
         <source>Select Audio Files</source>
         <translation>Audiodateien auswählen</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="181"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="183"/>
         <source>Audio Files (*.mp3 *.flac *.wav *.ogg *.aac *.m4a *.wma);;All Files (*)</source>
         <translation>Audiodateien (*.mp3 *.flac *.wav *.ogg *.aac *.m4a *.wma);;Alle Dateien (*)</translation>
     </message>
@@ -881,12 +881,12 @@ Grund: %2</translation>
 <context>
     <name>Burner::UI::BurnLog</name>
     <message>
-        <location filename="../src/ui/widgets/BurnLog.cpp" line="133"/>
+        <location filename="../src/ui/widgets/BurnLog.cpp" line="134"/>
         <source>Hide Log</source>
         <translation>Protokoll ausblenden</translation>
     </message>
     <message>
-        <location filename="../src/ui/widgets/BurnLog.cpp" line="133"/>
+        <location filename="../src/ui/widgets/BurnLog.cpp" line="134"/>
         <source>Show Log</source>
         <translation>Protokoll anzeigen</translation>
     </message>
@@ -894,91 +894,92 @@ Grund: %2</translation>
 <context>
     <name>Burner::UI::BurnOptionsDialog</name>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="17"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="18"/>
         <source>Burn Options</source>
         <translation>Brennoptionen</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="55"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="56"/>
         <source>Appending to existing disc (Session %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Anhängen an vorhandene Disc (Sitzung %1)</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="60"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="61"/>
         <source>Recommended: Keep disc open for future sessions.
 Uncheck to finalize the disc (no more data can be added).</source>
-        <translation type="unfinished"></translation>
+        <translation>Empfohlen: Disc für weitere Sitzungen offen lassen.
+Deaktivieren, um die Disc zu finalisieren (danach können keine Daten mehr hinzugefügt werden).</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="69"/>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="119"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="70"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="120"/>
         <source>Maximum</source>
         <translation>Maximum</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="89"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="90"/>
         <source>Burn Summary</source>
         <translation>Brennzusammenfassung</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="109"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="110"/>
         <source>Volume Label:</source>
         <translation>Datenträgerbezeichnung:</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="111"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="112"/>
         <source>DISC</source>
         <translation>DISC</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="120"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="121"/>
         <source>Write Speed:</source>
         <translation>Schreibgeschwindigkeit:</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="124"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="125"/>
         <source>Options</source>
         <translation>Optionen</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="127"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="128"/>
         <source>Simulate (dry run - don&apos;t actually burn)</source>
         <translation>Simulieren (Testlauf - nicht wirklich brennen)</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="130"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="131"/>
         <source>Verify disc after burning</source>
         <translation>Disc nach dem Brennen überprüfen</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="134"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="135"/>
         <source>Eject disc when finished</source>
         <translation>Disc nach Abschluss auswerfen</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="138"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="139"/>
         <source>Enable buffer underrun protection</source>
         <translation>Pufferunterlaufschutz aktivieren</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="147"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="149"/>
         <source>Leave disc open for additional sessions</source>
         <translation>Disc für weitere Sitzungen offen lassen</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="149"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="151"/>
         <source>If checked, the disc can have more data added later.
 If unchecked (default), the disc will be finalized and closed.</source>
         <translation>Wenn aktiviert, können später weitere Daten hinzugefügt werden.
 Wenn deaktiviert (Standard), wird die Disc finalisiert und geschlossen.</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="153"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="155"/>
         <source>Blank rewritable disc before burning</source>
         <translation>Wiederbeschreibbare Disc vor dem Brennen löschen</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="155"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="157"/>
         <source>For CD-RW, DVD-RW, DVD+RW, or BD-RE discs:
 Erase existing data before writing new content.</source>
         <translation>Für CD-RW, DVD-RW, DVD+RW oder BD-RE Discs:
@@ -988,197 +989,198 @@ Vorhandene Daten vor dem Schreiben neuer Inhalte löschen.</translation>
 <context>
     <name>Burner::UI::BurnProgressDialog</name>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="21"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="22"/>
         <source>Burning Disc</source>
         <translation>Disc brennen</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="42"/>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="50"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="43"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="51"/>
         <source>Read: --</source>
         <translation>Gelesen: --</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="38"/>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="276"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="39"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="279"/>
         <source>Speed: --</source>
         <translation>Geschwindigkeit: --</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="76"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="77"/>
         <source>Elapsed: %1 | Remaining: %2</source>
         <translation>Vergangen: %1 | Verbleibend: %2</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="86"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="87"/>
         <source>Read: </source>
         <translation>Gelesen: </translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="86"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="87"/>
         <source>Speed: </source>
         <translation>Geschwindigkeit: </translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="133"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="134"/>
         <source>Clone Complete</source>
         <translation>Klonen abgeschlossen</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="152"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="153"/>
         <source>Burn Complete</source>
         <translation>Brennvorgang abgeschlossen</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="134"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="135"/>
         <source>Clone Failed</source>
         <translation>Klonen fehlgeschlagen</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="153"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="154"/>
         <source>Burn Failed</source>
         <translation>Brennvorgang fehlgeschlagen</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="135"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="136"/>
         <source>Clone completed successfully!</source>
         <translation>Klonen erfolgreich abgeschlossen!</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="154"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="155"/>
         <source>Burn completed successfully!</source>
         <translation>Brennvorgang erfolgreich abgeschlossen!</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="136"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="137"/>
         <source>Clone failed: %1</source>
         <translation>Klonen fehlgeschlagen: %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="155"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="156"/>
         <source>Burn failed: %1</source>
         <translation>Brennvorgang fehlgeschlagen: %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="193"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="196"/>
         <source>Cancel Clone?</source>
         <translation>Klonen abbrechen?</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="207"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="210"/>
         <source>Cancel Burn?</source>
         <translation>Brennvorgang abbrechen?</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="194"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="197"/>
         <source>Are you sure you want to cancel the clone operation?</source>
         <translation>Möchten Sie den Klonvorgang wirklich abbrechen?</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="112"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="113"/>
         <source>%1%2x %3 (%4 KB/s)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="139"/>
-        <source>Blank Complete</source>
-        <translation type="unfinished"></translation>
+        <translation>%1%2x %3 (%4 KB/s)</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="140"/>
-        <source>Blank Failed</source>
-        <translation type="unfinished"></translation>
+        <source>Blank Complete</source>
+        <translation>Löschen abgeschlossen</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="141"/>
-        <source>Disc blanked successfully!</source>
-        <translation type="unfinished"></translation>
+        <source>Blank Failed</source>
+        <translation>Löschen fehlgeschlagen</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="142"/>
-        <source>Blank failed: %1</source>
-        <translation type="unfinished"></translation>
+        <source>Disc blanked successfully!</source>
+        <translation>Disc erfolgreich gelöscht!</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="145"/>
-        <source>Integrity Check Complete</source>
-        <translation type="unfinished"></translation>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="143"/>
+        <source>Blank failed: %1</source>
+        <translation>Löschen fehlgeschlagen: %1</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="146"/>
-        <source>Integrity Check Failed</source>
-        <translation type="unfinished"></translation>
+        <source>Integrity Check Complete</source>
+        <translation>Integritätsprüfung abgeschlossen</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="147"/>
-        <source>Integrity check passed!</source>
-        <translation type="unfinished"></translation>
+        <source>Integrity Check Failed</source>
+        <translation>Integritätsprüfung fehlgeschlagen</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="148"/>
+        <source>Integrity check passed!</source>
+        <translation>Integritätsprüfung bestanden!</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="149"/>
         <source>Integrity check failed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Integritätsprüfung fehlgeschlagen: %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="197"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="200"/>
         <source>Cancel Blank?</source>
-        <translation type="unfinished"></translation>
+        <translation>Löschen abbrechen?</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="198"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="201"/>
         <source>Are you sure you want to cancel the blank operation?
 The disc may be left in an inconsistent state.</source>
-        <translation type="unfinished"></translation>
+        <translation>Möchten Sie den Löschvorgang wirklich abbrechen?
+Die Disc könnte in einem inkonsistenten Zustand verbleiben.</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="202"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="205"/>
         <source>Cancel Integrity Check?</source>
-        <translation type="unfinished"></translation>
+        <translation>Integritätsprüfung abbrechen?</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="203"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="206"/>
         <source>Are you sure you want to cancel the integrity check?</source>
-        <translation type="unfinished"></translation>
+        <translation>Möchten Sie die Integritätsprüfung wirklich abbrechen?</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="208"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="211"/>
         <source>Are you sure you want to cancel the burn operation?
 The disc may be unusable.</source>
         <translation>Möchten Sie den Brennvorgang wirklich abbrechen?
 Die Disc könnte unbrauchbar werden.</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="221"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="224"/>
         <source>Cancelling...</source>
         <translation>Abbrechen...</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="234"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="237"/>
         <source>Preparing to burn...</source>
         <translation>Brennvorgang wird vorbereitet...</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="260"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="263"/>
         <source>Buffer:</source>
         <translation>Puffer:</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="283"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="286"/>
         <source>Burn operation initialized</source>
         <translation>Brennvorgang initialisiert</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="291"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="294"/>
         <source>Play sound on completion</source>
         <translation>Ton bei Abschluss abspielen</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="300"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="303"/>
         <source>Cancel</source>
         <translation>Abbrechen</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="304"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="307"/>
         <source>Close</source>
         <translation>Schließen</translation>
     </message>
@@ -1235,7 +1237,7 @@ Die Disc könnte unbrauchbar werden.</translation>
         <location filename="../src/ui/pages/CdRipperPage.cpp" line="134"/>
         <location filename="../src/ui/pages/CdRipperPage.cpp" line="135"/>
         <source>Cancelling...</source>
-        <translation type="unfinished">Abbrechen...</translation>
+        <translation>Wird abgebrochen...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/CdRipperPage.cpp" line="144"/>
@@ -1366,7 +1368,7 @@ Die Disc könnte unbrauchbar werden.</translation>
         <location filename="../src/ui/pages/CdRipperPage.cpp" line="281"/>
         <location filename="../src/ui/pages/CdRipperPage.cpp" line="603"/>
         <source>Cancel</source>
-        <translation type="unfinished">Abbrechen</translation>
+        <translation>Abbrechen</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/CdRipperPage.cpp" line="284"/>
@@ -1505,116 +1507,116 @@ Die Disc könnte unbrauchbar werden.</translation>
 <context>
     <name>Burner::UI::ChecksumDialog</name>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="21"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="22"/>
         <source>Checksum Calculator</source>
-        <translation type="unfinished"></translation>
+        <translation>Prüfsummenrechner</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="35"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="36"/>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>Datei</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="39"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="40"/>
         <source>Select a file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Datei auswählen...</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="42"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="43"/>
         <source>Browse...</source>
-        <translation type="unfinished">Durchsuchen...</translation>
+        <translation>Durchsuchen...</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="48"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="49"/>
         <source>Calculate Checksums</source>
-        <translation type="unfinished"></translation>
+        <translation>Prüfsummen berechnen</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="60"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="61"/>
         <source>Results</source>
-        <translation type="unfinished"></translation>
+        <translation>Ergebnisse</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="66"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="67"/>
         <source>MD5:</source>
-        <translation type="unfinished"></translation>
+        <translation>MD5:</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="72"/>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="81"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="73"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="82"/>
         <source>Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopieren</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="75"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="76"/>
         <source>SHA-256:</source>
-        <translation type="unfinished"></translation>
+        <translation>SHA-256:</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="88"/>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="96"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="89"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="97"/>
         <source>Verify</source>
-        <translation type="unfinished"></translation>
+        <translation>Überprüfen</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="92"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="93"/>
         <source>Paste expected checksum...</source>
-        <translation type="unfinished"></translation>
+        <translation>Erwartete Prüfsumme einfügen...</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="107"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="108"/>
         <source>Close</source>
-        <translation type="unfinished">Schließen</translation>
+        <translation>Schließen</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="121"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="122"/>
         <source>Select File</source>
-        <translation type="unfinished"></translation>
+        <translation>Datei auswählen</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="130"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="131"/>
         <source>Please select a file first.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitte wählen Sie zuerst eine Datei aus.</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="141"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="142"/>
         <source>Calculating...</source>
-        <translation type="unfinished"></translation>
+        <translation>Wird berechnet...</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="171"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="172"/>
         <source>Enter a checksum to verify</source>
-        <translation type="unfinished"></translation>
+        <translation>Geben Sie eine Prüfsumme zum Überprüfen ein</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="186"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="188"/>
         <source>Unrecognized checksum length</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="192"/>
-        <source>%1 MATCH</source>
-        <translation type="unfinished"></translation>
+        <translation>Unbekannte Prüfsummenlänge</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="195"/>
+        <source>%1 MATCH</source>
+        <translation>%1 STIMMT ÜBEREIN</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="199"/>
         <source>%1 MISMATCH</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 STIMMT NICHT ÜBEREIN</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="213"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="218"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>Fertig</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="219"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="224"/>
         <source>MD5 copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>MD5 in die Zwischenablage kopiert</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="226"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="231"/>
         <source>SHA-256 copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>SHA-256 in die Zwischenablage kopiert</translation>
     </message>
 </context>
 <context>
@@ -1625,89 +1627,89 @@ Die Disc könnte unbrauchbar werden.</translation>
         <translation>Daten-CD/DVD</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="101"/>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="136"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="98"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="133"/>
         <source>Remove</source>
         <translation>Entfernen</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="116"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="113"/>
         <source>Drop files or folders here
 to add to disc</source>
         <translation>Dateien oder Ordner hier ablegen
 um sie zur Disc hinzuzufügen</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="96"/>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="125"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="93"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="122"/>
         <source>Add Files...</source>
         <translation>Dateien hinzufügen...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="97"/>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="128"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="94"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="125"/>
         <source>Add Folder...</source>
         <translation>Ordner hinzufügen...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="98"/>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="131"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="95"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="128"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="195"/>
         <location filename="../src/ui/pages/DataDiscPage.cpp" line="198"/>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="201"/>
         <source>New Folder</source>
         <translation>Neuer Ordner</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="103"/>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="139"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="100"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="136"/>
         <source>Clear All</source>
         <translation>Alle löschen</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="144"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="141"/>
         <source>Save as ISO...</source>
         <translation>Als ISO speichern...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="145"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="142"/>
         <source>Save disc contents to an ISO file</source>
         <translation>Disc-Inhalt als ISO-Datei speichern</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="171"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="168"/>
         <source>Select Files</source>
         <translation>Dateien auswählen</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="173"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="170"/>
         <source>All Files (*)</source>
         <translation>Alle Dateien (*)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="184"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="181"/>
         <source>Select Folder</source>
         <translation>Ordner auswählen</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="199"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="196"/>
         <source>Folder name:</source>
         <translation>Ordnername:</translation>
     </message>
     <message numerus="yes">
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="233"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="230"/>
         <source>Disc contains %n existing session(s) — new data will be appended</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Disc enthält %n vorhandene Sitzung — neue Daten werden angehängt</numerusform>
+            <numerusform>Disc enthält %n vorhandene Sitzungen — neue Daten werden angehängt</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="249"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="246"/>
         <source>Save ISO Image</source>
         <translation>ISO-Image speichern</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="251"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="248"/>
         <source>ISO Images (*.iso);;All Files (*)</source>
         <translation>ISO-Images (*.iso);;Alle Dateien (*)</translation>
     </message>
@@ -1724,7 +1726,9 @@ um sie zur Disc hinzuzufügen</translation>
         <source>Create an exact copy of a disc as an image file.
 ISO format stores data sectors. BIN/CUE preserves raw sectors and audio tracks.
 The disc must be unmounted before cloning.</source>
-        <translation type="unfinished"></translation>
+        <translation>Erstellen Sie eine exakte Kopie einer Disc als Image-Datei.
+Das ISO-Format speichert Datensektoren. BIN/CUE erhält Rohsektoren und Audiospuren.
+Die Disc muss vor dem Klonen ausgehängt werden.</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="84"/>
@@ -1734,17 +1738,17 @@ The disc must be unmounted before cloning.</source>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="88"/>
         <source>ISO Image (.iso)</source>
-        <translation type="unfinished"></translation>
+        <translation>ISO-Image (.iso)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="89"/>
         <source>BIN/CUE Image (.bin/.cue)</source>
-        <translation type="unfinished"></translation>
+        <translation>BIN/CUE-Image (.bin/.cue)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="91"/>
         <source>Format:</source>
-        <translation type="unfinished">Format:</translation>
+        <translation>Format:</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="96"/>
@@ -1769,53 +1773,54 @@ The disc must be unmounted before cloning.</source>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="117"/>
         <source>Blank Rewritable Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiederbeschreibbare Disc löschen</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="121"/>
         <source>Erase a CD-RW, DVD-RW, DVD+RW, or BD-RE disc to prepare it for new data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Löschen Sie eine CD-RW, DVD-RW, DVD+RW oder BD-RE, um sie für neue Daten vorzubereiten.</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="127"/>
         <source>Quick blank (fast, erases table of contents only)</source>
-        <translation type="unfinished"></translation>
+        <translation>Schnelllöschung (schnell, löscht nur das Inhaltsverzeichnis)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="128"/>
         <source>Full blank (slow, erases entire disc)</source>
-        <translation type="unfinished"></translation>
+        <translation>Vollständiges Löschen (langsam, löscht die gesamte Disc)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="136"/>
         <source>Blank Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>Disc löschen</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="146"/>
         <source>Check Disc Integrity</source>
-        <translation type="unfinished"></translation>
+        <translation>Disc-Integrität prüfen</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="150"/>
         <source>Verify that all sectors on the disc are readable.
 This can help detect scratches or degraded media before data loss occurs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Überprüfen Sie, ob alle Sektoren der Disc lesbar sind.
+So lassen sich Kratzer oder abgenutzte Medien erkennen, bevor Daten verloren gehen.</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="157"/>
         <source>Stop on first error</source>
-        <translation type="unfinished"></translation>
+        <translation>Beim ersten Fehler anhalten</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="163"/>
         <source>Check Integrity</source>
-        <translation type="unfinished"></translation>
+        <translation>Integrität prüfen</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="193"/>
         <source>BIN Images (*.bin);;All Files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>BIN-Images (*.bin);;Alle Dateien (*)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="202"/>
@@ -1896,142 +1901,143 @@ oder Hinzufügen-Schaltfläche verwenden</translation>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="43"/>
         <source>Browse ISO Image</source>
-        <translation type="unfinished"></translation>
+        <translation>ISO-Image durchsuchen</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="50"/>
         <source>Open an ISO image to browse its contents. You can extract individual files or the entire image.</source>
-        <translation type="unfinished"></translation>
+        <translation>Öffnen Sie ein ISO-Image, um dessen Inhalt zu durchsuchen. Sie können einzelne Dateien oder das gesamte Image extrahieren.</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="58"/>
         <source>Drag and drop an ISO file here, or use the Browse button below</source>
-        <translation type="unfinished">ISO-Datei hierher ziehen oder die Durchsuchen-Schaltfläche unten verwenden</translation>
+        <translation>Ziehen Sie eine ISO-Datei hierher oder verwenden Sie unten die Schaltfläche „Durchsuchen“</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="74"/>
         <source>ISO File:</source>
-        <translation type="unfinished">ISO-Datei:</translation>
+        <translation>ISO-Datei:</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="77"/>
         <source>Select an ISO image file...</source>
-        <translation type="unfinished"></translation>
+        <translation>ISO-Image-Datei auswählen...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="81"/>
         <source>Browse...</source>
-        <translation type="unfinished">Durchsuchen...</translation>
+        <translation>Durchsuchen...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="84"/>
         <source>Clear</source>
-        <translation type="unfinished">Leeren</translation>
+        <translation>Leeren</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="91"/>
         <source>Image Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Image-Informationen</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="97"/>
         <source>Volume Label:</source>
-        <translation type="unfinished">Datenträgerbezeichnung:</translation>
+        <translation>Datenträgerbezeichnung:</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="102"/>
         <source>Total Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Gesamtgröße:</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="106"/>
         <source>Files:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateien:</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="134"/>
         <source>Extract Selected...</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl extrahieren...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="138"/>
         <source>Extract All...</source>
-        <translation type="unfinished"></translation>
+        <translation>Alle extrahieren...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="162"/>
         <source>Extract...</source>
-        <translation type="unfinished"></translation>
+        <translation>Extrahieren...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="170"/>
         <source>Open ISO Image</source>
-        <translation type="unfinished"></translation>
+        <translation>ISO-Image öffnen</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="172"/>
         <source>ISO Images (*.iso *.img);;All Files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>ISO-Images (*.iso *.img);;Alle Dateien (*)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="182"/>
         <source>Error</source>
-        <translation type="unfinished">Fehler</translation>
+        <translation>Fehler</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="183"/>
         <source>Failed to open ISO image:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ISO-Image konnte nicht geöffnet werden:
+%1</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="222"/>
         <source>(none)</source>
-        <translation type="unfinished">(keine)</translation>
+        <translation>(keine)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="243"/>
         <source>No Selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Keine Auswahl</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="244"/>
         <source>Please select files or folders to extract.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitte wählen Sie Dateien oder Ordner zum Extrahieren aus.</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="249"/>
         <source>Extract to Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>In Verzeichnis extrahieren</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="257"/>
         <source>Extracting files...</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateien werden extrahiert...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="257"/>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="297"/>
         <source>Cancel</source>
-        <translation type="unfinished">Abbrechen</translation>
+        <translation>Abbrechen</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="275"/>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="312"/>
         <source>Extraction Complete</source>
-        <translation type="unfinished"></translation>
+        <translation>Extraktion abgeschlossen</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="276"/>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="313"/>
         <source>Successfully extracted %1 file(s).</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 Datei(en) erfolgreich extrahiert.</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="278"/>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="315"/>
         <source>Extraction</source>
-        <translation type="unfinished"></translation>
+        <translation>Extraktion</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="279"/>
@@ -2039,289 +2045,291 @@ oder Hinzufügen-Schaltfläche verwenden</translation>
         <source>Extracted %1 file(s) with %2 error(s).
 
 %3</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 Datei(en) mit %2 Fehler(n) extrahiert.
+
+%3</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="288"/>
         <source>Extract All to Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Alle in Verzeichnis extrahieren</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="297"/>
         <source>Extracting all files...</source>
-        <translation type="unfinished"></translation>
+        <translation>Alle Dateien werden extrahiert...</translation>
     </message>
 </context>
 <context>
     <name>Burner::UI::IsoWriterPage</name>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="88"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="89"/>
         <source>Browse...</source>
         <translation>Durchsuchen...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="91"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="92"/>
         <source>Clear</source>
         <translation>Leeren</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="106"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="107"/>
         <source>Volume Label:</source>
         <translation>Datenträgerbezeichnung:</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="111"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="112"/>
         <source>Size:</source>
         <translation>Größe:</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="115"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="116"/>
         <source>Type:</source>
         <translation>Typ:</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="126"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="127"/>
         <source>Recommended Disc:</source>
         <translation>Empfohlene Disc:</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="50"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="51"/>
         <source>Burn Disc Image</source>
-        <translation type="unfinished"></translation>
+        <translation>Disc-Image brennen</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="58"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="59"/>
         <source>Select an ISO, BIN/CUE, or other disc image file to burn to disc. The disc will be an exact copy of the image.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wählen Sie eine ISO-, BIN/CUE- oder andere Disc-Image-Datei zum Brennen aus. Die Disc wird eine exakte Kopie des Images.</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="66"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="67"/>
         <source>Drag and drop an image file here, or use the Browse button below</source>
-        <translation type="unfinished"></translation>
+        <translation>Ziehen Sie eine Image-Datei hierher oder verwenden Sie unten die Schaltfläche „Durchsuchen“</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="82"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="83"/>
         <source>Image File:</source>
-        <translation type="unfinished"></translation>
+        <translation>Image-Datei:</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="85"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="86"/>
         <source>Select or drop a disc image file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Disc-Image-Datei auswählen oder ablegen...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="98"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="99"/>
         <source>Image Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Image-Informationen</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="119"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="120"/>
         <source>Tracks:</source>
-        <translation type="unfinished"></translation>
+        <translation>Spuren:</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="135"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="136"/>
         <source>MD5:</source>
-        <translation type="unfinished"></translation>
+        <translation>MD5:</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="141"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="142"/>
         <source>SHA-256:</source>
-        <translation type="unfinished"></translation>
+        <translation>SHA-256:</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="155"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="156"/>
         <source>Paste expected checksum to verify...</source>
-        <translation type="unfinished"></translation>
+        <translation>Erwartete Prüfsumme zum Überprüfen einfügen...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="159"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="160"/>
         <source>Verify</source>
-        <translation type="unfinished"></translation>
+        <translation>Überprüfen</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="182"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="183"/>
         <source>Select Disc Image</source>
-        <translation type="unfinished"></translation>
+        <translation>Disc-Image auswählen</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="184"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="185"/>
         <source>Disc Images (*.iso *.img *.bin *.cue *.nrg);;CUE Sheets (*.cue);;ISO Images (*.iso *.img);;All Files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Disc-Images (*.iso *.img *.bin *.cue *.nrg);;CUE-Sheets (*.cue);;ISO-Images (*.iso *.img);;Alle Dateien (*)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="285"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="287"/>
         <source>File not found: %1</source>
         <translation>Datei nicht gefunden: %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="311"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="386"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="313"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="388"/>
         <source>(none)</source>
         <translation>(keine)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="319"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="321"/>
         <source>Nero Image</source>
         <translation>Nero-Image</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="321"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="323"/>
         <source>BIN/CUE Image</source>
         <translation>BIN/CUE-Image</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="323"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="325"/>
         <source>ISO 9660 Image</source>
         <translation>ISO 9660-Image</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="330"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="432"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="332"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="434"/>
         <source>CD (700 MB)</source>
         <translation>CD (700 MB)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="332"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="434"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="334"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="436"/>
         <source>DVD (4.7 GB)</source>
         <translation>DVD (4,7 GB)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="334"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="436"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="336"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="438"/>
         <source>DVD DL (8.5 GB)</source>
         <translation>DVD DL (8,5 GB)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="336"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="438"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="338"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="440"/>
         <source>BD (25 GB)</source>
         <translation>BD (25 GB)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="338"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="440"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="340"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="442"/>
         <source>BD DL (50 GB)</source>
         <translation>BD DL (50 GB)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="340"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="442"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="342"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="444"/>
         <source>BD XL (100+ GB)</source>
         <translation>BD XL (100+ GB)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="349"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="351"/>
         <source>Invalid or unsupported image format</source>
         <translation>Ungültiges oder nicht unterstütztes Image-Format</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="358"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="360"/>
         <source>Failed to parse CUE file: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE-Datei konnte nicht analysiert werden: %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="369"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="371"/>
         <source>CUE validation failed: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="394"/>
-        <source>Audio CD (%1 tracks)</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE-Validierung fehlgeschlagen: %1</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="396"/>
-        <source>Mixed Mode CD (%1 tracks)</source>
-        <translation type="unfinished"></translation>
+        <source>Audio CD (%1 tracks)</source>
+        <translation>Audio-CD (%1 Spuren)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="398"/>
-        <source>Data Disc (BIN/CUE)</source>
-        <translation type="unfinished"></translation>
+        <source>Mixed Mode CD (%1 tracks)</source>
+        <translation>Mixed-Mode-CD (%1 Spuren)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="400"/>
+        <source>Data Disc (BIN/CUE)</source>
+        <translation>Daten-Disc (BIN/CUE)</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="402"/>
         <source>BIN/CUE Image (%1 tracks)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="410"/>
-        <source>Audio</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="411"/>
-        <source>Data (MODE1/2048)</source>
-        <translation type="unfinished"></translation>
+        <translation>BIN/CUE-Image (%1 Spuren)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="412"/>
-        <source>Data (MODE1/2352)</source>
-        <translation type="unfinished"></translation>
+        <source>Audio</source>
+        <translation>Audio</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="413"/>
-        <source>Data (MODE2/2336)</source>
-        <translation type="unfinished"></translation>
+        <source>Data (MODE1/2048)</source>
+        <translation>Daten (MODE1/2048)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="414"/>
-        <source>Data (MODE2/2352)</source>
-        <translation type="unfinished"></translation>
+        <source>Data (MODE1/2352)</source>
+        <translation>Daten (MODE1/2352)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="415"/>
-        <source>Unknown</source>
-        <translation type="unfinished">Unbekannt</translation>
+        <source>Data (MODE2/2336)</source>
+        <translation>Daten (MODE2/2336)</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="416"/>
+        <source>Data (MODE2/2352)</source>
+        <translation>Daten (MODE2/2352)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="417"/>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="419"/>
         <source>Track %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Spur %1: %2</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="564"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="565"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="566"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="567"/>
         <source>Calculating...</source>
-        <translation type="unfinished"></translation>
+        <translation>Wird berechnet...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="630"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="632"/>
         <source>Enter a checksum to verify</source>
-        <translation type="unfinished"></translation>
+        <translation>Geben Sie eine Prüfsumme zum Überprüfen ein</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="645"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="648"/>
         <source>Unrecognized checksum length</source>
-        <translation type="unfinished"></translation>
+        <translation>Unbekannte Prüfsummenlänge</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="651"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="655"/>
         <source>%1 MATCH</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 STIMMT ÜBEREIN</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="654"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="659"/>
         <source>%1 MISMATCH</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 STIMMT NICHT ÜBEREIN</translation>
     </message>
 </context>
 <context>
     <name>Burner::UI::MainWindow</name>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="78"/>
+        <location filename="../src/ui/MainWindow.cpp" line="109"/>
         <source>Burner - CD/DVD Burning Application</source>
         <translation>Burner - CD/DVD-Brennanwendung</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="93"/>
+        <location filename="../src/ui/MainWindow.cpp" line="124"/>
         <source>Initialization Error</source>
         <translation>Initialisierungsfehler</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="94"/>
+        <location filename="../src/ui/MainWindow.cpp" line="125"/>
         <source>Failed to initialize burning engine:
 %1
 
@@ -2332,265 +2340,255 @@ Please ensure libburn and libisofs are properly installed.</source>
 Bitte stellen Sie sicher, dass libburn und libisofs korrekt installiert sind.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="398"/>
+        <location filename="../src/ui/MainWindow.cpp" line="431"/>
         <source>🔥 Burn Disc</source>
         <translation>🔥 Disc brennen</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="562"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1444"/>
+        <location filename="../src/ui/MainWindow.cpp" line="595"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1477"/>
         <source>Data CD/DVD</source>
         <translation>Daten-CD/DVD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="571"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1445"/>
+        <location filename="../src/ui/MainWindow.cpp" line="604"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1478"/>
         <source>Audio CD</source>
         <translation>Audio-CD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1446"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1479"/>
         <source>Video CD</source>
         <translation>Video-CD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="764"/>
+        <location filename="../src/ui/MainWindow.cpp" line="797"/>
         <source>Clone Disc</source>
         <translation>Disc klonen</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="259"/>
-        <location filename="../src/ui/MainWindow.cpp" line="422"/>
+        <location filename="../src/ui/MainWindow.cpp" line="290"/>
+        <location filename="../src/ui/MainWindow.cpp" line="455"/>
         <source>Ready</source>
         <translation>Bereit</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="229"/>
+        <location filename="../src/ui/MainWindow.cpp" line="260"/>
         <source>💿 Data CD/DVD</source>
         <translation>💿 Daten-CD/DVD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="232"/>
+        <location filename="../src/ui/MainWindow.cpp" line="263"/>
         <source>🎵 Audio CD</source>
         <translation>🎵 Audio-CD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="235"/>
+        <location filename="../src/ui/MainWindow.cpp" line="266"/>
         <source>🎬 Video CD</source>
         <translation>🎬 Video-CD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="238"/>
+        <location filename="../src/ui/MainWindow.cpp" line="269"/>
         <source>🔥 Burn ISO</source>
         <translation>🔥 ISO brennen</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="242"/>
+        <location filename="../src/ui/MainWindow.cpp" line="273"/>
         <source>📋 Clone Disc</source>
         <translation>📋 Disc klonen</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="245"/>
+        <location filename="../src/ui/MainWindow.cpp" line="276"/>
         <source>📥 Rip CD</source>
         <translation>📥 CD auslesen</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="248"/>
+        <location filename="../src/ui/MainWindow.cpp" line="279"/>
         <source>📂 Browse ISO</source>
-        <translation type="unfinished"></translation>
+        <translation>📂 ISO durchsuchen</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="272"/>
+        <location filename="../src/ui/MainWindow.cpp" line="303"/>
         <source>&amp;File</source>
         <translation>&amp;Datei</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="276"/>
+        <location filename="../src/ui/MainWindow.cpp" line="307"/>
         <source>&amp;New Project</source>
         <translation>&amp;Neues Projekt</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="278"/>
+        <location filename="../src/ui/MainWindow.cpp" line="309"/>
         <source>&amp;Open Project...</source>
         <translation>Projekt &amp;öffnen...</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="283"/>
+        <location filename="../src/ui/MainWindow.cpp" line="314"/>
         <source>&amp;Save Project</source>
         <translation>Projekt &amp;speichern</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="285"/>
+        <location filename="../src/ui/MainWindow.cpp" line="316"/>
         <source>Save Project &amp;As...</source>
         <translation>Projekt speichern &amp;unter...</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="290"/>
+        <location filename="../src/ui/MainWindow.cpp" line="321"/>
         <source>&amp;Recent Projects</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zuletzt geöffnete Projekte</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="295"/>
+        <location filename="../src/ui/MainWindow.cpp" line="326"/>
         <source>E&amp;xit</source>
         <translation>&amp;Beenden</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="299"/>
+        <location filename="../src/ui/MainWindow.cpp" line="330"/>
         <source>&amp;View</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ansicht</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="300"/>
+        <location filename="../src/ui/MainWindow.cpp" line="331"/>
         <source>&amp;Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Design</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="305"/>
-        <location filename="../src/ui/MainWindow.cpp" line="350"/>
+        <location filename="../src/ui/MainWindow.cpp" line="336"/>
+        <location filename="../src/ui/MainWindow.cpp" line="383"/>
         <source>&amp;System</source>
         <translation>&amp;System</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="309"/>
-        <source>&amp;Light</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/MainWindow.cpp" line="313"/>
-        <source>&amp;Dark</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/MainWindow.cpp" line="338"/>
+        <location filename="../src/ui/MainWindow.cpp" line="371"/>
         <source>Title &amp;Bar</source>
         <translation>Titel&amp;leiste</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="345"/>
+        <location filename="../src/ui/MainWindow.cpp" line="378"/>
         <source>&amp;Automatic (Burner&apos;s Own)</source>
         <translation>&amp;Automatisch (Burner-eigene)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="345"/>
+        <location filename="../src/ui/MainWindow.cpp" line="378"/>
         <source>&amp;Automatic (System)</source>
         <translation>&amp;Automatisch (System)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="346"/>
+        <location filename="../src/ui/MainWindow.cpp" line="379"/>
         <source>Automatic uses %1.</source>
         <translation>Automatisch verwendet %1.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="348"/>
+        <location filename="../src/ui/MainWindow.cpp" line="381"/>
         <source>&amp;Burner&apos;s Own</source>
         <translation>&amp;Burner-eigene</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="366"/>
+        <location filename="../src/ui/MainWindow.cpp" line="399"/>
         <source>&amp;Tools</source>
         <translation>&amp;Extras</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="368"/>
+        <location filename="../src/ui/MainWindow.cpp" line="401"/>
         <source>&amp;Refresh Drives</source>
         <translation>Laufwerke &amp;aktualisieren</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="371"/>
+        <location filename="../src/ui/MainWindow.cpp" line="404"/>
         <source>&amp;Eject</source>
         <translation>&amp;Auswerfen</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="377"/>
+        <location filename="../src/ui/MainWindow.cpp" line="410"/>
         <source>&amp;Checksum Calculator...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Prüfsummenrechner...</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="383"/>
+        <location filename="../src/ui/MainWindow.cpp" line="416"/>
         <source>&amp;Help</source>
         <translation>&amp;Hilfe</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="385"/>
+        <location filename="../src/ui/MainWindow.cpp" line="418"/>
         <source>&amp;About</source>
         <translation>&amp;Über</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="387"/>
+        <location filename="../src/ui/MainWindow.cpp" line="420"/>
         <source>About &amp;Qt</source>
         <translation>Über &amp;Qt</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="391"/>
+        <location filename="../src/ui/MainWindow.cpp" line="424"/>
         <source>Main</source>
         <translation>Hauptmenü</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="400"/>
+        <location filename="../src/ui/MainWindow.cpp" line="433"/>
         <source>Start burning disc</source>
         <translation>Disc-Brennen starten</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="544"/>
-        <location filename="../src/ui/MainWindow.cpp" line="915"/>
-        <location filename="../src/ui/MainWindow.cpp" line="969"/>
+        <location filename="../src/ui/MainWindow.cpp" line="577"/>
+        <location filename="../src/ui/MainWindow.cpp" line="948"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1002"/>
         <source>No Drive Selected</source>
         <translation>Kein Laufwerk ausgewählt</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="545"/>
+        <location filename="../src/ui/MainWindow.cpp" line="578"/>
         <source>Please select a drive to burn to.</source>
         <translation>Bitte wählen Sie ein Laufwerk zum Brennen.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="565"/>
+        <location filename="../src/ui/MainWindow.cpp" line="598"/>
         <source>%1 files, %2 MB total</source>
         <translation>%1 Dateien, %2 MB insgesamt</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="576"/>
+        <location filename="../src/ui/MainWindow.cpp" line="609"/>
         <source>%1 tracks, %2:%3 total duration</source>
         <translation>%1 Titel, %2:%3 Gesamtdauer</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="583"/>
+        <location filename="../src/ui/MainWindow.cpp" line="616"/>
         <source>Video CD (%1)</source>
         <translation>Video-CD (%1)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="585"/>
+        <location filename="../src/ui/MainWindow.cpp" line="618"/>
         <source>%1 videos</source>
         <translation>%1 Videos</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="589"/>
+        <location filename="../src/ui/MainWindow.cpp" line="622"/>
         <source>ISO Image</source>
         <translation>ISO-Image</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="589"/>
+        <location filename="../src/ui/MainWindow.cpp" line="622"/>
         <source>BIN/CUE Image</source>
-        <translation type="unfinished">BIN/CUE-Image</translation>
+        <translation>BIN/CUE-Image</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="591"/>
+        <location filename="../src/ui/MainWindow.cpp" line="624"/>
         <source>Image: %1
 Size: %2 MB</source>
         <translation>Image: %1
 Größe: %2 MB</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="597"/>
+        <location filename="../src/ui/MainWindow.cpp" line="630"/>
         <source>Unknown</source>
         <translation>Unbekannt</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="615"/>
+        <location filename="../src/ui/MainWindow.cpp" line="648"/>
         <source>Drive is Mounted</source>
         <translation>Laufwerk ist eingehängt</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="616"/>
+        <location filename="../src/ui/MainWindow.cpp" line="649"/>
         <source>The disc in %1 is currently mounted by the system.
 
 Please unmount the disc before burning:
@@ -2605,12 +2603,12 @@ Bitte hängen Sie die Disc vor dem Brennen aus:
 Oder verwenden Sie Ihren Dateimanager, um die Disc sicher auszuwerfen/auszuhängen.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="651"/>
+        <location filename="../src/ui/MainWindow.cpp" line="684"/>
         <source>Simulation Mode Warning</source>
         <translation>Warnung: Simulationsmodus</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="652"/>
+        <location filename="../src/ui/MainWindow.cpp" line="685"/>
         <source>Simulated burns may not work correctly on all disc types, especially write-once media like DVD-R and BD-R.
 
 After a simulated burn, you may need to eject and re-insert the disc to restore correct capacity reporting.
@@ -2623,12 +2621,12 @@ Nach einem simulierten Brennvorgang müssen Sie die Disc möglicherweise auswerf
 Möchten Sie mit der Simulation fortfahren?</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="694"/>
+        <location filename="../src/ui/MainWindow.cpp" line="727"/>
         <source>Data Too Large</source>
         <translation>Daten zu groß</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="695"/>
+        <location filename="../src/ui/MainWindow.cpp" line="728"/>
         <source>The data (%1 MB) is too large for the disc (%2 MB available).
 
 Please remove some files or use a larger capacity disc.</source>
@@ -2637,256 +2635,260 @@ Please remove some files or use a larger capacity disc.</source>
 Bitte entfernen Sie einige Dateien oder verwenden Sie eine Disc mit größerer Kapazität.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="743"/>
+        <location filename="../src/ui/MainWindow.cpp" line="776"/>
         <source>No Videos</source>
         <translation>Keine Videos</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="744"/>
+        <location filename="../src/ui/MainWindow.cpp" line="777"/>
         <source>Please add video files to burn.</source>
         <translation>Bitte fügen Sie Videodateien zum Brennen hinzu.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="765"/>
+        <location filename="../src/ui/MainWindow.cpp" line="798"/>
         <source>Use the &apos;Clone Disc&apos; button on the Clone tab to start cloning.</source>
         <translation>Verwenden Sie die Schaltfläche „Disc klonen&quot; auf der Registerkarte „Klonen&quot;, um das Klonen zu starten.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="769"/>
+        <location filename="../src/ui/MainWindow.cpp" line="802"/>
         <source>Not Implemented</source>
         <translation>Nicht implementiert</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="770"/>
+        <location filename="../src/ui/MainWindow.cpp" line="803"/>
         <source>This burn mode is not yet implemented.</source>
         <translation>Dieser Brennmodus ist noch nicht implementiert.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="783"/>
+        <location filename="../src/ui/MainWindow.cpp" line="816"/>
         <source>No Files</source>
         <translation>Keine Dateien</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="784"/>
+        <location filename="../src/ui/MainWindow.cpp" line="817"/>
         <source>Please add files to create an ISO image.</source>
         <translation>Bitte fügen Sie Dateien hinzu, um ein ISO-Image zu erstellen.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="796"/>
+        <location filename="../src/ui/MainWindow.cpp" line="829"/>
         <source>Volume Label</source>
         <translation>Datenträgerbezeichnung</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="797"/>
+        <location filename="../src/ui/MainWindow.cpp" line="830"/>
         <source>Enter volume label for the ISO:</source>
         <translation>Geben Sie die Datenträgerbezeichnung für das ISO ein:</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="810"/>
+        <location filename="../src/ui/MainWindow.cpp" line="843"/>
         <source>Creating ISO Image</source>
         <translation>ISO-Image wird erstellt</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="833"/>
+        <location filename="../src/ui/MainWindow.cpp" line="866"/>
         <source>No Source Drive</source>
         <translation>Kein Quelllaufwerk</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="834"/>
+        <location filename="../src/ui/MainWindow.cpp" line="867"/>
         <source>Please select a source drive to clone.</source>
         <translation>Bitte wählen Sie ein Quelllaufwerk zum Klonen.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="839"/>
+        <location filename="../src/ui/MainWindow.cpp" line="872"/>
         <source>No Output File</source>
         <translation>Keine Ausgabedatei</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="840"/>
+        <location filename="../src/ui/MainWindow.cpp" line="873"/>
         <source>Please specify an output file path for the disc image.</source>
         <translation>Bitte geben Sie einen Ausgabedateipfad für das Disc-Image an.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="851"/>
+        <location filename="../src/ui/MainWindow.cpp" line="884"/>
         <source>Cloning Disc</source>
         <translation>Disc wird geklont</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="916"/>
+        <location filename="../src/ui/MainWindow.cpp" line="949"/>
         <source>Please select a drive to blank.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitte wählen Sie ein Laufwerk zum Löschen.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="921"/>
+        <location filename="../src/ui/MainWindow.cpp" line="954"/>
         <source>full</source>
-        <translation type="unfinished"></translation>
+        <translation>vollständig</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="921"/>
+        <location filename="../src/ui/MainWindow.cpp" line="954"/>
         <source>quick</source>
-        <translation type="unfinished"></translation>
+        <translation>schnell</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="923"/>
+        <location filename="../src/ui/MainWindow.cpp" line="956"/>
         <source>Confirm Blank Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>Löschen der Disc bestätigen</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="924"/>
+        <location filename="../src/ui/MainWindow.cpp" line="957"/>
         <source>This will erase all data on the disc in %1.
 
 Blank type: %2
 
 This operation cannot be undone. Continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>Dadurch werden alle Daten auf der Disc in %1 gelöscht.
+
+Löschmodus: %2
+
+Dieser Vorgang kann nicht rückgängig gemacht werden. Fortfahren?</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="943"/>
+        <location filename="../src/ui/MainWindow.cpp" line="976"/>
         <source>Blanking Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>Disc wird gelöscht</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="970"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1003"/>
         <source>Please select a drive to check.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitte wählen Sie ein Laufwerk zum Prüfen.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="981"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1014"/>
         <source>Checking Disc Integrity</source>
-        <translation type="unfinished"></translation>
+        <translation>Disc-Integrität wird geprüft</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1020"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1053"/>
         <source>Data CD/DVD - Add files and folders to burn</source>
         <translation>Daten-CD/DVD - Dateien und Ordner zum Brennen hinzufügen</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1023"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1056"/>
         <source>Audio CD - Add audio tracks (MP3, FLAC, WAV)</source>
         <translation>Audio-CD - Audiotitel hinzufügen (MP3, FLAC, WAV)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1026"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1059"/>
         <source>Video CD - Add videos for VCD/SVCD</source>
         <translation>Video-CD - Videos für VCD/SVCD hinzufügen</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1029"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1062"/>
         <source>Burn ISO - Burn an ISO image file</source>
         <translation>ISO brennen - Eine ISO-Image-Datei brennen</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1032"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1065"/>
         <source>Clone Disc - Copy disc to image or image to disc</source>
         <translation>Disc klonen - Disc zu Image oder Image zu Disc kopieren</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1035"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1068"/>
         <source>Rip CD - Extract audio tracks from CD to files</source>
         <translation>CD auslesen - Audiotitel von CD zu Dateien extrahieren</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1038"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1071"/>
         <source>Browse ISO - Open and extract files from ISO images</source>
-        <translation type="unfinished"></translation>
+        <translation>ISO durchsuchen - ISO-Images öffnen und Dateien daraus extrahieren</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1045"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1078"/>
         <source>Scanning for drives...</source>
         <translation>Nach Laufwerken wird gesucht...</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1056"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1089"/>
         <source>Ejecting disc...</source>
         <translation>Disc wird ausgeworfen...</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1069"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1102"/>
         <source>About Burner</source>
         <translation>Über Burner</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1070"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1103"/>
         <source>&lt;h2&gt;Burner&lt;/h2&gt;&lt;p&gt;CD/DVD/Blu-ray Burning Application&lt;/p&gt;&lt;p&gt;Version %3&lt;/p&gt;&lt;p&gt;Built with Qt6 and libburnia (libburn, libisofs)&lt;/p&gt;&lt;p&gt;libburn version: %1&lt;/p&gt;&lt;p&gt;libisofs version: %2&lt;/p&gt;</source>
         <translation>&lt;h2&gt;Burner&lt;/h2&gt;&lt;p&gt;CD/DVD/Blu-ray-Brennanwendung&lt;/p&gt;&lt;p&gt;Version %3&lt;/p&gt;&lt;p&gt;Erstellt mit Qt6 und libburnia (libburn, libisofs)&lt;/p&gt;&lt;p&gt;libburn-Version: %1&lt;/p&gt;&lt;p&gt;libisofs-Version: %2&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1186"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1219"/>
         <source>Open Project</source>
         <translation>Projekt öffnen</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1188"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1250"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1221"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1283"/>
         <source>Burner Project (*.burn);;All Files (*)</source>
         <translation>Burner-Projekt (*.burn);;Alle Dateien (*)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1197"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1207"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1213"/>
         <location filename="../src/ui/MainWindow.cpp" line="1230"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1556"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1566"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1572"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1240"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1246"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1263"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1589"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1599"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1605"/>
         <source>Error</source>
         <translation>Fehler</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1198"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1557"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1231"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1590"/>
         <source>Could not open file: %1</source>
         <translation>Datei konnte nicht geöffnet werden: %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1208"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1567"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1241"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1600"/>
         <source>Invalid project file: %1</source>
         <translation>Ungültige Projektdatei: %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1214"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1573"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1247"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1606"/>
         <source>Failed to load project data.</source>
         <translation>Projektdaten konnten nicht geladen werden.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1231"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1264"/>
         <source>Could not save file: %1</source>
         <translation>Datei konnte nicht gespeichert werden: %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1241"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1274"/>
         <source>Project saved</source>
         <translation>Projekt gespeichert</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1248"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1281"/>
         <source>Save Project As</source>
         <translation>Projekt speichern unter</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1272"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1305"/>
         <source>Unsaved Changes</source>
         <translation>Ungespeicherte Änderungen</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1273"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1306"/>
         <source>The project has unsaved changes. Do you want to save them?</source>
         <translation>Das Projekt hat ungespeicherte Änderungen. Möchten Sie diese speichern?</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1405"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1438"/>
         <source>Burner</source>
         <translation>Burner</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1452"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1485"/>
         <source>Change Project Type</source>
         <translation>Projekttyp ändern</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1453"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1486"/>
         <source>You are adding files to create a %1.
 
 Files on other tabs will be cleared.
@@ -2899,25 +2901,26 @@ Dateien auf anderen Registerkarten werden gelöscht.
 Möchten Sie fortfahren?</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1524"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1557"/>
         <source>&amp;%1. %2</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;%1. %2</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1537"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1570"/>
         <source>&amp;Clear Recent Projects</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Liste leeren</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1544"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1577"/>
         <source>File Not Found</source>
-        <translation type="unfinished"></translation>
+        <translation>Datei nicht gefunden</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1545"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1578"/>
         <source>The project file no longer exists:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Projektdatei existiert nicht mehr:
+%1</translation>
     </message>
 </context>
 <context>
@@ -2971,6 +2974,59 @@ Möchten Sie fortfahren?</translation>
         <location filename="../src/ui/dialogs/RipProgressDialog.cpp" line="88"/>
         <source>Failed: %1</source>
         <translation>Fehlgeschlagen: %1</translation>
+    </message>
+</context>
+<context>
+    <name>Burner::UI::ThemeManager</name>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="21"/>
+        <source>Light</source>
+        <translation>Hell</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="27"/>
+        <source>Paper</source>
+        <translation>Papier</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="33"/>
+        <source>Frost</source>
+        <translation>Frost</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="39"/>
+        <source>Sage</source>
+        <translation>Salbei</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="45"/>
+        <source>Blossom</source>
+        <translation>Blüte</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="51"/>
+        <source>Dark</source>
+        <translation>Dunkel</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="57"/>
+        <source>Ember</source>
+        <translation>Glut</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="63"/>
+        <source>Graphite</source>
+        <translation>Graphit</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="69"/>
+        <source>Ocean</source>
+        <translation>Ozean</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="75"/>
+        <source>Amethyst</source>
+        <translation>Amethyst</translation>
     </message>
 </context>
 <context>

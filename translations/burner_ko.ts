@@ -139,7 +139,7 @@ Reason: %2</source>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="222"/>
         <source>Appendable disc detected - importing previous session...</source>
-        <translation type="unfinished"></translation>
+        <translation>추가 가능한 디스크 감지됨 - 이전 세션 가져오는 중...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="275"/>
@@ -159,52 +159,52 @@ Reason: %2</source>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="319"/>
         <source>Validating CUE file...</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE 파일 검증 중...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="323"/>
         <source>CUE file validation failed</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE 파일 검증 실패</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="328"/>
         <source>Parsing CUE sheet...</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE 시트 분석 중...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="331"/>
         <source>Failed to parse CUE file: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE 파일 분석 실패: %1</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="333"/>
         <source>CUE parsing failed</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE 분석 실패</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="338"/>
         <source>CUE validation failed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE 검증 실패: %1</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="340"/>
         <source>CUE validation failed</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE 검증 실패</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="348"/>
         <source>BIN file validation failed</source>
-        <translation type="unfinished"></translation>
+        <translation>BIN 파일 검증 실패</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="365"/>
         <source>Burning CUE image with %1 track(s)...</source>
-        <translation type="unfinished"></translation>
+        <translation>%1개 트랙으로 CUE 이미지 굽는 중...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="374"/>
         <source>CUE image burn completed successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE 이미지 굽기 완료</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="389"/>
@@ -264,27 +264,27 @@ Reason: %2</source>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="477"/>
         <source>Initializing integrity check...</source>
-        <translation type="unfinished"></translation>
+        <translation>무결성 검사 초기화 중...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="487"/>
         <source>Checking disc integrity...</source>
-        <translation type="unfinished"></translation>
+        <translation>디스크 무결성 검사 중...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="496"/>
         <source>Integrity check cancelled</source>
-        <translation type="unfinished"></translation>
+        <translation>무결성 검사 취소됨</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="498"/>
         <source>Integrity check passed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>무결성 검사 통과: %1</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="500"/>
         <source>Integrity check found %1 bad sector(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>무결성 검사에서 불량 섹터 %1개 발견</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="558"/>
@@ -360,12 +360,12 @@ Reason: %2</source>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="684"/>
         <source>Reading disc to BIN/CUE image...</source>
-        <translation type="unfinished"></translation>
+        <translation>디스크에서 BIN/CUE 이미지 읽는 중...</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="694"/>
         <source>BIN/CUE image created successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>BIN/CUE 이미지 생성 완료</translation>
     </message>
     <message>
         <location filename="../src/engine/BurnWorker.cpp" line="709"/>
@@ -555,17 +555,17 @@ Reason: %2</source>
     <message>
         <location filename="../src/engine/ChecksumWorker.cpp" line="19"/>
         <source>File not found or not readable: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>파일을 찾을 수 없거나 읽을 수 없습니다: %1</translation>
     </message>
     <message>
         <location filename="../src/engine/ChecksumWorker.cpp" line="38"/>
         <source>Cancelled</source>
-        <translation type="unfinished">취소됨</translation>
+        <translation>취소됨</translation>
     </message>
     <message>
         <location filename="../src/engine/ChecksumWorker.cpp" line="54"/>
         <source>Checksums calculated successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>체크섬 계산 완료</translation>
     </message>
 </context>
 <context>
@@ -782,17 +782,17 @@ Reason: %2</source>
     <message>
         <location filename="../src/models/IsoTreeModel.cpp" line="145"/>
         <source>Name</source>
-        <translation type="unfinished">이름</translation>
+        <translation>이름</translation>
     </message>
     <message>
         <location filename="../src/models/IsoTreeModel.cpp" line="146"/>
         <source>Size</source>
-        <translation type="unfinished">크기</translation>
+        <translation>크기</translation>
     </message>
     <message>
         <location filename="../src/models/IsoTreeModel.cpp" line="147"/>
         <source>Date Modified</source>
-        <translation type="unfinished"></translation>
+        <translation>수정한 날짜</translation>
     </message>
 </context>
 <context>
@@ -806,74 +806,74 @@ Reason: %2</source>
 <context>
     <name>Burner::UI::AudioCdPage</name>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="49"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="50"/>
         <source>Audio CD</source>
         <translation>오디오 CD</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="58"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="59"/>
         <source>Red Book CD-DA (44.1kHz 16-bit Stereo)</source>
         <translation>Red Book CD-DA (44.1kHz 16비트 스테레오)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="60"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="61"/>
         <source>Total: 0:00 / 80:00</source>
         <translation>전체: 0:00 / 80:00</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="95"/>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="131"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="97"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="133"/>
         <source>Remove</source>
         <translation>제거</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="110"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="112"/>
         <source>Drop audio files here
 (MP3, FLAC, WAV, OGG)</source>
         <translation>오디오 파일을 여기에 끌어다 놓으세요
 (MP3, FLAC, WAV, OGG)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="87"/>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="120"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="89"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="122"/>
         <source>Add Tracks...</source>
         <translation>트랙 추가...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="90"/>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="123"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="92"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="125"/>
         <source>Move Up</source>
         <translation>위로 이동</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="92"/>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="126"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="94"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="128"/>
         <source>Move Down</source>
         <translation>아래로 이동</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="97"/>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="134"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="99"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="136"/>
         <source>Clear All</source>
         <translation>모두 지우기</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="158"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="160"/>
         <source>Warning: Total duration exceeds 80 minutes!</source>
         <translation>경고: 총 길이가 80분을 초과합니다!</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="171"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="173"/>
         <source>Total: %1:%2 / 80:00</source>
         <translation>전체: %1:%2 / 80:00</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="179"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="181"/>
         <source>Select Audio Files</source>
         <translation>오디오 파일 선택</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AudioCdPage.cpp" line="181"/>
+        <location filename="../src/ui/pages/AudioCdPage.cpp" line="183"/>
         <source>Audio Files (*.mp3 *.flac *.wav *.ogg *.aac *.m4a *.wma);;All Files (*)</source>
         <translation>오디오 파일 (*.mp3 *.flac *.wav *.ogg *.aac *.m4a *.wma);;모든 파일 (*)</translation>
     </message>
@@ -881,12 +881,12 @@ Reason: %2</source>
 <context>
     <name>Burner::UI::BurnLog</name>
     <message>
-        <location filename="../src/ui/widgets/BurnLog.cpp" line="133"/>
+        <location filename="../src/ui/widgets/BurnLog.cpp" line="134"/>
         <source>Hide Log</source>
         <translation>로그 숨기기</translation>
     </message>
     <message>
-        <location filename="../src/ui/widgets/BurnLog.cpp" line="133"/>
+        <location filename="../src/ui/widgets/BurnLog.cpp" line="134"/>
         <source>Show Log</source>
         <translation>로그 보기</translation>
     </message>
@@ -894,91 +894,92 @@ Reason: %2</source>
 <context>
     <name>Burner::UI::BurnOptionsDialog</name>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="17"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="18"/>
         <source>Burn Options</source>
         <translation>굽기 옵션</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="55"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="56"/>
         <source>Appending to existing disc (Session %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>기존 디스크에 추가 (세션 %1)</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="60"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="61"/>
         <source>Recommended: Keep disc open for future sessions.
 Uncheck to finalize the disc (no more data can be added).</source>
-        <translation type="unfinished"></translation>
+        <translation>권장: 이후 세션을 위해 디스크를 열어 둡니다.
+선택을 해제하면 디스크가 완료되고 닫힙니다(더 이상 데이터를 추가할 수 없음).</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="69"/>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="119"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="70"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="120"/>
         <source>Maximum</source>
         <translation>최대</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="89"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="90"/>
         <source>Burn Summary</source>
         <translation>굽기 요약</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="109"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="110"/>
         <source>Volume Label:</source>
         <translation>볼륨 레이블:</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="111"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="112"/>
         <source>DISC</source>
         <translation>DISC</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="120"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="121"/>
         <source>Write Speed:</source>
         <translation>쓰기 속도:</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="124"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="125"/>
         <source>Options</source>
         <translation>옵션</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="127"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="128"/>
         <source>Simulate (dry run - don&apos;t actually burn)</source>
         <translation>시뮬레이션 (실제로 굽지 않음)</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="130"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="131"/>
         <source>Verify disc after burning</source>
         <translation>굽기 후 디스크 검증</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="134"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="135"/>
         <source>Eject disc when finished</source>
         <translation>완료 시 디스크 꺼내기</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="138"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="139"/>
         <source>Enable buffer underrun protection</source>
         <translation>버퍼 언더런 보호 활성화</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="147"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="149"/>
         <source>Leave disc open for additional sessions</source>
         <translation>추가 세션을 위해 디스크 열어두기</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="149"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="151"/>
         <source>If checked, the disc can have more data added later.
 If unchecked (default), the disc will be finalized and closed.</source>
         <translation>선택하면 나중에 디스크에 더 많은 데이터를 추가할 수 있습니다.
 선택하지 않으면 (기본값) 디스크가 완료되고 닫힙니다.</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="153"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="155"/>
         <source>Blank rewritable disc before burning</source>
         <translation>굽기 전에 재기록 가능 디스크 지우기</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="155"/>
+        <location filename="../src/ui/dialogs/BurnOptionsDialog.cpp" line="157"/>
         <source>For CD-RW, DVD-RW, DVD+RW, or BD-RE discs:
 Erase existing data before writing new content.</source>
         <translation>CD-RW, DVD-RW, DVD+RW 또는 BD-RE 디스크:
@@ -988,197 +989,198 @@ Erase existing data before writing new content.</source>
 <context>
     <name>Burner::UI::BurnProgressDialog</name>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="21"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="22"/>
         <source>Burning Disc</source>
         <translation>디스크 굽는 중</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="42"/>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="50"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="43"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="51"/>
         <source>Read: --</source>
         <translation>읽기: --</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="38"/>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="276"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="39"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="279"/>
         <source>Speed: --</source>
         <translation>속도: --</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="76"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="77"/>
         <source>Elapsed: %1 | Remaining: %2</source>
         <translation>경과: %1 | 남음: %2</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="86"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="87"/>
         <source>Read: </source>
         <translation>읽기: </translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="86"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="87"/>
         <source>Speed: </source>
         <translation>속도: </translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="133"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="134"/>
         <source>Clone Complete</source>
         <translation>복제 완료</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="152"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="153"/>
         <source>Burn Complete</source>
         <translation>굽기 완료</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="134"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="135"/>
         <source>Clone Failed</source>
         <translation>복제 실패</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="153"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="154"/>
         <source>Burn Failed</source>
         <translation>굽기 실패</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="135"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="136"/>
         <source>Clone completed successfully!</source>
         <translation>복제 완료!</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="154"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="155"/>
         <source>Burn completed successfully!</source>
         <translation>굽기 완료!</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="136"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="137"/>
         <source>Clone failed: %1</source>
         <translation>복제 실패: %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="155"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="156"/>
         <source>Burn failed: %1</source>
         <translation>굽기 실패: %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="193"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="196"/>
         <source>Cancel Clone?</source>
         <translation>복제를 취소하시겠습니까?</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="207"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="210"/>
         <source>Cancel Burn?</source>
         <translation>굽기를 취소하시겠습니까?</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="194"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="197"/>
         <source>Are you sure you want to cancel the clone operation?</source>
         <translation>복제 작업을 취소하시겠습니까?</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="112"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="113"/>
         <source>%1%2x %3 (%4 KB/s)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="139"/>
-        <source>Blank Complete</source>
-        <translation type="unfinished"></translation>
+        <translation>%1%2x %3 (%4 KB/s)</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="140"/>
-        <source>Blank Failed</source>
-        <translation type="unfinished"></translation>
+        <source>Blank Complete</source>
+        <translation>지우기 완료</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="141"/>
-        <source>Disc blanked successfully!</source>
-        <translation type="unfinished"></translation>
+        <source>Blank Failed</source>
+        <translation>지우기 실패</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="142"/>
-        <source>Blank failed: %1</source>
-        <translation type="unfinished"></translation>
+        <source>Disc blanked successfully!</source>
+        <translation>디스크 지우기 완료!</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="145"/>
-        <source>Integrity Check Complete</source>
-        <translation type="unfinished"></translation>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="143"/>
+        <source>Blank failed: %1</source>
+        <translation>지우기 실패: %1</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="146"/>
-        <source>Integrity Check Failed</source>
-        <translation type="unfinished"></translation>
+        <source>Integrity Check Complete</source>
+        <translation>무결성 검사 완료</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="147"/>
-        <source>Integrity check passed!</source>
-        <translation type="unfinished"></translation>
+        <source>Integrity Check Failed</source>
+        <translation>무결성 검사 실패</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="148"/>
+        <source>Integrity check passed!</source>
+        <translation>무결성 검사 통과!</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="149"/>
         <source>Integrity check failed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>무결성 검사 실패: %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="197"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="200"/>
         <source>Cancel Blank?</source>
-        <translation type="unfinished"></translation>
+        <translation>지우기를 취소하시겠습니까?</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="198"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="201"/>
         <source>Are you sure you want to cancel the blank operation?
 The disc may be left in an inconsistent state.</source>
-        <translation type="unfinished"></translation>
+        <translation>지우기 작업을 취소하시겠습니까?
+디스크가 불완전한 상태로 남을 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="202"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="205"/>
         <source>Cancel Integrity Check?</source>
-        <translation type="unfinished"></translation>
+        <translation>무결성 검사를 취소하시겠습니까?</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="203"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="206"/>
         <source>Are you sure you want to cancel the integrity check?</source>
-        <translation type="unfinished"></translation>
+        <translation>정말 무결성 검사를 취소하시겠습니까?</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="208"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="211"/>
         <source>Are you sure you want to cancel the burn operation?
 The disc may be unusable.</source>
         <translation>굽기 작업을 취소하시겠습니까?
 디스크를 사용할 수 없게 될 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="221"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="224"/>
         <source>Cancelling...</source>
         <translation>취소 중...</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="234"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="237"/>
         <source>Preparing to burn...</source>
         <translation>굽기 준비 중...</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="260"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="263"/>
         <source>Buffer:</source>
         <translation>버퍼:</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="283"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="286"/>
         <source>Burn operation initialized</source>
         <translation>굽기 작업 초기화됨</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="291"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="294"/>
         <source>Play sound on completion</source>
         <translation>완료 시 소리 재생</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="300"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="303"/>
         <source>Cancel</source>
         <translation>취소</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="304"/>
+        <location filename="../src/ui/dialogs/BurnProgressDialog.cpp" line="307"/>
         <source>Close</source>
         <translation>닫기</translation>
     </message>
@@ -1235,7 +1237,7 @@ The disc may be unusable.</source>
         <location filename="../src/ui/pages/CdRipperPage.cpp" line="134"/>
         <location filename="../src/ui/pages/CdRipperPage.cpp" line="135"/>
         <source>Cancelling...</source>
-        <translation type="unfinished">취소 중...</translation>
+        <translation>취소 중...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/CdRipperPage.cpp" line="144"/>
@@ -1366,7 +1368,7 @@ The disc may be unusable.</source>
         <location filename="../src/ui/pages/CdRipperPage.cpp" line="281"/>
         <location filename="../src/ui/pages/CdRipperPage.cpp" line="603"/>
         <source>Cancel</source>
-        <translation type="unfinished">취소</translation>
+        <translation>취소</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/CdRipperPage.cpp" line="284"/>
@@ -1505,116 +1507,116 @@ The disc may be unusable.</source>
 <context>
     <name>Burner::UI::ChecksumDialog</name>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="21"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="22"/>
         <source>Checksum Calculator</source>
-        <translation type="unfinished"></translation>
+        <translation>체크섬 계산기</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="35"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="36"/>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>파일</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="39"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="40"/>
         <source>Select a file...</source>
-        <translation type="unfinished"></translation>
+        <translation>파일 선택...</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="42"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="43"/>
         <source>Browse...</source>
-        <translation type="unfinished">찾아보기...</translation>
+        <translation>찾아보기...</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="48"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="49"/>
         <source>Calculate Checksums</source>
-        <translation type="unfinished"></translation>
+        <translation>체크섬 계산</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="60"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="61"/>
         <source>Results</source>
-        <translation type="unfinished"></translation>
+        <translation>결과</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="66"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="67"/>
         <source>MD5:</source>
-        <translation type="unfinished"></translation>
+        <translation>MD5:</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="72"/>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="81"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="73"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="82"/>
         <source>Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>복사</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="75"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="76"/>
         <source>SHA-256:</source>
-        <translation type="unfinished"></translation>
+        <translation>SHA-256:</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="88"/>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="96"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="89"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="97"/>
         <source>Verify</source>
-        <translation type="unfinished"></translation>
+        <translation>검증</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="92"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="93"/>
         <source>Paste expected checksum...</source>
-        <translation type="unfinished"></translation>
+        <translation>예상 체크섬 붙여넣기...</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="107"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="108"/>
         <source>Close</source>
-        <translation type="unfinished">닫기</translation>
+        <translation>닫기</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="121"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="122"/>
         <source>Select File</source>
-        <translation type="unfinished"></translation>
+        <translation>파일 선택</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="130"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="131"/>
         <source>Please select a file first.</source>
-        <translation type="unfinished"></translation>
+        <translation>먼저 파일을 선택하세요.</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="141"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="142"/>
         <source>Calculating...</source>
-        <translation type="unfinished"></translation>
+        <translation>계산 중...</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="171"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="172"/>
         <source>Enter a checksum to verify</source>
-        <translation type="unfinished"></translation>
+        <translation>검증할 체크섬을 입력하세요</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="186"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="188"/>
         <source>Unrecognized checksum length</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="192"/>
-        <source>%1 MATCH</source>
-        <translation type="unfinished"></translation>
+        <translation>인식할 수 없는 체크섬 길이</translation>
     </message>
     <message>
         <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="195"/>
+        <source>%1 MATCH</source>
+        <translation>%1 일치</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="199"/>
         <source>%1 MISMATCH</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 불일치</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="213"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="218"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>완료</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="219"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="224"/>
         <source>MD5 copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>MD5가 클립보드에 복사됨</translation>
     </message>
     <message>
-        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="226"/>
+        <location filename="../src/ui/dialogs/ChecksumDialog.cpp" line="231"/>
         <source>SHA-256 copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>SHA-256이 클립보드에 복사됨</translation>
     </message>
 </context>
 <context>
@@ -1625,88 +1627,88 @@ The disc may be unusable.</source>
         <translation>데이터 CD/DVD</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="101"/>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="136"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="98"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="133"/>
         <source>Remove</source>
         <translation>제거</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="116"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="113"/>
         <source>Drop files or folders here
 to add to disc</source>
         <translation>디스크에 추가할 파일이나
 폴더를 여기에 끌어다 놓으세요</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="96"/>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="125"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="93"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="122"/>
         <source>Add Files...</source>
         <translation>파일 추가...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="97"/>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="128"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="94"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="125"/>
         <source>Add Folder...</source>
         <translation>폴더 추가...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="98"/>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="131"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="95"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="128"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="195"/>
         <location filename="../src/ui/pages/DataDiscPage.cpp" line="198"/>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="201"/>
         <source>New Folder</source>
         <translation>새 폴더</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="103"/>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="139"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="100"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="136"/>
         <source>Clear All</source>
         <translation>모두 지우기</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="144"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="141"/>
         <source>Save as ISO...</source>
         <translation>ISO로 저장...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="145"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="142"/>
         <source>Save disc contents to an ISO file</source>
         <translation>디스크 내용을 ISO 파일로 저장</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="171"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="168"/>
         <source>Select Files</source>
         <translation>파일 선택</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="173"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="170"/>
         <source>All Files (*)</source>
         <translation>모든 파일 (*)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="184"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="181"/>
         <source>Select Folder</source>
         <translation>폴더 선택</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="199"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="196"/>
         <source>Folder name:</source>
         <translation>폴더 이름:</translation>
     </message>
     <message numerus="yes">
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="233"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="230"/>
         <source>Disc contains %n existing session(s) — new data will be appended</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>디스크에 기존 세션 %n개가 있습니다 — 새 데이터가 추가됩니다</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="249"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="246"/>
         <source>Save ISO Image</source>
         <translation>ISO 이미지 저장</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/DataDiscPage.cpp" line="251"/>
+        <location filename="../src/ui/pages/DataDiscPage.cpp" line="248"/>
         <source>ISO Images (*.iso);;All Files (*)</source>
         <translation>ISO 이미지 (*.iso);;모든 파일 (*)</translation>
     </message>
@@ -1723,7 +1725,9 @@ to add to disc</source>
         <source>Create an exact copy of a disc as an image file.
 ISO format stores data sectors. BIN/CUE preserves raw sectors and audio tracks.
 The disc must be unmounted before cloning.</source>
-        <translation type="unfinished"></translation>
+        <translation>디스크의 정확한 복사본을 이미지 파일로 만듭니다.
+ISO 형식은 데이터 섹터를 저장합니다. BIN/CUE는 원시 섹터와 오디오 트랙을 보존합니다.
+복제하기 전에 디스크를 마운트 해제해야 합니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="84"/>
@@ -1733,17 +1737,17 @@ The disc must be unmounted before cloning.</source>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="88"/>
         <source>ISO Image (.iso)</source>
-        <translation type="unfinished"></translation>
+        <translation>ISO 이미지 (.iso)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="89"/>
         <source>BIN/CUE Image (.bin/.cue)</source>
-        <translation type="unfinished"></translation>
+        <translation>BIN/CUE 이미지 (.bin/.cue)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="91"/>
         <source>Format:</source>
-        <translation type="unfinished">형식:</translation>
+        <translation>형식:</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="96"/>
@@ -1768,53 +1772,54 @@ The disc must be unmounted before cloning.</source>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="117"/>
         <source>Blank Rewritable Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>재기록 가능 디스크 지우기</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="121"/>
         <source>Erase a CD-RW, DVD-RW, DVD+RW, or BD-RE disc to prepare it for new data.</source>
-        <translation type="unfinished"></translation>
+        <translation>CD-RW, DVD-RW, DVD+RW 또는 BD-RE 디스크를 지워 새 데이터를 쓸 수 있도록 준비합니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="127"/>
         <source>Quick blank (fast, erases table of contents only)</source>
-        <translation type="unfinished"></translation>
+        <translation>빠른 지우기 (빠름, TOC만 지움)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="128"/>
         <source>Full blank (slow, erases entire disc)</source>
-        <translation type="unfinished"></translation>
+        <translation>전체 지우기 (느림, 디스크 전체를 지움)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="136"/>
         <source>Blank Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>디스크 지우기</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="146"/>
         <source>Check Disc Integrity</source>
-        <translation type="unfinished"></translation>
+        <translation>디스크 무결성 검사</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="150"/>
         <source>Verify that all sectors on the disc are readable.
 This can help detect scratches or degraded media before data loss occurs.</source>
-        <translation type="unfinished"></translation>
+        <translation>디스크의 모든 섹터를 읽을 수 있는지 확인합니다.
+데이터 손실이 발생하기 전에 긁힘이나 열화된 미디어를 감지하는 데 도움이 됩니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="157"/>
         <source>Stop on first error</source>
-        <translation type="unfinished"></translation>
+        <translation>첫 오류 발생 시 중지</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="163"/>
         <source>Check Integrity</source>
-        <translation type="unfinished"></translation>
+        <translation>무결성 검사</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="193"/>
         <source>BIN Images (*.bin);;All Files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>BIN 이미지 (*.bin);;모든 파일 (*)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/DiscClonerPage.cpp" line="202"/>
@@ -1895,142 +1900,143 @@ or use Add button</source>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="43"/>
         <source>Browse ISO Image</source>
-        <translation type="unfinished"></translation>
+        <translation>ISO 이미지 탐색</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="50"/>
         <source>Open an ISO image to browse its contents. You can extract individual files or the entire image.</source>
-        <translation type="unfinished"></translation>
+        <translation>ISO 이미지를 열어 내용을 탐색합니다. 개별 파일 또는 전체 이미지를 추출할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="58"/>
         <source>Drag and drop an ISO file here, or use the Browse button below</source>
-        <translation type="unfinished">ISO 파일을 여기에 끌어다 놓거나 아래 찾아보기 버튼을 사용하세요</translation>
+        <translation>ISO 파일을 여기에 끌어다 놓거나 아래의 찾아보기 버튼을 사용하세요</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="74"/>
         <source>ISO File:</source>
-        <translation type="unfinished">ISO 파일:</translation>
+        <translation>ISO 파일:</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="77"/>
         <source>Select an ISO image file...</source>
-        <translation type="unfinished"></translation>
+        <translation>ISO 이미지 파일 선택...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="81"/>
         <source>Browse...</source>
-        <translation type="unfinished">찾아보기...</translation>
+        <translation>찾아보기...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="84"/>
         <source>Clear</source>
-        <translation type="unfinished">지우기</translation>
+        <translation>지우기</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="91"/>
         <source>Image Information</source>
-        <translation type="unfinished"></translation>
+        <translation>이미지 정보</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="97"/>
         <source>Volume Label:</source>
-        <translation type="unfinished">볼륨 레이블:</translation>
+        <translation>볼륨 레이블:</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="102"/>
         <source>Total Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>전체 크기:</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="106"/>
         <source>Files:</source>
-        <translation type="unfinished"></translation>
+        <translation>파일 수:</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="134"/>
         <source>Extract Selected...</source>
-        <translation type="unfinished"></translation>
+        <translation>선택 항목 추출...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="138"/>
         <source>Extract All...</source>
-        <translation type="unfinished"></translation>
+        <translation>모두 추출...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="162"/>
         <source>Extract...</source>
-        <translation type="unfinished"></translation>
+        <translation>추출...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="170"/>
         <source>Open ISO Image</source>
-        <translation type="unfinished"></translation>
+        <translation>ISO 이미지 열기</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="172"/>
         <source>ISO Images (*.iso *.img);;All Files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>ISO 이미지 (*.iso *.img);;모든 파일 (*)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="182"/>
         <source>Error</source>
-        <translation type="unfinished">오류</translation>
+        <translation>오류</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="183"/>
         <source>Failed to open ISO image:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ISO 이미지를 열 수 없습니다:
+%1</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="222"/>
         <source>(none)</source>
-        <translation type="unfinished">(없음)</translation>
+        <translation>(없음)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="243"/>
         <source>No Selection</source>
-        <translation type="unfinished"></translation>
+        <translation>선택 항목 없음</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="244"/>
         <source>Please select files or folders to extract.</source>
-        <translation type="unfinished"></translation>
+        <translation>추출할 파일이나 폴더를 선택하세요.</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="249"/>
         <source>Extract to Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>디렉터리에 추출</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="257"/>
         <source>Extracting files...</source>
-        <translation type="unfinished"></translation>
+        <translation>파일 추출 중...</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="257"/>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="297"/>
         <source>Cancel</source>
-        <translation type="unfinished">취소</translation>
+        <translation>취소</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="275"/>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="312"/>
         <source>Extraction Complete</source>
-        <translation type="unfinished"></translation>
+        <translation>추출 완료</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="276"/>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="313"/>
         <source>Successfully extracted %1 file(s).</source>
-        <translation type="unfinished"></translation>
+        <translation>%1개 파일을 추출했습니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="278"/>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="315"/>
         <source>Extraction</source>
-        <translation type="unfinished"></translation>
+        <translation>추출</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="279"/>
@@ -2038,289 +2044,291 @@ or use Add button</source>
         <source>Extracted %1 file(s) with %2 error(s).
 
 %3</source>
-        <translation type="unfinished"></translation>
+        <translation>%1개 파일을 추출했으나 %2개 오류가 발생했습니다.
+
+%3</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="288"/>
         <source>Extract All to Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>디렉터리에 모두 추출</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoBrowserPage.cpp" line="297"/>
         <source>Extracting all files...</source>
-        <translation type="unfinished"></translation>
+        <translation>모든 파일 추출 중...</translation>
     </message>
 </context>
 <context>
     <name>Burner::UI::IsoWriterPage</name>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="88"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="89"/>
         <source>Browse...</source>
         <translation>찾아보기...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="91"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="92"/>
         <source>Clear</source>
         <translation>지우기</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="106"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="107"/>
         <source>Volume Label:</source>
         <translation>볼륨 레이블:</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="111"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="112"/>
         <source>Size:</source>
         <translation>크기:</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="115"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="116"/>
         <source>Type:</source>
         <translation>유형:</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="126"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="127"/>
         <source>Recommended Disc:</source>
         <translation>권장 디스크:</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="50"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="51"/>
         <source>Burn Disc Image</source>
-        <translation type="unfinished"></translation>
+        <translation>디스크 이미지 굽기</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="58"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="59"/>
         <source>Select an ISO, BIN/CUE, or other disc image file to burn to disc. The disc will be an exact copy of the image.</source>
-        <translation type="unfinished"></translation>
+        <translation>디스크에 구울 ISO, BIN/CUE 또는 기타 디스크 이미지 파일을 선택하세요. 디스크는 이미지의 정확한 복사본이 됩니다.</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="66"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="67"/>
         <source>Drag and drop an image file here, or use the Browse button below</source>
-        <translation type="unfinished"></translation>
+        <translation>이미지 파일을 여기에 끌어다 놓거나 아래의 찾아보기 버튼을 사용하세요</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="82"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="83"/>
         <source>Image File:</source>
-        <translation type="unfinished"></translation>
+        <translation>이미지 파일:</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="85"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="86"/>
         <source>Select or drop a disc image file...</source>
-        <translation type="unfinished"></translation>
+        <translation>디스크 이미지 파일을 선택하거나 끌어다 놓으세요...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="98"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="99"/>
         <source>Image Information</source>
-        <translation type="unfinished"></translation>
+        <translation>이미지 정보</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="119"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="120"/>
         <source>Tracks:</source>
-        <translation type="unfinished"></translation>
+        <translation>트랙:</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="135"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="136"/>
         <source>MD5:</source>
-        <translation type="unfinished"></translation>
+        <translation>MD5:</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="141"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="142"/>
         <source>SHA-256:</source>
-        <translation type="unfinished"></translation>
+        <translation>SHA-256:</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="155"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="156"/>
         <source>Paste expected checksum to verify...</source>
-        <translation type="unfinished"></translation>
+        <translation>검증할 예상 체크섬 붙여넣기...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="159"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="160"/>
         <source>Verify</source>
-        <translation type="unfinished"></translation>
+        <translation>검증</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="182"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="183"/>
         <source>Select Disc Image</source>
-        <translation type="unfinished"></translation>
+        <translation>디스크 이미지 선택</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="184"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="185"/>
         <source>Disc Images (*.iso *.img *.bin *.cue *.nrg);;CUE Sheets (*.cue);;ISO Images (*.iso *.img);;All Files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>디스크 이미지 (*.iso *.img *.bin *.cue *.nrg);;CUE 시트 (*.cue);;ISO 이미지 (*.iso *.img);;모든 파일 (*)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="285"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="287"/>
         <source>File not found: %1</source>
         <translation>파일을 찾을 수 없습니다: %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="311"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="386"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="313"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="388"/>
         <source>(none)</source>
         <translation>(없음)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="319"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="321"/>
         <source>Nero Image</source>
         <translation>Nero 이미지</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="321"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="323"/>
         <source>BIN/CUE Image</source>
         <translation>BIN/CUE 이미지</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="323"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="325"/>
         <source>ISO 9660 Image</source>
         <translation>ISO 9660 이미지</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="330"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="432"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="332"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="434"/>
         <source>CD (700 MB)</source>
         <translation>CD (700 MB)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="332"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="434"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="334"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="436"/>
         <source>DVD (4.7 GB)</source>
         <translation>DVD (4.7 GB)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="334"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="436"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="336"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="438"/>
         <source>DVD DL (8.5 GB)</source>
         <translation>DVD DL (8.5 GB)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="336"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="438"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="338"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="440"/>
         <source>BD (25 GB)</source>
         <translation>BD (25 GB)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="338"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="440"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="340"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="442"/>
         <source>BD DL (50 GB)</source>
         <translation>BD DL (50 GB)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="340"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="442"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="342"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="444"/>
         <source>BD XL (100+ GB)</source>
         <translation>BD XL (100+ GB)</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="349"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="351"/>
         <source>Invalid or unsupported image format</source>
         <translation>유효하지 않거나 지원되지 않는 이미지 형식</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="358"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="360"/>
         <source>Failed to parse CUE file: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE 파일 분석 실패: %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="369"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="371"/>
         <source>CUE validation failed: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="394"/>
-        <source>Audio CD (%1 tracks)</source>
-        <translation type="unfinished"></translation>
+        <translation>CUE 검증 실패: %1</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="396"/>
-        <source>Mixed Mode CD (%1 tracks)</source>
-        <translation type="unfinished"></translation>
+        <source>Audio CD (%1 tracks)</source>
+        <translation>오디오 CD (%1개 트랙)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="398"/>
-        <source>Data Disc (BIN/CUE)</source>
-        <translation type="unfinished"></translation>
+        <source>Mixed Mode CD (%1 tracks)</source>
+        <translation>혼합 모드 CD (%1개 트랙)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="400"/>
+        <source>Data Disc (BIN/CUE)</source>
+        <translation>데이터 디스크 (BIN/CUE)</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="402"/>
         <source>BIN/CUE Image (%1 tracks)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="410"/>
-        <source>Audio</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="411"/>
-        <source>Data (MODE1/2048)</source>
-        <translation type="unfinished"></translation>
+        <translation>BIN/CUE 이미지 (%1개 트랙)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="412"/>
-        <source>Data (MODE1/2352)</source>
-        <translation type="unfinished"></translation>
+        <source>Audio</source>
+        <translation>오디오</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="413"/>
-        <source>Data (MODE2/2336)</source>
-        <translation type="unfinished"></translation>
+        <source>Data (MODE1/2048)</source>
+        <translation>데이터 (MODE1/2048)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="414"/>
-        <source>Data (MODE2/2352)</source>
-        <translation type="unfinished"></translation>
+        <source>Data (MODE1/2352)</source>
+        <translation>데이터 (MODE1/2352)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="415"/>
-        <source>Unknown</source>
-        <translation type="unfinished">알 수 없음</translation>
+        <source>Data (MODE2/2336)</source>
+        <translation>데이터 (MODE2/2336)</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="416"/>
+        <source>Data (MODE2/2352)</source>
+        <translation>데이터 (MODE2/2352)</translation>
     </message>
     <message>
         <location filename="../src/ui/pages/IsoWriterPage.cpp" line="417"/>
+        <source>Unknown</source>
+        <translation>알 수 없음</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="419"/>
         <source>Track %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>트랙 %1: %2</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="564"/>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="565"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="566"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="567"/>
         <source>Calculating...</source>
-        <translation type="unfinished"></translation>
+        <translation>계산 중...</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="630"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="632"/>
         <source>Enter a checksum to verify</source>
-        <translation type="unfinished"></translation>
+        <translation>검증할 체크섬을 입력하세요</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="645"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="648"/>
         <source>Unrecognized checksum length</source>
-        <translation type="unfinished"></translation>
+        <translation>인식할 수 없는 체크섬 길이</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="651"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="655"/>
         <source>%1 MATCH</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 일치</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="654"/>
+        <location filename="../src/ui/pages/IsoWriterPage.cpp" line="659"/>
         <source>%1 MISMATCH</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 불일치</translation>
     </message>
 </context>
 <context>
     <name>Burner::UI::MainWindow</name>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="78"/>
+        <location filename="../src/ui/MainWindow.cpp" line="109"/>
         <source>Burner - CD/DVD Burning Application</source>
         <translation>Burner - CD/DVD 굽기 애플리케이션</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="93"/>
+        <location filename="../src/ui/MainWindow.cpp" line="124"/>
         <source>Initialization Error</source>
         <translation>초기화 오류</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="94"/>
+        <location filename="../src/ui/MainWindow.cpp" line="125"/>
         <source>Failed to initialize burning engine:
 %1
 
@@ -2331,265 +2339,255 @@ Please ensure libburn and libisofs are properly installed.</source>
 libburn과 libisofs가 제대로 설치되어 있는지 확인하세요.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="398"/>
+        <location filename="../src/ui/MainWindow.cpp" line="431"/>
         <source>🔥 Burn Disc</source>
         <translation>🔥 디스크 굽기</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="562"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1444"/>
+        <location filename="../src/ui/MainWindow.cpp" line="595"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1477"/>
         <source>Data CD/DVD</source>
         <translation>데이터 CD/DVD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="571"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1445"/>
+        <location filename="../src/ui/MainWindow.cpp" line="604"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1478"/>
         <source>Audio CD</source>
         <translation>오디오 CD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1446"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1479"/>
         <source>Video CD</source>
         <translation>비디오 CD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="764"/>
+        <location filename="../src/ui/MainWindow.cpp" line="797"/>
         <source>Clone Disc</source>
         <translation>디스크 복제</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="259"/>
-        <location filename="../src/ui/MainWindow.cpp" line="422"/>
+        <location filename="../src/ui/MainWindow.cpp" line="290"/>
+        <location filename="../src/ui/MainWindow.cpp" line="455"/>
         <source>Ready</source>
         <translation>준비됨</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="229"/>
+        <location filename="../src/ui/MainWindow.cpp" line="260"/>
         <source>💿 Data CD/DVD</source>
         <translation>💿 데이터 CD/DVD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="232"/>
+        <location filename="../src/ui/MainWindow.cpp" line="263"/>
         <source>🎵 Audio CD</source>
         <translation>🎵 오디오 CD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="235"/>
+        <location filename="../src/ui/MainWindow.cpp" line="266"/>
         <source>🎬 Video CD</source>
         <translation>🎬 비디오 CD</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="238"/>
+        <location filename="../src/ui/MainWindow.cpp" line="269"/>
         <source>🔥 Burn ISO</source>
         <translation>🔥 ISO 굽기</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="242"/>
+        <location filename="../src/ui/MainWindow.cpp" line="273"/>
         <source>📋 Clone Disc</source>
         <translation>📋 디스크 복제</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="245"/>
+        <location filename="../src/ui/MainWindow.cpp" line="276"/>
         <source>📥 Rip CD</source>
         <translation>📥 CD 추출</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="248"/>
+        <location filename="../src/ui/MainWindow.cpp" line="279"/>
         <source>📂 Browse ISO</source>
-        <translation type="unfinished"></translation>
+        <translation>📂 ISO 탐색</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="272"/>
+        <location filename="../src/ui/MainWindow.cpp" line="303"/>
         <source>&amp;File</source>
         <translation>파일(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="276"/>
+        <location filename="../src/ui/MainWindow.cpp" line="307"/>
         <source>&amp;New Project</source>
         <translation>새 프로젝트(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="278"/>
+        <location filename="../src/ui/MainWindow.cpp" line="309"/>
         <source>&amp;Open Project...</source>
         <translation>프로젝트 열기(&amp;O)...</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="283"/>
+        <location filename="../src/ui/MainWindow.cpp" line="314"/>
         <source>&amp;Save Project</source>
         <translation>프로젝트 저장(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="285"/>
+        <location filename="../src/ui/MainWindow.cpp" line="316"/>
         <source>Save Project &amp;As...</source>
         <translation>다른 이름으로 프로젝트 저장(&amp;A)...</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="290"/>
+        <location filename="../src/ui/MainWindow.cpp" line="321"/>
         <source>&amp;Recent Projects</source>
-        <translation type="unfinished"></translation>
+        <translation>최근 프로젝트(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="295"/>
+        <location filename="../src/ui/MainWindow.cpp" line="326"/>
         <source>E&amp;xit</source>
         <translation>종료(&amp;X)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="299"/>
+        <location filename="../src/ui/MainWindow.cpp" line="330"/>
         <source>&amp;View</source>
-        <translation type="unfinished"></translation>
+        <translation>보기(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="300"/>
+        <location filename="../src/ui/MainWindow.cpp" line="331"/>
         <source>&amp;Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>테마(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="305"/>
-        <location filename="../src/ui/MainWindow.cpp" line="350"/>
+        <location filename="../src/ui/MainWindow.cpp" line="336"/>
+        <location filename="../src/ui/MainWindow.cpp" line="383"/>
         <source>&amp;System</source>
         <translation>시스템(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="309"/>
-        <source>&amp;Light</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/MainWindow.cpp" line="313"/>
-        <source>&amp;Dark</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/MainWindow.cpp" line="338"/>
+        <location filename="../src/ui/MainWindow.cpp" line="371"/>
         <source>Title &amp;Bar</source>
         <translation>제목 표시줄(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="345"/>
+        <location filename="../src/ui/MainWindow.cpp" line="378"/>
         <source>&amp;Automatic (Burner&apos;s Own)</source>
         <translation>자동(Burner 자체)(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="345"/>
+        <location filename="../src/ui/MainWindow.cpp" line="378"/>
         <source>&amp;Automatic (System)</source>
         <translation>자동(시스템)(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="346"/>
+        <location filename="../src/ui/MainWindow.cpp" line="379"/>
         <source>Automatic uses %1.</source>
         <translation>자동은 %1을(를) 사용합니다.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="348"/>
+        <location filename="../src/ui/MainWindow.cpp" line="381"/>
         <source>&amp;Burner&apos;s Own</source>
         <translation>Burner 자체(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="366"/>
+        <location filename="../src/ui/MainWindow.cpp" line="399"/>
         <source>&amp;Tools</source>
         <translation>도구(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="368"/>
+        <location filename="../src/ui/MainWindow.cpp" line="401"/>
         <source>&amp;Refresh Drives</source>
         <translation>드라이브 새로고침(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="371"/>
+        <location filename="../src/ui/MainWindow.cpp" line="404"/>
         <source>&amp;Eject</source>
         <translation>꺼내기(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="377"/>
+        <location filename="../src/ui/MainWindow.cpp" line="410"/>
         <source>&amp;Checksum Calculator...</source>
-        <translation type="unfinished"></translation>
+        <translation>체크섬 계산기(&amp;C)...</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="383"/>
+        <location filename="../src/ui/MainWindow.cpp" line="416"/>
         <source>&amp;Help</source>
         <translation>도움말(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="385"/>
+        <location filename="../src/ui/MainWindow.cpp" line="418"/>
         <source>&amp;About</source>
         <translation>정보(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="387"/>
+        <location filename="../src/ui/MainWindow.cpp" line="420"/>
         <source>About &amp;Qt</source>
         <translation>Qt 정보(&amp;Q)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="391"/>
+        <location filename="../src/ui/MainWindow.cpp" line="424"/>
         <source>Main</source>
         <translation>메인</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="400"/>
+        <location filename="../src/ui/MainWindow.cpp" line="433"/>
         <source>Start burning disc</source>
         <translation>디스크 굽기 시작</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="544"/>
-        <location filename="../src/ui/MainWindow.cpp" line="915"/>
-        <location filename="../src/ui/MainWindow.cpp" line="969"/>
+        <location filename="../src/ui/MainWindow.cpp" line="577"/>
+        <location filename="../src/ui/MainWindow.cpp" line="948"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1002"/>
         <source>No Drive Selected</source>
         <translation>드라이브가 선택되지 않음</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="545"/>
+        <location filename="../src/ui/MainWindow.cpp" line="578"/>
         <source>Please select a drive to burn to.</source>
         <translation>구울 드라이브를 선택하세요.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="565"/>
+        <location filename="../src/ui/MainWindow.cpp" line="598"/>
         <source>%1 files, %2 MB total</source>
         <translation>%1개 파일, 총 %2 MB</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="576"/>
+        <location filename="../src/ui/MainWindow.cpp" line="609"/>
         <source>%1 tracks, %2:%3 total duration</source>
         <translation>%1개 트랙, 총 길이 %2:%3</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="583"/>
+        <location filename="../src/ui/MainWindow.cpp" line="616"/>
         <source>Video CD (%1)</source>
         <translation>비디오 CD (%1)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="585"/>
+        <location filename="../src/ui/MainWindow.cpp" line="618"/>
         <source>%1 videos</source>
         <translation>%1개 비디오</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="589"/>
+        <location filename="../src/ui/MainWindow.cpp" line="622"/>
         <source>ISO Image</source>
         <translation>ISO 이미지</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="589"/>
+        <location filename="../src/ui/MainWindow.cpp" line="622"/>
         <source>BIN/CUE Image</source>
-        <translation type="unfinished">BIN/CUE 이미지</translation>
+        <translation>BIN/CUE 이미지</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="591"/>
+        <location filename="../src/ui/MainWindow.cpp" line="624"/>
         <source>Image: %1
 Size: %2 MB</source>
         <translation>이미지: %1
 크기: %2 MB</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="597"/>
+        <location filename="../src/ui/MainWindow.cpp" line="630"/>
         <source>Unknown</source>
         <translation>알 수 없음</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="615"/>
+        <location filename="../src/ui/MainWindow.cpp" line="648"/>
         <source>Drive is Mounted</source>
         <translation>드라이브가 마운트됨</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="616"/>
+        <location filename="../src/ui/MainWindow.cpp" line="649"/>
         <source>The disc in %1 is currently mounted by the system.
 
 Please unmount the disc before burning:
@@ -2604,12 +2602,12 @@ Or use your file manager to safely eject/unmount the disc.</source>
 또는 파일 관리자를 사용하여 안전하게 디스크를 꺼내거나 마운트 해제하세요.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="651"/>
+        <location filename="../src/ui/MainWindow.cpp" line="684"/>
         <source>Simulation Mode Warning</source>
         <translation>시뮬레이션 모드 경고</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="652"/>
+        <location filename="../src/ui/MainWindow.cpp" line="685"/>
         <source>Simulated burns may not work correctly on all disc types, especially write-once media like DVD-R and BD-R.
 
 After a simulated burn, you may need to eject and re-insert the disc to restore correct capacity reporting.
@@ -2622,12 +2620,12 @@ Do you want to continue with simulation?</source>
 시뮬레이션을 계속하시겠습니까?</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="694"/>
+        <location filename="../src/ui/MainWindow.cpp" line="727"/>
         <source>Data Too Large</source>
         <translation>데이터가 너무 큼</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="695"/>
+        <location filename="../src/ui/MainWindow.cpp" line="728"/>
         <source>The data (%1 MB) is too large for the disc (%2 MB available).
 
 Please remove some files or use a larger capacity disc.</source>
@@ -2636,256 +2634,260 @@ Please remove some files or use a larger capacity disc.</source>
 일부 파일을 제거하거나 더 큰 용량의 디스크를 사용하세요.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="743"/>
+        <location filename="../src/ui/MainWindow.cpp" line="776"/>
         <source>No Videos</source>
         <translation>비디오 없음</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="744"/>
+        <location filename="../src/ui/MainWindow.cpp" line="777"/>
         <source>Please add video files to burn.</source>
         <translation>구울 비디오 파일을 추가하세요.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="765"/>
+        <location filename="../src/ui/MainWindow.cpp" line="798"/>
         <source>Use the &apos;Clone Disc&apos; button on the Clone tab to start cloning.</source>
         <translation>복제를 시작하려면 복제 탭의 &apos;디스크 복제&apos; 버튼을 사용하세요.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="769"/>
+        <location filename="../src/ui/MainWindow.cpp" line="802"/>
         <source>Not Implemented</source>
         <translation>구현되지 않음</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="770"/>
+        <location filename="../src/ui/MainWindow.cpp" line="803"/>
         <source>This burn mode is not yet implemented.</source>
         <translation>이 굽기 모드는 아직 구현되지 않았습니다.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="783"/>
+        <location filename="../src/ui/MainWindow.cpp" line="816"/>
         <source>No Files</source>
         <translation>파일 없음</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="784"/>
+        <location filename="../src/ui/MainWindow.cpp" line="817"/>
         <source>Please add files to create an ISO image.</source>
         <translation>ISO 이미지를 생성할 파일을 추가하세요.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="796"/>
+        <location filename="../src/ui/MainWindow.cpp" line="829"/>
         <source>Volume Label</source>
         <translation>볼륨 레이블</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="797"/>
+        <location filename="../src/ui/MainWindow.cpp" line="830"/>
         <source>Enter volume label for the ISO:</source>
         <translation>ISO의 볼륨 레이블 입력:</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="810"/>
+        <location filename="../src/ui/MainWindow.cpp" line="843"/>
         <source>Creating ISO Image</source>
         <translation>ISO 이미지 생성 중</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="833"/>
+        <location filename="../src/ui/MainWindow.cpp" line="866"/>
         <source>No Source Drive</source>
         <translation>원본 드라이브 없음</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="834"/>
+        <location filename="../src/ui/MainWindow.cpp" line="867"/>
         <source>Please select a source drive to clone.</source>
         <translation>복제할 원본 드라이브를 선택하세요.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="839"/>
+        <location filename="../src/ui/MainWindow.cpp" line="872"/>
         <source>No Output File</source>
         <translation>출력 파일 없음</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="840"/>
+        <location filename="../src/ui/MainWindow.cpp" line="873"/>
         <source>Please specify an output file path for the disc image.</source>
         <translation>디스크 이미지의 출력 파일 경로를 지정하세요.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="851"/>
+        <location filename="../src/ui/MainWindow.cpp" line="884"/>
         <source>Cloning Disc</source>
         <translation>디스크 복제 중</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="916"/>
+        <location filename="../src/ui/MainWindow.cpp" line="949"/>
         <source>Please select a drive to blank.</source>
-        <translation type="unfinished"></translation>
+        <translation>지울 드라이브를 선택하세요.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="921"/>
+        <location filename="../src/ui/MainWindow.cpp" line="954"/>
         <source>full</source>
-        <translation type="unfinished"></translation>
+        <translation>전체 지우기</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="921"/>
+        <location filename="../src/ui/MainWindow.cpp" line="954"/>
         <source>quick</source>
-        <translation type="unfinished"></translation>
+        <translation>빠른 지우기</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="923"/>
+        <location filename="../src/ui/MainWindow.cpp" line="956"/>
         <source>Confirm Blank Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>디스크 지우기 확인</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="924"/>
+        <location filename="../src/ui/MainWindow.cpp" line="957"/>
         <source>This will erase all data on the disc in %1.
 
 Blank type: %2
 
 This operation cannot be undone. Continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>%1의 디스크에 있는 모든 데이터가 지워집니다.
+
+지우기 유형: %2
+
+이 작업은 되돌릴 수 없습니다. 계속하시겠습니까?</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="943"/>
+        <location filename="../src/ui/MainWindow.cpp" line="976"/>
         <source>Blanking Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>디스크 지우는 중</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="970"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1003"/>
         <source>Please select a drive to check.</source>
-        <translation type="unfinished"></translation>
+        <translation>검사할 드라이브를 선택하세요.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="981"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1014"/>
         <source>Checking Disc Integrity</source>
-        <translation type="unfinished"></translation>
+        <translation>디스크 무결성 검사 중</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1020"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1053"/>
         <source>Data CD/DVD - Add files and folders to burn</source>
         <translation>데이터 CD/DVD - 구울 파일 및 폴더 추가</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1023"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1056"/>
         <source>Audio CD - Add audio tracks (MP3, FLAC, WAV)</source>
         <translation>오디오 CD - 오디오 트랙 추가 (MP3, FLAC, WAV)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1026"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1059"/>
         <source>Video CD - Add videos for VCD/SVCD</source>
         <translation>비디오 CD - VCD/SVCD용 비디오 추가</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1029"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1062"/>
         <source>Burn ISO - Burn an ISO image file</source>
         <translation>ISO 굽기 - ISO 이미지 파일 굽기</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1032"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1065"/>
         <source>Clone Disc - Copy disc to image or image to disc</source>
         <translation>디스크 복제 - 디스크를 이미지로 또는 이미지를 디스크로 복사</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1035"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1068"/>
         <source>Rip CD - Extract audio tracks from CD to files</source>
         <translation>CD 추출 - CD에서 파일로 오디오 트랙 추출</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1038"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1071"/>
         <source>Browse ISO - Open and extract files from ISO images</source>
-        <translation type="unfinished"></translation>
+        <translation>ISO 탐색 - ISO 이미지를 열고 파일 추출</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1045"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1078"/>
         <source>Scanning for drives...</source>
         <translation>드라이브 검색 중...</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1056"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1089"/>
         <source>Ejecting disc...</source>
         <translation>디스크 꺼내는 중...</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1069"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1102"/>
         <source>About Burner</source>
         <translation>Burner 정보</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1070"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1103"/>
         <source>&lt;h2&gt;Burner&lt;/h2&gt;&lt;p&gt;CD/DVD/Blu-ray Burning Application&lt;/p&gt;&lt;p&gt;Version %3&lt;/p&gt;&lt;p&gt;Built with Qt6 and libburnia (libburn, libisofs)&lt;/p&gt;&lt;p&gt;libburn version: %1&lt;/p&gt;&lt;p&gt;libisofs version: %2&lt;/p&gt;</source>
         <translation>&lt;h2&gt;Burner&lt;/h2&gt;&lt;p&gt;CD/DVD/Blu-ray 굽기 애플리케이션&lt;/p&gt;&lt;p&gt;버전 %3&lt;/p&gt;&lt;p&gt;Qt6 및 libburnia (libburn, libisofs)로 빌드됨&lt;/p&gt;&lt;p&gt;libburn 버전: %1&lt;/p&gt;&lt;p&gt;libisofs 버전: %2&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1186"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1219"/>
         <source>Open Project</source>
         <translation>프로젝트 열기</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1188"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1250"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1221"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1283"/>
         <source>Burner Project (*.burn);;All Files (*)</source>
         <translation>Burner 프로젝트 (*.burn);;모든 파일 (*)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1197"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1207"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1213"/>
         <location filename="../src/ui/MainWindow.cpp" line="1230"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1556"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1566"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1572"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1240"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1246"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1263"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1589"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1599"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1605"/>
         <source>Error</source>
         <translation>오류</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1198"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1557"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1231"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1590"/>
         <source>Could not open file: %1</source>
         <translation>파일을 열 수 없습니다: %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1208"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1567"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1241"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1600"/>
         <source>Invalid project file: %1</source>
         <translation>유효하지 않은 프로젝트 파일: %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1214"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1573"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1247"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1606"/>
         <source>Failed to load project data.</source>
         <translation>프로젝트 데이터 로드 실패.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1231"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1264"/>
         <source>Could not save file: %1</source>
         <translation>파일을 저장할 수 없습니다: %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1241"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1274"/>
         <source>Project saved</source>
         <translation>프로젝트 저장됨</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1248"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1281"/>
         <source>Save Project As</source>
         <translation>다른 이름으로 프로젝트 저장</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1272"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1305"/>
         <source>Unsaved Changes</source>
         <translation>저장되지 않은 변경사항</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1273"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1306"/>
         <source>The project has unsaved changes. Do you want to save them?</source>
         <translation>프로젝트에 저장되지 않은 변경사항이 있습니다. 저장하시겠습니까?</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1405"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1438"/>
         <source>Burner</source>
         <translation>Burner</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1452"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1485"/>
         <source>Change Project Type</source>
         <translation>프로젝트 유형 변경</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1453"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1486"/>
         <source>You are adding files to create a %1.
 
 Files on other tabs will be cleared.
@@ -2898,25 +2900,26 @@ Do you want to continue?</source>
 계속하시겠습니까?</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1524"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1557"/>
         <source>&amp;%1. %2</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;%1. %2</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1537"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1570"/>
         <source>&amp;Clear Recent Projects</source>
-        <translation type="unfinished"></translation>
+        <translation>최근 프로젝트 지우기(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1544"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1577"/>
         <source>File Not Found</source>
-        <translation type="unfinished"></translation>
+        <translation>파일을 찾을 수 없음</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1545"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1578"/>
         <source>The project file no longer exists:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>프로젝트 파일이 더 이상 존재하지 않습니다:
+%1</translation>
     </message>
 </context>
 <context>
@@ -2970,6 +2973,59 @@ Do you want to continue?</source>
         <location filename="../src/ui/dialogs/RipProgressDialog.cpp" line="88"/>
         <source>Failed: %1</source>
         <translation>실패: %1</translation>
+    </message>
+</context>
+<context>
+    <name>Burner::UI::ThemeManager</name>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="21"/>
+        <source>Light</source>
+        <translation>라이트</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="27"/>
+        <source>Paper</source>
+        <translation>종이</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="33"/>
+        <source>Frost</source>
+        <translation>서리</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="39"/>
+        <source>Sage</source>
+        <translation>세이지</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="45"/>
+        <source>Blossom</source>
+        <translation>벚꽃</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="51"/>
+        <source>Dark</source>
+        <translation>다크</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="57"/>
+        <source>Ember</source>
+        <translation>불씨</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="63"/>
+        <source>Graphite</source>
+        <translation>흑연</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="69"/>
+        <source>Ocean</source>
+        <translation>바다</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/ThemeManager.cpp" line="75"/>
+        <source>Amethyst</source>
+        <translation>자수정</translation>
     </message>
 </context>
 <context>
