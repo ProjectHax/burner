@@ -2491,7 +2491,7 @@ Bitte stellen Sie sicher, dass libburn und libisofs korrekt installiert sind.</t
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="401"/>
         <source>&amp;Refresh Drives</source>
-        <translation>Laufwerke &amp;aktualisieren</translation>
+        <translation>&amp;Laufwerke aktualisieren</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="404"/>

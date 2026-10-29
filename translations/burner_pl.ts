@@ -2441,7 +2441,7 @@ Proszę upewnić się, że libburn i libisofs są prawidłowo zainstalowane.</tr
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="326"/>
         <source>E&amp;xit</source>
-        <translation>&amp;Zakończ</translation>
+        <translation>Za&amp;kończ</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="330"/>
@@ -2507,7 +2507,7 @@ Proszę upewnić się, że libburn i libisofs są prawidłowo zainstalowane.</tr
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="416"/>
         <source>&amp;Help</source>
-        <translation>&amp;Pomoc</translation>
+        <translation>Pomo&amp;c</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="418"/>

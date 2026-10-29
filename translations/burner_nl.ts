@@ -2425,12 +2425,12 @@ Zorg ervoor dat libburn en libisofs correct zijn geïnstalleerd.</translation>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="314"/>
         <source>&amp;Save Project</source>
-        <translation>Project &amp;opslaan</translation>
+        <translation>Project op&amp;slaan</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="316"/>
         <source>Save Project &amp;As...</source>
-        <translation>Project opslaan &amp;als...</translation>
+        <translation>Project opslaan a&amp;ls...</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="321"/>
@@ -2486,7 +2486,7 @@ Zorg ervoor dat libburn en libisofs correct zijn geïnstalleerd.</translation>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="399"/>
         <source>&amp;Tools</source>
-        <translation>&amp;Hulpmiddelen</translation>
+        <translation>Hulp&amp;middelen</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="401"/>

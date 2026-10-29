@@ -2510,7 +2510,7 @@ Please ensure libburn and libisofs are properly installed.</source>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="416"/>
         <source>&amp;Help</source>
-        <translation>&amp;مساعدة</translation>
+        <translation>م&amp;ساعدة</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="418"/>

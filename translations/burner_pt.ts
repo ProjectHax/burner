@@ -2486,7 +2486,7 @@ Por favor verifique se libburn e libisofs estão corretamente instalados.</trans
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="399"/>
         <source>&amp;Tools</source>
-        <translation>&amp;Ferramentas</translation>
+        <translation>Ferramen&amp;tas</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="401"/>
