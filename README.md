@@ -10,6 +10,7 @@
 
 <p align="center">
   <a href="#features">Features</a> •
+  <a href="#screenshots">Screenshots</a> •
   <a href="#installation">Installation</a> •
   <a href="#building">Building</a> •
   <a href="#translations">Translations</a> •
@@ -22,6 +23,10 @@
   <img src="https://img.shields.io/badge/C++-20-00599C?logo=cplusplus" alt="C++20">
   <img src="https://img.shields.io/badge/License-GPLv3-blue" alt="GPLv3 License">
   <img src="https://img.shields.io/badge/Platform-Linux-orange?logo=linux" alt="Linux">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/data-disc.png" alt="Data CD/DVD page with photos, videos and documents queued for a blank DVD+R" width="900">
 </p>
 
 ---
@@ -37,6 +42,32 @@
 - **Project Files**: Save and load burn projects (.burn files)
 - **Verification**: Optional burn verification to ensure data integrity
 - **Multi-language**: Localized interface with 15 language translations
+- **Themes**: 10 built-in light and dark color themes, or follow the desktop's light/dark setting
+
+## Screenshots
+
+<p align="center">
+  <img src="docs/screenshots/burning.png" alt="Burning a data DVD, with write progress, buffer level, speed and the burn log" width="800">
+</p>
+
+<table>
+  <tr>
+    <td><img src="docs/screenshots/audio-cd.png" alt="Audio CD project with ten tracks in the Light theme"></td>
+    <td><img src="docs/screenshots/iso-browser.png" alt="Browsing the files inside an ISO image in the Ocean theme"></td>
+  </tr>
+  <tr>
+    <td align="center">Audio CD (Light theme)</td>
+    <td align="center">Browse ISO (Ocean theme)</td>
+  </tr>
+</table>
+
+### Themes
+
+Pick a theme from **View → Theme**, or choose **System** to follow the desktop's light/dark setting:
+
+<p align="center">
+  <img src="docs/screenshots/themes.png" alt="The ten built-in themes: Light, Paper, Frost, Sage and Blossom (light), and Dark, Ember, Graphite, Ocean and Amethyst (dark)">
+</p>
 
 ## Installation
 
@@ -525,6 +556,8 @@ This guide provides comprehensive testing procedures for verifying Burner functi
 | System theme | View → Theme → System | Follows system dark/light mode |
 | Light theme | View → Theme → Light | UI uses light colors |
 | Dark theme | View → Theme → Dark | UI uses dark colors |
+| Other themes | View → Theme → each of Paper, Frost, Sage, Blossom, Ember, Graphite, Ocean, Amethyst | UI switches to that theme's colors immediately |
+| Current theme marked | Open View → Theme | Selected theme's swatch shows a check mark |
 | Theme persistence | Change theme → restart app | Theme selection preserved |
 | UI readability | Check all UI elements in each theme | Text and icons visible |
 
