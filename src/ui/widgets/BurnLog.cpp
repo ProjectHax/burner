@@ -1,4 +1,5 @@
 #include "BurnLog.hpp"
+#include "../ThemeManager.hpp"
 
 #include <QTextEdit>
 #include <QPushButton>
@@ -117,9 +118,9 @@ QString BurnLog::emojiForLevel(LogLevel level) const {
 
 QString BurnLog::colorForLevel(LogLevel level) const {
     switch (level) {
-        case LogLevel::Success: return "#2e7d32";  // Green
-        case LogLevel::Error:   return "#c62828";  // Red
-        case LogLevel::Warning: return "#f57c00";  // Orange
+        case LogLevel::Success: return ThemeManager::colors().success.name();
+        case LogLevel::Error:   return ThemeManager::colors().error.name();
+        case LogLevel::Warning: return ThemeManager::colors().warning.name();
         default:                return "palette(text)";
     }
 }

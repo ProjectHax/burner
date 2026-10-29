@@ -1,4 +1,5 @@
 #include "BurnOptionsDialog.hpp"
+#include "../ThemeManager.hpp"
 
 #include <QComboBox>
 #include <QCheckBox>
@@ -140,7 +141,8 @@ void BurnOptionsDialog::setupUi() {
     optionsLayout->addWidget(m_burnProofCheck);
 
     m_multiSessionLabel = new QLabel(this);
-    m_multiSessionLabel->setStyleSheet("QLabel { color: #0066cc; font-style: italic; }");
+    m_multiSessionLabel->setStyleSheet("QLabel { font-style: italic; }");
+    ThemeManager::setTone(m_multiSessionLabel, ThemeManager::Tone::Accent);
     m_multiSessionLabel->setVisible(false);
     optionsLayout->addWidget(m_multiSessionLabel);
 

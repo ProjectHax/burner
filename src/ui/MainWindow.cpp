@@ -51,6 +51,8 @@
 #include <QJsonObject>
 #include <QJsonArray>
 #include <QFileDialog>
+#include <QPainter>
+#include <QPixmap>
 
 namespace Burner::UI {
 
@@ -68,6 +70,35 @@ BurnProgressDialog::SpeedMedia mediaToSpeedMedia(Core::MediaType mt) {
         default:
             return BurnProgressDialog::DVD;
     }
+}
+
+// Theme menu icon: the theme's window color with an accent dot. Menus draw a
+// checkable action's icon instead of its check box, so the checked state
+// replaces the dot with a check mark.
+QIcon themeSwatch(const ThemeColors& colors) {
+    QIcon icon;
+    for (QIcon::State state : {QIcon::Off, QIcon::On}) {
+        QPixmap pixmap(32, 32);
+        pixmap.setDevicePixelRatio(2.0);
+        pixmap.fill(Qt::transparent);
+        QPainter p(&pixmap);
+        p.setRenderHint(QPainter::Antialiasing);
+        p.setPen(QPen(QColor(128, 128, 128, 160), 1));
+        p.setBrush(colors.window);
+        p.drawRoundedRect(QRectF(0.5, 0.5, 15, 15), 4, 4);
+        if (state == QIcon::On) {
+            p.setPen(QPen(colors.accent, 2, Qt::SolidLine, Qt::RoundCap, Qt::RoundJoin));
+            p.setBrush(Qt::NoBrush);
+            p.drawPolyline(QPolygonF({QPointF(4, 8.5), QPointF(7, 11.5), QPointF(12, 5)}));
+        } else {
+            p.setPen(Qt::NoPen);
+            p.setBrush(colors.accent);
+            p.drawEllipse(QRectF(4.5, 4.5, 7, 7));
+        }
+        p.end();
+        icon.addPixmap(pixmap, QIcon::Normal, state);
+    }
+    return icon;
 }
 } // anonymous namespace
 
@@ -304,32 +335,34 @@ void MainWindow::setupMenuBar() {
 
     auto* systemTheme = themeMenu->addAction(tr("&System"));
     systemTheme->setCheckable(true);
-    systemTheme->setData(static_cast<int>(ThemeManager::Theme::System));
-
-    auto* lightTheme = themeMenu->addAction(tr("&Light"));
-    lightTheme->setCheckable(true);
-    lightTheme->setData(static_cast<int>(ThemeManager::Theme::Light));
-
-    auto* darkTheme = themeMenu->addAction(tr("&Dark"));
-    darkTheme->setCheckable(true);
-    darkTheme->setData(static_cast<int>(ThemeManager::Theme::Dark));
-
+    systemTheme->setData(QString(ThemeManager::SystemTheme));
     m_themeActions->addAction(systemTheme);
-    m_themeActions->addAction(lightTheme);
-    m_themeActions->addAction(darkTheme);
+
+    // Light themes, then dark themes
+    for (bool dark : {false, true}) {
+        themeMenu->addSeparator();
+        for (const ThemeInfo& theme : ThemeManager::themes()) {
+            if (theme.dark != dark) {
+                continue;
+            }
+            auto* action = themeMenu->addAction(themeSwatch(theme.colors), ThemeManager::displayName(theme));
+            action->setCheckable(true);
+            action->setData(QString::fromLatin1(theme.id));
+            m_themeActions->addAction(action);
+        }
+    }
 
     // Set initial check based on current theme
-    auto current = m_themeManager->currentTheme();
+    const QString current = m_themeManager->currentTheme();
     for (auto* action : m_themeActions->actions()) {
-        if (action->data().toInt() == static_cast<int>(current)) {
+        if (action->data().toString() == current) {
             action->setChecked(true);
             break;
         }
     }
 
     connect(m_themeActions, &QActionGroup::triggered, this, [this](QAction* action) {
-        auto theme = static_cast<ThemeManager::Theme>(action->data().toInt());
-        m_themeManager->setTheme(theme);
+        m_themeManager->setTheme(action->data().toString());
         m_themeManager->saveToSettings();
     });
 

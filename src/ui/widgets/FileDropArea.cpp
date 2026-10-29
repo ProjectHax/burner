@@ -93,8 +93,10 @@ void FileDropArea::paintEvent(QPaintEvent* event) {
 
     // Background
     if (m_dragActive) {
-        painter.fillRect(rect(), QColor(100, 150, 220, 40));
-        painter.setPen(QPen(QColor(100, 150, 220), 2, Qt::DashLine));
+        QColor tint = palette().color(QPalette::Highlight);
+        tint.setAlpha(40);
+        painter.fillRect(rect(), tint);
+        painter.setPen(QPen(palette().color(QPalette::Highlight), 2, Qt::DashLine));
     } else {
         painter.setPen(QPen(palette().mid().color(), 1, Qt::DashLine));
     }
@@ -105,7 +107,7 @@ void FileDropArea::paintEvent(QPaintEvent* event) {
 
     // Hint text
     if (!m_hint.isEmpty()) {
-        painter.setPen(m_dragActive ? QColor(100, 150, 220) : palette().mid().color());
+        painter.setPen(palette().color(m_dragActive ? QPalette::Highlight : QPalette::PlaceholderText));
         QFont font = painter.font();
         font.setPointSize(font.pointSize() + 1);
         painter.setFont(font);

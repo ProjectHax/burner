@@ -1,5 +1,6 @@
 #include "BurnProgressDialog.hpp"
 #include "../Dialogs.hpp"
+#include "../ThemeManager.hpp"
 #include "../widgets/BurnLog.hpp"
 
 #include <QProgressBar>
@@ -159,14 +160,16 @@ void BurnProgressDialog::onComplete(bool success, const QString& message) {
     if (success) {
         setWindowTitle(completeTitle);
         m_statusLabel->setText(successText);
-        m_statusLabel->setStyleSheet("QLabel { color: #4caf50; font-weight: bold; }");
+        m_statusLabel->setStyleSheet("QLabel { font-weight: bold; }");
+        ThemeManager::setTone(m_statusLabel, ThemeManager::Tone::Success);
         m_burnLog->addEntry(LogLevel::Success, successText);
         playSuccessSound();
     } else {
         setWindowTitle(failedTitle);
         QString errorMsg = failedText.arg(message);
         m_statusLabel->setText(errorMsg);
-        m_statusLabel->setStyleSheet("QLabel { color: #ef5350; font-weight: bold; }");
+        m_statusLabel->setStyleSheet("QLabel { font-weight: bold; }");
+        ThemeManager::setTone(m_statusLabel, ThemeManager::Tone::Error);
         m_burnLog->addEntry(LogLevel::Error, errorMsg);
         playErrorSound();
     }

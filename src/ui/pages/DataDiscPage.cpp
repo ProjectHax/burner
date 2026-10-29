@@ -62,11 +62,8 @@ void DataDiscPage::setupUi() {
 
     // Multi-session info banner (hidden by default)
     m_sessionBanner = new QFrame(this);
+    m_sessionBanner->setObjectName("sessionBanner");  // Styled by ThemeManager
     m_sessionBanner->setFrameStyle(QFrame::StyledPanel);
-    m_sessionBanner->setStyleSheet(
-        "QFrame { background-color: #e8f4fd; border: 1px solid #b8d4e8; "
-        "border-radius: 4px; padding: 6px; }"
-    );
     auto* bannerLayout = new QHBoxLayout(m_sessionBanner);
     bannerLayout->setContentsMargins(8, 4, 8, 4);
     m_sessionLabel = new QLabel(this);

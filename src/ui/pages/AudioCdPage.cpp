@@ -1,4 +1,5 @@
 #include "AudioCdPage.hpp"
+#include "../ThemeManager.hpp"
 #include "../widgets/FileDropArea.hpp"
 #include "../../models/TrackListModel.hpp"
 
@@ -63,7 +64,8 @@ void AudioCdPage::setupUi() {
 
     // Capacity warning
     m_capacityWarning = new QLabel(this);
-    m_capacityWarning->setStyleSheet("QLabel { color: #d32f2f; font-weight: bold; }");
+    m_capacityWarning->setStyleSheet("QLabel { font-weight: bold; }");
+    ThemeManager::setTone(m_capacityWarning, ThemeManager::Tone::Error);
     m_capacityWarning->hide();
     mainLayout->addWidget(m_capacityWarning);
 

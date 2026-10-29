@@ -1,4 +1,5 @@
 #include "CapacityBar.hpp"
+#include "../ThemeManager.hpp"
 #include <QPainter>
 #include <QPainterPath>
 
@@ -76,11 +77,11 @@ void CapacityBar::paintEvent(QPaintEvent* event) {
         // Color based on usage
         QColor fillColor;
         if (isOverCapacity()) {
-            fillColor = QColor(220, 50, 50);  // Red for over capacity
+            fillColor = ThemeManager::colors().error;
         } else if (percent > 90) {
-            fillColor = QColor(220, 150, 50); // Orange for near capacity
+            fillColor = ThemeManager::colors().warning;  // Near capacity
         } else {
-            fillColor = QColor(70, 150, 220); // Blue for normal
+            fillColor = palette().color(QPalette::Highlight);
         }
 
         // Gradient fill

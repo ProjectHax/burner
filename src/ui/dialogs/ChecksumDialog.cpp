@@ -1,4 +1,5 @@
 #include "ChecksumDialog.hpp"
+#include "../ThemeManager.hpp"
 #include "../../engine/ChecksumWorker.hpp"
 
 #include <QLineEdit>
@@ -170,6 +171,7 @@ void ChecksumDialog::verifyChecksum() {
     if (input.isEmpty()) {
         m_verifyResult->setText(tr("Enter a checksum to verify"));
         m_verifyResult->setStyleSheet("");
+        ThemeManager::setTone(m_verifyResult, ThemeManager::Tone::Normal);
         return;
     }
 
@@ -184,16 +186,19 @@ void ChecksumDialog::verifyChecksum() {
         matchedAlgo = "SHA-256";
     } else {
         m_verifyResult->setText(tr("Unrecognized checksum length"));
-        m_verifyResult->setStyleSheet("color: orange;");
+        m_verifyResult->setStyleSheet("");
+        ThemeManager::setTone(m_verifyResult, ThemeManager::Tone::Warning);
         return;
     }
 
     if (match) {
         m_verifyResult->setText(tr("%1 MATCH").arg(matchedAlgo));
-        m_verifyResult->setStyleSheet("color: green; font-weight: bold;");
+        m_verifyResult->setStyleSheet("font-weight: bold;");
+        ThemeManager::setTone(m_verifyResult, ThemeManager::Tone::Success);
     } else {
         m_verifyResult->setText(tr("%1 MISMATCH").arg(matchedAlgo));
-        m_verifyResult->setStyleSheet("color: red; font-weight: bold;");
+        m_verifyResult->setStyleSheet("font-weight: bold;");
+        ThemeManager::setTone(m_verifyResult, ThemeManager::Tone::Error);
     }
 }
 
