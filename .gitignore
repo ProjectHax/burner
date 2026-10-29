@@ -85,3 +85,4 @@ Desktop.ini
 # Temporary files
 *.tmp
 *.temp
+.muxel/
